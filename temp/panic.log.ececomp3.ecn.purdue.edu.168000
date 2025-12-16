@@ -1,0 +1,38 @@
+Panic files have been created for cellviews that were opened in edit mode.
+
+
+A panic file has been created for cellview 'tutorial/FAdder/schematic' at:
+    (/home/ecegridfs/a/559mg81/tutorial/FAdder/schematic/sch.oa-)
+To open the cellview with the recovered data:
+    cellview = dbOpenPanicCellView("tutorial" "FAdder" "schematic")
+
+A panic file has been created for cellview 'tutorial/FAdder/symbol' at:
+    (/home/ecegridfs/a/559mg81/tutorial/FAdder/symbol/symbol.oa-)
+To open the cellview with the recovered data:
+    cellview = dbOpenPanicCellView("tutorial" "FAdder" "symbol")
+
+A panic file has been created for cellview 'tutorial/WallaceProject/schematic' at:
+    (/home/ecegridfs/a/559mg81/tutorial/WallaceProject/schematic/sch.oa-)
+To open the cellview with the recovered data:
+    cellview = dbOpenPanicCellView("tutorial" "WallaceProject" "schematic")
+
+A panic file has been created for cellview 'tutorial/final_adder/symbol' at:
+    (/home/ecegridfs/a/559mg81/tutorial/final_adder/symbol/symbol.oa-)
+To open the cellview with the recovered data:
+    cellview = dbOpenPanicCellView("tutorial" "final_adder" "symbol")
+
+A panic file has been created for cellview 'tutorial/final_adder/schematic' at:
+    (/home/ecegridfs/a/559mg81/tutorial/final_adder/schematic/sch.oa-)
+To open the cellview with the recovered data:
+    cellview = dbOpenPanicCellView("tutorial" "final_adder" "schematic")
+
+To restore a cellview using its panic file:
+1. Open the cellview with the recovered data using 'dbOpenPanicCellView'
+   (as noted above). The cellview opens in read-only mode.
+2. Reopen the cellview in append mode using 'dbReopen(cellview "a")'.
+3. Restore the recovered data to the cellview using 'dbSave(cellview)'.
+   To save the recovered data to a different cellview, use
+   'dbSave(cellview "lib" "cell" "view")' with the desired
+   library, cell, and view information.
+4. Remove the cellview from virtual memory using 'dbPurge(cellview)'.
+   You may now open the restored cellView.

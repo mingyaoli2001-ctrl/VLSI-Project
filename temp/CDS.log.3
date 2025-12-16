@@ -1,0 +1,5298 @@
+\# Program start time:     UTC 2025.10.25 14:38:53.877
+\# Local time: EDT (UTC-04:00) 2025.10.25 10:38:53.877
+\o Program:		@(#)$CDS: Virtuoso Studio version IC23.1-64b 11/13/2024 11:09 (cpgbld15) $
+\o Hierarchy:		/package/eda/cadence/IC231.11/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC23.1-64b.ISR11.29  (64-bit addresses)
+\# Command line:	/package/eda/cadence/IC231.11/tools/dfII/bin/64bit/virtuoso
+\# Host name (type):	ececomp4.ecn.purdue.edu (x86_64)
+\# Operating system:	Linux 4.18.0-553.78.1.el8_10.x86_64 #1 SMP Tue Oct 7 02:24:16 PDT 2025
+\# Linux /etc/issue:	\S
+\# Linux /etc/issue:	Kernel \r on an \m
+\# X display name (WxH):	:134.0 (1862x987)
+\# Available geometry:			TL(0:27) BR(1861:986)
+\# X server:			Cendio ThinLinc
+\# Depth of Visual (Root):	24 (24)
+\# Number of Planes Used:	24
+\# X version:		11.0 (vendor release 12101014)
+\# X resource pool:	base 0x3a00000, mask 0x1fffff (2097151), shift 0
+\# 			current id 0x0, current max 0x1ffffa (2097146)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	        750 MB
+\# Available memory:	    455,223 MB
+\# System memory:	    580,460 MB
+\# Maximum memory size:	    579,889 MB
+\# Max mem available:	    455,403 MB
+\# Initial memory used:	        179 MB
+\#        process size:	      1,701 MB
+\# Thread usage limits (effective/default):	maxthreads 63216/63216 maxload 128.00/128.00
+\# Qt version:		5.15.9
+\# Window Manager:	Xfwm4
+\# User Name:		559mg81
+\o Working Directory:	ececomp4.ecn.purdue.edu:/home/ecegridfs/a/559mg81
+\# Process Id:		1632653
+\o 
+\o COPYRIGHT (C) 1992-2024  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           (C) 1992-2024  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading im.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Loading pvsui.cxt
+\o Loading wireEdit.cxt 
+\o Loading pte2.cxt 
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading vhdl.cxt 
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\o Loading layers.cxt 
+\o Loading drv.cxt 
+\o Loading ams.cxt 
+\o Loading adexlDM.cxt 
+\o Loading cpf.cxt 
+\o Loading cli.cxt 
+\o Loading lp.cxt 
+\o Loading sipLayout.cxt 
+\o Loading viva.cxt 
+\o Loading diagCenter.cxt 
+\o INFO (ELI-00333) License program mode is Virtuoso.
+\# [10:38:53.017313] Configured Lic search path (23.02-s006): 1720@marina.ecn.purdue.edu
+\o Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.01s.
+\# Memory report: using         308 MB, process size 1,897 MB at UTC 2025.10.25 14:38:56.537
+\p > 
+\o Loading le.cxt 
+\o Loading tilp.cxt 
+\o Loading validator.cxt 
+\o Loading vrf.cxt 
+\o Loading multiTechPlugin.cxt 
+\o Loading exportDie.cxt 
+\# Loading perfDiag...
+\# (PerfDiag): Set GDB path to environment variable 'gdbPath' (gdb).
+\o The Health Monitor tool is installed. You can access it from CIW - Tools - Diagnostic Center or use the shell command 'cdsPerfDiag -p 1632653' to open it when Virtuoso freezes.
+\# (PerfDiag): Use backtrace from GLIBC.
+\a _deGoToSessionHistory("tutorial" "WallaceMultiplier" "schematic" '(((-2.08125 -6.90625) (15.28125 1.39375)) "a" "Schematics" 66) "newWin")
+\# Current Window: window(2)
+\o Loading gpdk045/libInit.il ...
+\o 	Loading gpdk045/loadCxt.ile ... done!
+\o 	Loading context 'gpdk045' from library 'gpdk045' ... done!
+\o 	Loading context 'pdkUtils' from library 'gpdk045' ... done!
+\o 	Loading gpdk045/gpdk045_customFilter.il ... done!
+\o 	Loading gpdk045/libInitCustomExit.il ... 
+\o 	Loading Environment Settings ...
+\o 	Loading Model Management File ...
+\o Loading oasis.cxt 
+\o Loading analog.cxt 
+\o Loading asimenv.cxt 
+\o Loading spectrei.cxt 
+\o Loading adexlCore.cxt 
+\o Loading dal.cxt 
+\o Loading awv.cxt 
+\o Loading socket.cxt 
+\o Loading par.cxt 
+\o Loading alvs.cxt 
+\o Loading caa.cxt 
+\o Loading amps.cxt 
+\o Loading adexl.cxt 
+\o Loading vdsil.cxt 
+\o Loading te.cxt 
+\o Loading schHDL.cxt 
+\o Loading devCheck.cxt 
+\o Loading relXpert.cxt 
+\o Loading hspiceD.cxt 
+\o Loading spectreinl.cxt 
+\o Loading UltraSim.cxt 
+\o Loading msgHandler.cxt 
+\o Loading AMSOSS.cxt 
+\o Loading AMS.cxt 
+\# Available memory:        455,212 MB at UTC 2025.10.25 14:39:04.180
+\# Memory report: Maximum memory size now 455,693 MB at UTC 2025.10.25 14:39:04.181
+\# Thread usage report: 48 active threads, active load 1.40 at UTC 2025.10.25 14:39:04.181
+\# Memory report: using         482 MB, process size 2,113 MB at UTC 2025.10.25 14:39:04.181
+\o 	Loading gpdk045/gpdk045_PDKRegistrations.il ... done!
+\o 
+\o   *************************************************************           
+\o   *              Cadence Design Systems, Inc.                 *           
+\o   *                                                           *           
+\o   *                    Generic 45nm PDK                       *           
+\o   *                        (gpdk045)                          *           
+\o   *                                                           *           
+\o   *************************************************************           
+\o 	
+\o 
+\o 	VERSION: 6.0 (09-September-2019)
+\o 
+\o done!
+\o Loaded gpdk045/libInit.il successfully!
+\o Loading schematic.cxt 
+\o Loading vb.cxt 
+\o Loading nt.cxt 
+\o Loading oi.cxt 
+\o Loading see.cxt 
+\o Loading treeAssistant.cxt 
+\o Loading asst.cxt 
+\o Loading simui.cxt 
+\o Loading hsm.cxt 
+\o Loading hia.cxt 
+\o Loading dpt.cxt 
+\o Loading mpt.cxt 
+\o Loading layerProc.cxt 
+\r t
+\a when(dwindow('oiAssistant1) hiMapWindow(dwindow('oiAssistant1)))
+\# [10:39:04.125651] Periodic Lic check successful
+\# [10:39:04.649970] Feature usage summary:
+\# [10:39:04.649970] 111
+\# [10:39:04.649971] Virtuoso_Schematic_Editor_XL
+\# [10:39:04.649971] Virtuoso_Adv_Node_Framework
+\r t
+\a when(dwindow('treeAssistant1) hiMapWindow(dwindow('treeAssistant1)))
+\r t
+\a hiResizeWindow(swindow(1) list(-5:-5 1857:931))
+\r t
+\a hiDynamicPanGrabbing()
+\i 9.1125:-4.7
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 9.1125:-4.7
+\r t
+\r t
+\a hiZoomIn(window(2) list(-4.7125:-12.825 29.9625:3.75625))
+\r t
+\a hiZoomInAtMouse()
+\i 8.0625:-4.125
+\r t
+\a hiDynamicPanGrabbing()
+\i 7.5875:-3.35
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 7.5875:-3.35625
+\a hiZoomIn(window(2) list(-0.71875:-7.45 16.63125:0.84375))
+\r t
+\r t
+\r t
+\a hiDynamicPanGrabbing()
+\i 4.9875:-1.8625
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 4.9875:-1.85625
+\a hiZoomIn(window(2) list(-1.90625:-6.73125 15.44375:1.5625))
+\r t
+\r t
+\r t
+\a hiDynamicPanGrabbing()
+\i 5.23125:-0.89375
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 5.23125:-0.89375
+\a hiZoomIn(window(2) list(-4.43125:-5.3125 12.91875:2.98125))
+\r t
+\r t
+\r t
+\a hiDynamicPanGrabbing()
+\i 3.91875:-0.66875
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 3.91875:-0.66875
+\a hiZoomIn(window(2) list(-3.08125:-7.1375 14.26875:1.15625))
+\r t
+\r t
+\r t
+\a hiDynamicPanGrabbing()
+\i 4.58125:-2.5625
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 4.58125:-2.56875
+\a hiZoomIn(window(2) list(-0.51875:-7.7 16.83125:0.59375))
+\r t
+\r t
+\r t
+\a hiZoomOutAtMouse()
+\i 4.5625:-2.75
+\r t
+\a schSingleSelectPt()
+\i 4.3125:-7.4375
+\r t
+\a schHiDelete()
+\r t
+\a schHiDelete()
+\p > 
+\a mouseAddPt(t)
+\i 3.94375:1.225
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schDirectEdit(1)
+\i 3.125:2.0625
+\# Direct Edit. Area selection.
+\i 3.125:2.0625
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 3.0625:1.4375
+\r t
+\r nil
+\a schDirectEdit(1)
+\i 4.0625:-7.25
+\# Direct Edit. Area selection.
+\i 4.0625:-7.25
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 10.4375:-8.6875
+\r t
+\r nil
+\a hiZoomInAtMouse()
+\i 6.875:-9.0625
+\r t
+\a schDirectEdit(1)
+\i 6.25:-8.5
+\# Direct Edit pin name. schHiStretch action.
+\i 6.25:-8.5
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 16.3125:-8.375
+\r t
+\r nil
+\a hiDynamicPanGrabbing()
+\i 10.66875:-7.775
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 10.6625:-7.78125
+\a hiZoomIn(window(2) list(-1.23125:-9.625 16.11875:-1.33125))
+\r t
+\r t
+\r t
+\a hiDynamicPanGrabbing()
+\i 9.4375:-5.26875
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 9.4375:-5.2625
+\a hiZoomIn(window(2) list(-0.625:-7.49375 16.725:0.8))
+\r t
+\r t
+\r t
+\a hiZoomOutAtMouse()
+\i 7.4375:-3.4375
+\r t
+\a schDirectEdit(1)
+\i 12.9375:-7.8125
+\# Direct Edit. Area selection.
+\i 12.9375:-7.8125
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 0.5:1.0625
+\r t
+\r nil
+\a schHiCopy()
+\p > 
+\a mouseAddPt(t)
+\i 4.60625:-0.1625
+\r t
+\a mouseAddPt(t)
+\i 4.9:-8.5
+\r t
+\r t
+\a schSingleSelectPt()
+\i 14.875:-4.625
+\r nil
+\a hiDynamicPanGrabbing()
+\i 3.81875:-8.54375
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 3.81875:-8.54375
+\a hiZoomIn(window(2) list(-9.475:-18.51875 25.225:-1.93125))
+\r t
+\r t
+\r t
+\a _treeNavActivateOpc(dwindow('treeAssistant1) "Objects/Nets")
+\r t
+\a hiZoomInAtMouse()
+\i 4.5625:-8.375
+\r t
+\a hiZoomInAtMouse()
+\i 1.625:-9.8125
+\r t
+\a schHiDefaultAction()
+\i 1.0625:-8.3125
+\i 1.0625:-8.3125
+\r t
+\p > 
+\a _hiCanvasTextEditorBeginEdit()
+\r t
+\a _hiCanvasTextEditorSetText("a4")
+\r t
+\a finishEnterFun()
+\r t
+\a schHiDefaultAction()
+\i 1:-8.75
+\i 1:-8.75
+\r t
+\p > 
+\a _hiCanvasTextEditorBeginEdit()
+\r t
+\a _hiCanvasTextEditorDoubleClick(0)
+\i 1.0625:-9.1875
+\r t
+\a _hiCanvasTextEditorSetText("a5")
+\r t
+\a finishEnterFun()
+\r t
+\a if( hiInEnterFun() then _hiCanvasTextEditorDoubleClick(0) else schHiDefaultAction() )
+\i 1.0625:-9.1875
+\i 1.0625:-9.1875
+\r t
+\p > 
+\a _hiCanvasTextEditorBeginEdit()
+\r t
+\a _hiAddPointUnadj()
+\i 1.05:-9.19375
+\r t
+\a _hiAddPointUnadj()
+\i 1.05:-9.6375
+\r t
+\a _hiCanvasTextEditorSetText("a6")
+\r t
+\a finishEnterFun()
+\r t
+\a if( hiInEnterFun() then _hiAddPointUnadj() else schSingleSelectPt() )
+\i 1.0625:-9.625
+\r t
+\a schSingleSelectPt()
+\i 1.0625:-9.625
+\r t
+\a schHiDefaultAction()
+\i 1:-9.625
+\i 1:-9.625
+\r t
+\p > 
+\a _hiCanvasTextEditorBeginEdit()
+\r t
+\a _hiAddPointUnadj()
+\i 1.0625:-9.6375
+\r t
+\a _hiCanvasTextEditorSetText("a3")
+\r t
+\a finishEnterFun()
+\r t
+\a if( hiInEnterFun() then _hiAddPointUnadj() else schSingleSelectPt() )
+\i 1.0625:-9.625
+\r t
+\a schHiDelete()
+\p > 
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiDefaultAction()
+\i 1:-9.625
+\i 1:-9.625
+\r t
+\p > 
+\a _hiCanvasTextEditorBeginEdit()
+\r t
+\a _hiAddPointUnadj()
+\i 1.125:-10
+\r t
+\a _hiCanvasTextEditorSetText("a7")
+\r t
+\a finishEnterFun()
+\r t
+\a if( hiInEnterFun() then _hiAddPointUnadj() else schSingleSelectPt() )
+\i 1.125:-10
+\r nil
+\a schHiDefaultAction()
+\i 0.9375:-10.4375
+\i 0.9375:-10.4375
+\r t
+\p > 
+\a _hiCanvasTextEditorBeginEdit()
+\r t
+\a _hiCanvasTextEditorDoubleClick(0)
+\i 0.9375:-10.875
+\r t
+\a _hiCanvasTextEditorSetText("b4")
+\r t
+\a finishEnterFun()
+\r t
+\a if( hiInEnterFun() then _hiCanvasTextEditorDoubleClick(0) else schHiDefaultAction() )
+\i 0.9375:-10.875
+\i 0.9375:-10.875
+\r t
+\p > 
+\a _hiCanvasTextEditorBeginEdit()
+\r t
+\a _hiCanvasTextEditorDoubleClick(0)
+\i 1:-11.0625
+\r t
+\a _hiCanvasTextEditorSetText("b5")
+\r t
+\a finishEnterFun()
+\r t
+\a if( hiInEnterFun() then _hiCanvasTextEditorDoubleClick(0) else schHiDefaultAction() )
+\i 1:-11.0625
+\i 1:-11.0625
+\r t
+\p > 
+\a _hiCanvasTextEditorBeginEdit()
+\r t
+\a _hiAddPointUnadj()
+\i 0.48125:-11.15
+\r t
+\a _hiCanvasTextEditorSetText("b6")
+\r t
+\a finishEnterFun()
+\r t
+\a if( hiInEnterFun() then _hiAddPointUnadj() else schSingleSelectPt() )
+\i 0.5:-11.125
+\r nil
+\a hiDynamicPanGrabbing()
+\i 0.5:-11.13125
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 0.5:-11.13125
+\a hiZoomIn(window(2) list(-0.6:-13.6125 8.075:-9.46875))
+\r t
+\r t
+\r t
+\a schHiDefaultAction()
+\i 1.125:-12.6875
+\i 1.125:-12.6875
+\r t
+\p > 
+\a _hiCanvasTextEditorBeginEdit()
+\r t
+\a _hiAddPointUnadj()
+\i 1.54375:-12.0375
+\r t
+\a _hiCanvasTextEditorSetText("b7")
+\r t
+\a finishEnterFun()
+\r t
+\a if( hiInEnterFun() then _hiAddPointUnadj() else schSingleSelectPt() )
+\i 1.5625:-12.0625
+\r nil
+\a schDirectEdit(1)
+\i 0.9375:-12.5625
+\# Direct Edit. Area selection.
+\i 0.9375:-12.5625
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 1.3125:-12.8125
+\r t
+\r nil
+\a schDirectEdit(1)
+\i 1.25:-12.6875
+\# Direct Edit pin. schHiStretch action.
+\i 1.25:-12.6875
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 1.125:-12.6875
+\r t
+\r nil
+\a schSingleSelectPt()
+\i 1.6875:-12.1875
+\r nil
+\a hiZoomOutAtMouse()
+\i 4.5:-11.3125
+\r t
+\a hiDynamicPanGrabbing()
+\i 6.35:-10.45
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 6.35:-10.45
+\r t
+\r t
+\a hiZoomIn(window(2) list(-1.2875:-13.24375 16.075:-4.94375))
+\r t
+\a hiDynamicPanGrabbing()
+\i 6.19375:-7.35
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 6.19375:-7.35
+\r t
+\r t
+\a hiZoomIn(window(2) list(-0.20625:-9.3125 17.15625:-1.0125))
+\r t
+\a hiDynamicPanGrabbing()
+\i 6.06875:-6.96875
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 6.075:-6.96875
+\a hiZoomIn(window(2) list(0.1375:-11.59375 17.5:-3.29375))
+\r t
+\r t
+\r t
+\a hiDynamicPanGrabbing()
+\i 12.18125:-6.9875
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 12.18125:-6.9875
+\a hiZoomIn(window(2) list(1.775:-8.04375 19.1375:0.25625))
+\r t
+\r t
+\r t
+\a hiDynamicPanGrabbing()
+\i 8.20625:-4.85
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 8.20625:-4.85
+\a hiZoomIn(window(2) list(-5.9375:-8.28125 11.425:0.01875))
+\r t
+\r t
+\r t
+\a hiDynamicPanGrabbing()
+\i 9.11875:-1.50625
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 9.125:-1.50625
+\a hiZoomIn(window(2) list(-0.80625:-7.45 16.55625:0.85))
+\r t
+\r t
+\r t
+\a hiDynamicPanGrabbing()
+\i 9.45625:-2.96875
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 9.45:-2.96875
+\a hiZoomIn(window(2) list(-0.7375:-8.90625 16.625:-0.60625))
+\r t
+\r t
+\r t
+\a hiDynamicPanGrabbing()
+\i 8.99375:-6.69375
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 8.99375:-6.69375
+\a hiZoomIn(window(2) list(-0.925:-11.58125 16.4375:-3.28125))
+\r t
+\r t
+\r t
+\a hiDynamicPanGrabbing()
+\i 11.68125:-7.2125
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 11.68125:-7.21875
+\a hiZoomIn(window(2) list(-0.3:-9.3125 17.0625:-1.0125))
+\r t
+\r t
+\r t
+\a hiDynamicPanGrabbing()
+\i 11.56875:-6.53125
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 11.56875:-6.525
+\a hiZoomIn(window(2) list(-0.21875:-8.39375 17.14375:-0.09375))
+\r t
+\r t
+\r t
+\a hiDynamicPanGrabbing()
+\i 12.48125:-1.06875
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 12.48125:-1.06875
+\a hiZoomIn(window(2) list(0.6:-5.41875 17.9625:2.88125))
+\r t
+\r t
+\r t
+\a _treeNavSelectionClear(dwindow('treeAssistant1))
+\r t
+\a _treeNavSelect(dwindow('treeAssistant1) "/a0 Net")
+\r t
+\a _treeNavSelectionClear(dwindow('treeAssistant1))
+\r t
+\a _treeNavSelectionClear(dwindow('treeAssistant1))
+\r t
+\a _treeNavSelect(dwindow('treeAssistant1) "/a1 Net")
+\r t
+\a _treeNavSelectionClear(dwindow('treeAssistant1))
+\r t
+\a _treeNavSelectionClear(dwindow('treeAssistant1))
+\r t
+\a _treeNavSelect(dwindow('treeAssistant1) "/a0 Net")
+\r t
+\a _treeNavSelectionClear(dwindow('treeAssistant1))
+\r t
+\a _treeNavSelectionClear(dwindow('treeAssistant1))
+\r t
+\a _treeNavSelect(dwindow('treeAssistant1) "/a1 Net")
+\r t
+\a _treeNavSelectionClear(dwindow('treeAssistant1))
+\r t
+\a _treeNavSelectionClear(dwindow('treeAssistant1))
+\r t
+\a _treeNavSelect(dwindow('treeAssistant1) "/p01 Net")
+\r t
+\a hiDynamicPanGrabbing()
+\i 8.25:-10.19375
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 8.25:-10.19375
+\a hiZoomIn(window(2) list(1.025:-13.19375 18.3875:-4.89375))
+\r t
+\r t
+\r t
+\a hiDynamicPanGrabbing()
+\i 7.83125:-6.3125
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 7.83125:-6.3125
+\a hiZoomIn(window(2) list(1.11875:-7.125 18.48125:1.175))
+\r t
+\r t
+\r t
+\a hiZoomInAtMouse()
+\i 7.875:-6.3125
+\r t
+\a hiZoomOutAtMouse()
+\i 7.1875:-4.5
+\r t
+\a hiDynamicPanGrabbing()
+\i 6.8125:-3.2
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 6.8125:-3.19375
+\a hiZoomIn(window(2) list(0.1:-6.1125 17.4625:2.1875))
+\r t
+\r t
+\r t
+\a hiRepeat()
+\r t
+\a schHiCopy()
+\p > 
+\a hiDynamicPanGrabbing()
+\i 9.575:-2.09375
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 9.575:-2.1
+\a hiZoomIn(window(2) list(-0.25:-7.43125 17.1125:0.86875))
+\r t
+\r t
+\r t
+\a hiDynamicPanGrabbing()
+\i 6.85:-5.625
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 6.84375:-5.63125
+\a hiZoomIn(window(2) list(-0.8125:-10.1125 16.55:-1.8125))
+\r t
+\r t
+\r t
+\a hiDynamicPanGrabbing()
+\i 5.65:-7.46875
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 5.65625:-7.4625
+\a hiZoomIn(window(2) list(-2.60625:-12.0625 14.75625:-3.7625))
+\r t
+\r t
+\r t
+\a hiDynamicPanGrabbing()
+\i 12.1125:-8.31875
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 12.10625:-8.31875
+\a hiZoomIn(window(2) list(2.9125:-11.79375 20.275:-3.49375))
+\r t
+\r t
+\r t
+\a hiZoomInAtMouse()
+\i 16.1875:-8.3125
+\r t
+\a hiZoomInAtMouse()
+\i 16.1875:-8.3125
+\r t
+\a hiZoomOutAtMouse()
+\i 16.25:-8.5
+\r t
+\a hiZoomOutAtMouse()
+\i 16.3125:-8.5
+\r t
+\a geSingleSelectBox()
+\i 13.625:-7.875
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 18.0625:-9
+\r t
+\r t
+\a hiZoomOutAtMouse()
+\i 15.1875:-8.8125
+\r t
+\a hiDynamicPanGrabbing()
+\i 12.3875:-10.14375
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 12.3875:-10.15
+\a hiZoomIn(window(2) list(-10.5375:-20.25 24.2375:-3.625))
+\r t
+\r t
+\r t
+\a geSingleSelectBox()
+\i 16.4375:-8.3125
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 16.5625:-8.75
+\r t
+\r nil
+\a hiZoomInAtMouse()
+\i 16.125:-8.75
+\r t
+\a geSingleSelectBox()
+\i 14.125:-7.9375
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 17.875:-8.1875
+\r t
+\r nil
+\a geSingleSelectBox()
+\i 13.875:-7.9375
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 17.875:-9.5625
+\r t
+\r t
+\a geSingleSelectBox()
+\i 16.5:-8.3125
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 15.5625:-11.25
+\r t
+\r nil
+\a geSingleSelectBox()
+\i 13.9375:-8.0625
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 18.6875:-9.3125
+\r t
+\r t
+\a hiZoomOutAtMouse()
+\i 16.3125:-8.375
+\r t
+\a geSingleSelectBox()
+\i 16.3125:-8.3125
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 16.5625:-10.125
+\r t
+\r nil
+\a geSingleSelectBox()
+\i 14:-7.875
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 20.3125:-9.25
+\r t
+\r t
+\a hiZoomInAtMouse()
+\i 17.4375:-9
+\r t
+\a geSingleSelectBox()
+\i 16.5:-8.3125
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 16:-10.125
+\r t
+\r nil
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiEscape()
+\r nil
+\a schDirectEdit(1)
+\i 14.125:-8.1875
+\# Direct Edit. Area selection.
+\i 14.125:-8.1875
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 17.4375:-8.6875
+\r t
+\r nil
+\a schDirectEdit(1)
+\i 16.5:-8.3125
+\# Direct Edit wire segment. schHiStretch action.
+\i 16.5:-8.3125
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 15.75:-13.6875
+\r t
+\r nil
+\a schHiEscape()
+\r t
+\a schHiCreatePin()
+\o Loading cdf.cxt 
+\p > 
+\a hiZoomOutAtMouse()
+\i 15.3125:-11
+\r t
+\a hiZoomOutAtMouse()
+\i 15.375:-10.9375
+\r t
+\a hiZoomInAtMouse()
+\i 15.3125:-11
+\r t
+\a hiDynamicPanGrabbing()
+\i 14.75625:-9.43125
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 14.75625:-9.43125
+\a hiZoomIn(window(2) list(-8.13125:-16.60625 26.65:0.025))
+\r t
+\r t
+\r t
+\a geSingleSelectBox()
+\i 12.0625:-0.4375
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 13.3125:-16
+\r t
+\r t
+\a schHiDelete()
+\r t
+\a geSingleSelectBox()
+\i 0.1875:-7.3125
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 13.0625:-16.125
+\r t
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a hiUndo()
+\r t
+\a hiZoomOutAtMouse()
+\i 18.125:-7
+\r t
+\a hiZoomInAtMouse()
+\i 18.125:-6.9375
+\r t
+\a hiDynamicPanGrabbing()
+\i 18.35625:-6.61875
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 18.35625:-6.61875
+\a hiZoomIn(window(2) list(-5.34375:-14.20625 29.4375:2.425))
+\r t
+\r t
+\r t
+\a schHiCopy()
+\p > 
+\a mouseAddPt(t)
+\i 9.45625:-8.3875
+\r t
+\a mouseAddPt(t)
+\i 24.05:0.11875
+\a _treeNavSelectionClear(dwindow('treeAssistant1))
+\r t
+\r t
+\r t
+\a schHiCopy()
+\p > 
+\a mouseAddPt(t)
+\i 21.11875:-1.73125
+\r t
+\a mouseAddPt(t)
+\i 21.49375:-9.94375
+\a _treeNavSelectionClear(dwindow('treeAssistant1))
+\r t
+\r t
+\r t
+\a hiDynamicPanGrabbing()
+\i 18.0875:-10.81875
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 18.0875:-10.81875
+\a hiZoomIn(window(2) list(-5.9875:-18.55 28.79375:-1.91875))
+\r t
+\r t
+\r t
+\a schSingleSelectPt()
+\i 15.3125:-6.3125
+\r nil
+\a hiDynamicPanGrabbing()
+\i 14.575:-6.0125
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 14.575:-6.0125
+\a hiZoomIn(window(2) list(-6.81875:-14.1 27.9625:2.53125))
+\r t
+\r t
+\r t
+\a schSingleSelectPt()
+\i 13.6875:-4.6875
+\r nil
+\a schDirectEdit(1)
+\i 12:-0.25
+\# Direct Edit. Area selection.
+\i 12:-0.25
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 12.875:-6.9375
+\r t
+\r nil
+\a schHiDelete()
+\r t
+\a hiDynamicPanGrabbing()
+\i 13.475:-8.69375
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 13.46875:-8.69375
+\a hiZoomIn(window(2) list(-7.25625:-18.25625 27.525:-1.625))
+\r t
+\r t
+\r t
+\a schDirectEdit(1)
+\i 12.3125:-8.6875
+\# Direct Edit. Area selection.
+\i 12.3125:-8.6875
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 12.875:-16.4375
+\r t
+\r nil
+\a schHiDelete()
+\r t
+\a hiDynamicPanGrabbing()
+\i 17.25625:-11.75
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 17.25:-11.75
+\a hiZoomIn(window(2) list(3.03125:-15.1 37.8125:1.53125))
+\r t
+\r t
+\r t
+\a hiDynamicPanGrabbing()
+\i 21.93125:-4.475
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 21.93125:-4.48125
+\a hiZoomIn(window(2) list(-1.75:-12.98125 33.03125:3.65))
+\r t
+\r t
+\r t
+\a hiZoomInAtMouse()
+\i 14.1875:-5.5
+\r t
+\a hiDynamicPanGrabbing()
+\i 14.0875:-4.99375
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 14.0875:-4.99375
+\a hiZoomIn(window(2) list(2.6625:-8.26875 20.05625:0.05))
+\r t
+\r t
+\r t
+\a hiDynamicPanGrabbing()
+\i 6.875:-6.04375
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 6.86875:-6.0375
+\a hiZoomIn(window(2) list(-2.05:-8.36875 15.34375:-0.05))
+\r t
+\r t
+\r t
+\a hiDynamicPanGrabbing()
+\i 2.5375:-6.1
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 2.5375:-6.1
+\a hiZoomIn(window(2) list(-1.95625:-11.64375 15.4375:-3.325))
+\r t
+\r t
+\r t
+\a hiDynamicPanGrabbing()
+\i 2.11875:-6.44375
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 2.11875:-6.45
+\a hiZoomIn(window(2) list(-2.81875:-8.1125 14.575:0.20625))
+\r t
+\r t
+\r t
+\a hiDynamicPanGrabbing()
+\i 2.11875:-6.45
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 2.1125:-6.29375
+\a hiZoomIn(window(2) list(-2.81875:-8.1125 14.575:0.20625))
+\r t
+\r t
+\r t
+\a hiDynamicPanGrabbing()
+\i 2.0875:-5.85625
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 2.09375:-5.85625
+\a hiZoomIn(window(2) list(-2.74375:-9.30625 14.65:-0.9875))
+\r t
+\r t
+\r t
+\a hiDynamicPanGrabbing()
+\i 2.14375:-6.28125
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 2.14375:-6.28125
+\a hiZoomIn(window(2) list(-2.61875:-10.9375 14.775:-2.61875))
+\r t
+\r t
+\r t
+\a hiDynamicPanGrabbing()
+\i 11.2:-5.89375
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 11.19375:-5.89375
+\a hiZoomIn(window(2) list(-2.4875:-7.63125 14.90625:0.6875))
+\r t
+\r t
+\r t
+\a hiDynamicPanGrabbing()
+\i 5.76875:-5.8
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 5.76875:-5.8
+\a hiZoomIn(window(2) list(-2.1125:-10.0625 15.28125:-1.74375))
+\r t
+\r t
+\r t
+\a hiDynamicPanGrabbing()
+\i 4.7625:-8.0875
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 4.7625:-8.0875
+\a hiZoomIn(window(2) list(-2.175:-12.8 15.21875:-4.48125))
+\r t
+\r t
+\r t
+\a hiDynamicPanGrabbing()
+\i 3.7:-10.86875
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 3.7:-10.8625
+\a hiZoomIn(window(2) list(-2.20625:-14.30625 15.1875:-5.9875))
+\r t
+\r t
+\r t
+\a hiDynamicPanGrabbing()
+\i 3.95:-8.99375
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 3.95625:-8.99375
+\r t
+\r t
+\a hiZoomIn(window(2) list(-2.08125:-10.43125 15.3125:-2.1125))
+\r t
+\a hiDynamicPanGrabbing()
+\i 3.59375:-6.1375
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 3.6:-6.14375
+\a hiZoomIn(window(2) list(-2.35:-7.6125 15.04375:0.70625))
+\r t
+\r t
+\r t
+\a hiDynamicPanGrabbing()
+\i 2.83125:-3.13125
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 2.825:-3.13125
+\a hiZoomIn(window(2) list(-2.20625:-9.4125 15.1875:-1.09375))
+\r t
+\r t
+\r t
+\a hiDynamicPanGrabbing()
+\i 2.06875:-6.9375
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 2.06875:-6.9375
+\a hiZoomIn(window(2) list(-2.11875:-11.95 15.275:-3.63125))
+\r t
+\r t
+\r t
+\a hiDynamicPanGrabbing()
+\i 9:-6.625
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 8.99375:-6.625
+\a hiZoomIn(window(2) list(-1.225:-8.9 16.16875:-0.58125))
+\r t
+\r t
+\r t
+\a hiDynamicPanGrabbing()
+\i 10.73125:-3.6875
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 10.73125:-3.6875
+\a hiZoomIn(window(2) list(-0.2625:-6.9125 17.13125:1.40625))
+\r t
+\r t
+\r t
+\a schSingleSelectPt()
+\i 13.125:-0.875
+\r nil
+\a schHiCreatePin()
+\p > 
+\a hiiSetCurrentForm('schCreatePinForm)
+\r t
+\a schCreatePinForm->terminalName->value="p01 p02 p03 p04 p05 p06 p07 p11 p12 p13 p14 p15 p16 p17 p21 p22 p23 p24 p25 p26 p27 p31 p32 p33 p34 p35 p36 p37 p41 p42 p43 p44 p45 p46 p47 p51 p52 p53 p54 p55 p56 p57 p61 p62 p63 p64 p65 p66 p67 p71 p72 p73 p74 p75 p76 p77"
+\r "p01 p02 p03 p04 p05 p06 p07 p11 p12 p13 p14 p15 p16 p17 p21 p22 p23 p24 p25 p26 p27 p31 p32 p33 p34 p35 p36 p37 p41 p42 p43 p44 p45 p46 p47 p51 p52 p53 p54 p55 p56 p57 p61 p62 p63 p64 p65 p66 p67 p71 p72 p73 p74 p75 p76 p77"
+\a schSetEnv("rotate" t)
+\r t
+\a schSetEnv("rotate" t)
+\r t
+\a schSetEnv("rotate" t)
+\r t
+\a schSetEnv("rotate" t)
+\r t
+\a schSetEnv("rotate" t)
+\r t
+\a schSetEnv("rotate" t)
+\r t
+\a hiiToggleEnterForm(schCreatePinForm) 
+\r t
+\a hiZoomInAtMouse()
+\i 12.6875:-1
+\r t
+\a mouseAddPt(t)
+\i 12.45:-0.93125
+\r t
+\a mouseAddPt(t)
+\i 12.45625:-1.81875
+\r t
+\a mouseAddPt(t)
+\i 12.43125:-2.13125
+\r t
+\a hiZoomOutAtMouse()
+\i 12.4375:-2.375
+\r t
+\a hiZoomOutAtMouse()
+\i 13.6875:-1.8125
+\r t
+\a hiDynamicPanGrabbing()
+\i 14.98125:-3.975
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 14.98125:-3.975
+\a hiZoomIn(window(2) list(-7.16875:-12.2375 27.65625:4.4125))
+\r t
+\r t
+\r t
+\a hiZoomInAtMouse()
+\i 14.9375:-4.5
+\r t
+\a hiZoomOutAtMouse()
+\i 14.625:-4.6875
+\r t
+\a hiZoomInAtMouse()
+\i 13:-5.125
+\r t
+\a hiDynamicPanGrabbing()
+\i 12.99375:-5.13125
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 12.99375:-5.13125
+\a hiZoomIn(window(2) list(0.4625:-8.63125 17.875:-0.30625))
+\r t
+\r t
+\r t
+\a hiDynamicPanGrabbing()
+\i 12.575:-5.28125
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 12.575:-5.275
+\a hiZoomIn(window(2) list(-0.55:-8.10625 16.8625:0.21875))
+\r t
+\r t
+\r t
+\a hiDynamicPanGrabbing()
+\i 9.65:-4.18125
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 9.65:-4.1875
+\a hiZoomIn(window(2) list(-0.51875:-7.0375 16.89375:1.2875))
+\r t
+\r t
+\r t
+\a _treeNavSelectionClear(dwindow('treeAssistant1))
+\r t
+\a _treeNavSelect(dwindow('treeAssistant1) "/p01 Net")
+\r t
+\a _treeNavSelectionClear(dwindow('treeAssistant1))
+\r t
+\a _treeNavSelectionClear(dwindow('treeAssistant1))
+\r t
+\a _treeNavSelect(dwindow('treeAssistant1) "/p02 Net")
+\r t
+\a _treeNavSelectionClear(dwindow('treeAssistant1))
+\r t
+\a _treeNavSelectionClear(dwindow('treeAssistant1))
+\r t
+\a _treeNavSelect(dwindow('treeAssistant1) "/p03 Net")
+\r t
+\a mouseAddPt(t)
+\i 12.4625:-2.3625
+\r t
+\a hiDynamicPanGrabbing()
+\i 11.5875:-5.19375
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 11.5875:-5.19375
+\a hiZoomIn(window(2) list(-0.31875:-7.73125 17.09375:0.59375))
+\r t
+\r t
+\r t
+\a hiZoomInAtMouse()
+\i 14.1875:-1.8125
+\r t
+\a hiZoomOutAtMouse()
+\i 14.1875:-1.8125
+\r t
+\a hiZoomOutAtMouse()
+\i 13.375:-3.75
+\r t
+\a hiZoomOutAtMouse()
+\i 14.6875:-4.3125
+\r t
+\a hiDynamicPanGrabbing()
+\i 14.6375:-4.31875
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 14.6375:-4.31875
+\a hiZoomIn(window(2) list(-31.9875:-21.34375 37.6625:11.95625))
+\r t
+\r t
+\r t
+\a hiZoomInAtMouse()
+\i 17.125:-5
+\r t
+\a hiZoomInAtMouse()
+\i 17:-4.8125
+\r t
+\a hiZoomOutAtMouse()
+\i 16.75:-4.875
+\r t
+\a hiZoomInAtMouse()
+\i 6.625:-1.9375
+\r t
+\a hiDynamicPanGrabbing()
+\i 14.35:-1.88125
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 14.35625:-1.88125
+\a hiZoomIn(window(2) list(3.60625:-7.30625 21.03125:1.025))
+\r t
+\r t
+\r t
+\a hiDynamicPanGrabbing()
+\i 17.65625:-1.56875
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 17.65:-1.5625
+\a hiZoomIn(window(2) list(7.55:-6.85625 24.975:1.475))
+\r t
+\r t
+\r t
+\a hiDynamicPanGrabbing()
+\i 20.33125:-1.98125
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 20.33125:-1.98125
+\a hiZoomIn(window(2) list(12.55:-6.5125 29.975:1.81875))
+\r t
+\r t
+\r t
+\a mouseAddPt(t)
+\i 27.3375:-0.75
+\r t
+\a mouseAddPt(t)
+\i 27.3:-1.6375
+\r t
+\a hiZoomInAtMouse()
+\i 27.3125:-1.9375
+\r t
+\a hiZoomInAtMouse()
+\i 27.4375:-1.9375
+\r t
+\a mouseAddPt(t)
+\i 27.3125:-1.9375
+\r t
+\a hiZoomOutAtMouse()
+\i 26.5625:-1.875
+\r t
+\a hiZoomOutAtMouse()
+\i 26.5625:-1.9375
+\r t
+\a hiZoomInAtMouse()
+\i 27.5625:-1.0625
+\r t
+\a hiZoomOutAtMouse()
+\i 25.8125:-1.375
+\r t
+\a hiZoomOutAtMouse()
+\i 25.8125:-1.4375
+\r t
+\a hiZoomInAtMouse()
+\i 20.1875:-2.75
+\r t
+\a hiZoomInAtMouse()
+\i 19.625:-2.8125
+\r t
+\a hiZoomOutAtMouse()
+\i 19.5625:-2.8125
+\r t
+\a hiDynamicPanGrabbing()
+\i 18.6125:-2.84375
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 18.6125:-2.85
+\a hiZoomIn(window(2) list(7.65:-7.74375 25.1125:0.60625))
+\r t
+\r t
+\r t
+\a hiDynamicPanGrabbing()
+\i 15.08125:-2.95
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 15.08125:-2.95
+\r t
+\r t
+\a hiZoomIn(window(2) list(7.6:-5.55 25.0625:2.8))
+\r t
+\a mouseAddPt(t)
+\i 14.33125:-1.1875
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiEscape()
+\r t
+\a hiUndo()
+\r t
+\a hiUndo()
+\r t
+\a hiUndo()
+\r t
+\a hiUndo()
+\r t
+\a hiUndo()
+\r t
+\a hiUndo()
+\r t
+\a hiUndo()
+\r t
+\a hiUndo()
+\r t
+\a schHiCreateInst()
+\p > 
+\a hiiSetCurrentForm('schCreateInstForm)
+\r t
+\a schCreateInstForm->libraryName->value="p00 p01 p02 p03 p04 p05 p06 p07 p10 p11 p12 p13 p14 p15 p16 p17 p20 p21 p22 p23 p24 p25 p26 p27 p30 p31 p32 p33 p34 p35 p36 p37 p40 p41 p42 p43 p44 p45 p46 p47 p50 p51 p52 p53 p54 p55 p56 p57 p60 p61 p62 p63 p64 p65 p66 p67 p70 p71 p72 p73 p74 p75 p76 p77"
+\e *Error* (SCH-1047): Library "p00 p01 p02 p03 p04 p05 p06 p07 p10 p11 p12 p13 p14 p15 p16 p17 p20 p21 p22 p23 p24 p25 p26 p27 p30 p31 p32 p33 p34 p35 p36 p37 p40 p41 p42 p43 p44 p45 p46 p47 p50 p51 p52 p53 p54 p55 p56 p57 p60 p61 p62 p63 p64 p65 p66 p67 p70 p71 p72 p73 p74 p75 p76 p77" does not exist.
+\e 
+\r "p00 p01 p02 p03 p04 p05 p06 p07 p10 p11 p12 p13 p14 p15 p16 p17 p20 p21 p22 p23 p24 p25 p26 p27 p30 p31 p32 p33 p34 p35 p36 p37 p40 p41 p42 p43 p44 p45 p46 p47 p50 p51 p52 p53 p54 p55 p56 p57 p60 p61 p62 p63 p64 p65 p66 p67 p70 p71 p72 p73 p74 p75 p76 p77"
+\a hiiToggleEnterForm(schCreateInstForm) 
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiCreatePin()
+\p > 
+\a hiiSetCurrentForm('schCreatePinForm)
+\r t
+\a schCreatePinForm->terminalName->value="p00 p01 p02 p03 p04 p05 p06 p07 p10 p11 p12 p13 p14 p15 p16 p17 p20 p21 p22 p23 p24 p25 p26 p27 p30 p31 p32 p33 p34 p35 p36 p37 p40 p41 p42 p43 p44 p45 p46 p47 p50 p51 p52 p53 p54 p55 p56 p57 p60 p61 p62 p63 p64 p65 p66 p67 p70 p71 p72 p73 p74 p75 p76 p77"
+\r "p00 p01 p02 p03 p04 p05 p06 p07 p10 p11 p12 p13 p14 p15 p16 p17 p20 p21 p22 p23 p24 p25 p26 p27 p30 p31 p32 p33 p34 p35 p36 p37 p40 p41 p42 p43 p44 p45 p46 p47 p50 p51 p52 p53 p54 p55 p56 p57 p60 p61 p62 p63 p64 p65 p66 p67 p70 p71 p72 p73 p74 p75 p76 p77"
+\a schSetEnv("rotate" t)
+\r t
+\a schSetEnv("rotate" t)
+\r t
+\a hiiToggleEnterForm(schCreatePinForm) 
+\r t
+\a mouseAddPt(t)
+\i 12.45625:-0.9375
+\r t
+\a hiZoomInAtMouse()
+\i 12.4375:-1.875
+\r t
+\a mouseAddPt(t)
+\i 12.43125:-1.825
+\r t
+\a mouseAddPt(t)
+\i 12.45:-2.09375
+\r t
+\a mouseAddPt(t)
+\i 12.4625:-2.375
+\r t
+\a hiZoomOutAtMouse()
+\i 14.375:-2.1875
+\r t
+\a hiDynamicPanGrabbing()
+\i 18.60625:-0.9875
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 18.60625:-0.99375
+\a hiZoomIn(window(2) list(13.29375:-5.375 30.75625:2.975))
+\r t
+\r t
+\r t
+\a hiZoomInAtMouse()
+\i 27.4375:-0.5625
+\r t
+\a mouseAddPt(t)
+\i 27.3375:-0.75
+\r t
+\a mouseAddPt(t)
+\i 27.30625:-1.59375
+\r t
+\a mouseAddPt(t)
+\i 27.33125:-1.9375
+\r t
+\a mouseAddPt(t)
+\i 27.3125:-2.18125
+\r t
+\a hiZoomOutAtMouse()
+\i 26.75:-2.125
+\r t
+\a hiDynamicPanGrabbing()
+\i 25.9375:-2.5
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 25.94375:-2.49375
+\a hiZoomIn(window(2) list(14.6375:-7.38125 32.1:0.96875))
+\r t
+\r t
+\r t
+\a hiDynamicPanGrabbing()
+\i 22.875:-3.33125
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 22.875:-3.3375
+\a hiZoomIn(window(2) list(8.78125:-7.46875 26.24375:0.88125))
+\r t
+\r t
+\r t
+\a hiDynamicPanGrabbing()
+\i 13.38125:-3.21875
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 13.38125:-3.21875
+\a hiZoomIn(window(2) list(2.70625:-7.1625 20.16875:1.1875))
+\r t
+\r t
+\r t
+\a mouseAddPt(t)
+\i 12.50625:-2.8125
+\r t
+\a hiZoomInAtMouse()
+\i 12.5:-3.0625
+\r t
+\a mouseAddPt(t)
+\i 12.45:-3.075
+\r t
+\a mouseAddPt(t)
+\i 12.45:-3.2
+\r t
+\a mouseAddPt(t)
+\i 12.45:-3.6125
+\r t
+\a hiZoomOutAtMouse()
+\i 13.3125:-3.375
+\r t
+\a hiDynamicPanGrabbing()
+\i 17.1625:-1.9125
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 17.15625:-1.9125
+\a hiZoomIn(window(2) list(9.475:-7.2875 26.9375:1.0625))
+\r t
+\r t
+\r t
+\a hiDynamicPanGrabbing()
+\i 22.79375:-2.2125
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 22.79375:-2.2125
+\a hiZoomIn(window(2) list(16.0625:-6.65 33.525:1.7))
+\r t
+\r t
+\r t
+\a mouseAddPt(t)
+\i 27.3875:-2.61875
+\r t
+\a mouseAddPt(t)
+\i 27.325:-2.88125
+\r t
+\a mouseAddPt(t)
+\i 27.325:-2.99375
+\r t
+\a mouseAddPt(t)
+\i 27.3125:-3.4375
+\r t
+\a hiDynamicPanGrabbing()
+\i 21.04375:-3.7375
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 21.04375:-3.7375
+\a hiZoomIn(window(2) list(7.55625:-8.925 25.01875:-0.575))
+\r t
+\r t
+\r t
+\a mouseAddPt(t)
+\i 12.41875:-4.25625
+\r t
+\a mouseAddPt(t)
+\i 12.43125:-4.5125
+\r t
+\a mouseAddPt(t)
+\i 12.43125:-4.83125
+\r t
+\a mouseAddPt(t)
+\i 12.45:-4.9875
+\r t
+\a hiDynamicPanGrabbing()
+\i 21.05:-3.76875
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 21.05625:-3.76875
+\a hiZoomIn(window(2) list(10.8875:-8.76875 28.35:-0.41875))
+\r t
+\r t
+\r t
+\a mouseAddPt(t)
+\i 27.31875:-4.03125
+\r t
+\a mouseAddPt(t)
+\i 27.3375:-4.3
+\r t
+\a mouseAddPt(t)
+\i 27.3375:-4.6375
+\r t
+\a mouseAddPt(t)
+\i 27.31875:-4.8
+\r t
+\a mouseAddPt(t)
+\i 12.44375:-5.625
+\r t
+\a mouseAddPt(t)
+\i 12.45625:-5.8875
+\r t
+\a mouseAddPt(t)
+\i 12.4875:-6.16875
+\r t
+\a mouseAddPt(t)
+\i 12.50625:-6.43125
+\r t
+\a mouseAddPt(t)
+\i 27.3375:-5.45
+\r t
+\a mouseAddPt(t)
+\i 27.35:-5.7
+\r t
+\a mouseAddPt(t)
+\i 27.38125:-6.025
+\r t
+\a mouseAddPt(t)
+\i 27.38125:-6.2625
+\r t
+\a hiZoomInAtMouse()
+\i 27.3125:-5.875
+\r t
+\a hiZoomOutAtMouse()
+\i 27.0625:-5.9375
+\r t
+\a hiDynamicPanGrabbing()
+\i 16.54375:-5.28125
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 16.54375:-5.275
+\a hiZoomIn(window(2) list(8.1125:-10.725 25.575:-2.375))
+\r t
+\r t
+\r t
+\a hiDynamicPanGrabbing()
+\i 12.84375:-7.6875
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 12.84375:-7.69375
+\a hiZoomIn(window(2) list(7.58125:-13.7875 25.04375:-5.4375))
+\r t
+\r t
+\r t
+\a hiDynamicPanGrabbing()
+\i 17.925:-9.20625
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 17.91875:-9.2
+\a hiZoomIn(window(2) list(11.29375:-14.93125 28.75625:-6.58125))
+\r t
+\r t
+\r t
+\a schCmdOption()
+\r t
+\a _schHiToolbarRotate('previous)
+\p > 
+\a schHiMousePopUp()
+\i 14.125:-9.5
+\r t
+\a hiPopupDown(schNonePopUp)
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiCreatePin()
+\p > 
+\a hiiToggleEnterForm(schCreatePinForm) 
+\r t
+\a schCreatePinForm->terminalName->value="p00 p01 p02 p03 p04 p05 p06 p07 p10 p11 p12 p13 p14 p15 p16 p17 p20 p21 p22 p23 p24 p25 p26 p27 p30 p31 p32 p33 p34 p35 p36 p37 p40 p41 p42 p43 p44 p45 p46 p47 p50 p51 p52 p53 p54 p55 p56 p57 p60 p61 p62 p63 p64 p65 p66 p67 p70 p71 p72 p73 p74 p75 p76 p77"
+\r "p00 p01 p02 p03 p04 p05 p06 p07 p10 p11 p12 p13 p14 p15 p16 p17 p20 p21 p22 p23 p24 p25 p26 p27 p30 p31 p32 p33 p34 p35 p36 p37 p40 p41 p42 p43 p44 p45 p46 p47 p50 p51 p52 p53 p54 p55 p56 p57 p60 p61 p62 p63 p64 p65 p66 p67 p70 p71 p72 p73 p74 p75 p76 p77"
+\a mouseAddPt(t)
+\i 14.425:-9.2875
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schDirectEdit(1)
+\i 13.8125:-9
+\# Direct Edit. Area selection.
+\i 13.8125:-9
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 14.875:-10.1875
+\r t
+\r nil
+\a schHiDelete()
+\r t
+\a schHiCreatePin()
+\p > 
+\a schCreatePinForm->terminalName->value="p40 p41 p42 p43 p44 p45 p46 p47 p50 p51 p52 p53 p54 p55 p56 p57 p60 p61 p62 p63 p64 p65 p66 p67 p70 p71 p72 p73 p74 p75 p76 p77"
+\r "p40 p41 p42 p43 p44 p45 p46 p47 p50 p51 p52 p53 p54 p55 p56 p57 p60 p61 p62 p63 p64 p65 p66 p67 p70 p71 p72 p73 p74 p75 p76 p77"
+\a schSetEnv("rotate" t)
+\r t
+\a schSetEnv("rotate" t)
+\r t
+\a hiiToggleEnterForm(schCreatePinForm) 
+\r t
+\a mouseAddPt(t)
+\i 12.69375:-9.25
+\r t
+\a mouseAddPt(t)
+\i 12.7:-10.10625
+\r t
+\a mouseAddPt(t)
+\i 12.66875:-10.45625
+\r t
+\a mouseAddPt(t)
+\i 12.68125:-10.69375
+\r t
+\a mouseAddPt(t)
+\i 12.75625:-11.11875
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiCreateInst()
+\p > 
+\a hiiSetCurrentForm('schCreateInstForm)
+\r t
+\a hiiToggleEnterForm(schCreateInstForm) 
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a hiUndo()
+\r t
+\a schSingleSelectPt()
+\i 15.0625:-10.4375
+\r nil
+\a schHiEscape()
+\r nil
+\a schHiCreatePin()
+\p > 
+\a hiiSetCurrentForm('schCreatePinForm)
+\r t
+\a schCreatePinForm->terminalName->value="p44 p45 p46 p47 p50 p51 p52 p53 p54 p55 p56 p57 p60 p61 p62 p63 p64 p65 p66 p67 p70 p71 p72 p73 p74 p75 p76 p77"
+\r "p44 p45 p46 p47 p50 p51 p52 p53 p54 p55 p56 p57 p60 p61 p62 p63 p64 p65 p66 p67 p70 p71 p72 p73 p74 p75 p76 p77"
+\a schSetEnv("rotate" t)
+\r t
+\a schSetEnv("rotate" t)
+\r t
+\a mouseAddPt(t)
+\i 27.69375:-8.95
+\r t
+\a mouseAddPt(t)
+\i 27.7125:-9.7875
+\r t
+\a mouseAddPt(t)
+\i 27.6625:-10.1375
+\r t
+\a mouseAddPt(t)
+\i 27.6625:-10.39375
+\r t
+\a mouseAddPt(t)
+\i 12.75625:-11.13125
+\r t
+\a mouseAddPt(t)
+\i 12.69375:-11.38125
+\r t
+\a mouseAddPt(t)
+\i 12.68125:-11.51875
+\r t
+\a mouseAddPt(t)
+\i 12.66875:-11.9125
+\r t
+\a mouseAddPt(t)
+\i 27.775:-10.8
+\r t
+\a mouseAddPt(t)
+\i 27.68125:-11.05
+\r t
+\a mouseAddPt(t)
+\i 27.68125:-11.20625
+\r t
+\a mouseAddPt(t)
+\i 27.69375:-11.63125
+\r t
+\a mouseAddPt(t)
+\i 12.68125:-12.54375
+\r t
+\a mouseAddPt(t)
+\i 12.68125:-12.8
+\r t
+\a mouseAddPt(t)
+\i 12.66875:-13.10625
+\r t
+\a mouseAddPt(t)
+\i 12.6625:-13.25
+\r t
+\a mouseAddPt(t)
+\i 27.68125:-12.225
+\r t
+\a mouseAddPt(t)
+\i 27.68125:-12.48125
+\r t
+\a mouseAddPt(t)
+\i 27.69375:-12.8125
+\r t
+\a mouseAddPt(t)
+\i 27.7:-13
+\r t
+\a hiDynamicPanGrabbing()
+\i 14.85:-13.08125
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 14.85625:-13.0875
+\a hiZoomIn(window(2) list(10.85625:-17.65625 28.31875:-9.30625))
+\r t
+\r t
+\r t
+\a mouseAddPt(t)
+\i 12.6625:-13.9375
+\r t
+\a mouseAddPt(t)
+\i 12.68125:-14.18125
+\r t
+\a mouseAddPt(t)
+\i 12.76875:-14.5125
+\r t
+\a mouseAddPt(t)
+\i 12.725:-14.775
+\r t
+\a mouseAddPt(t)
+\i 27.68125:-13.61875
+\r t
+\a mouseAddPt(t)
+\i 27.6625:-13.9
+\r t
+\a mouseAddPt(t)
+\i 27.75625:-14.18125
+\r t
+\a mouseAddPt(t)
+\i 27.7625:-14.45
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a hiDynamicPanGrabbing()
+\i 15.39375:-11.9125
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 15.4:-11.91875
+\r t
+\r t
+\a hiZoomIn(window(2) list(8.36875:-13.91875 25.83125:-5.56875))
+\r t
+\a hiDynamicPanGrabbing()
+\i 14.8625:-9.56875
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 14.86875:-9.56875
+\a hiZoomIn(window(2) list(7.64375:-10.69375 25.10625:-2.34375))
+\r t
+\r t
+\r t
+\a hiDynamicPanGrabbing()
+\i 15.09375:-6.01875
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 15.1:-6.01875
+\a hiZoomIn(window(2) list(7.4625:-7.5875 24.925:0.7625))
+\r t
+\r t
+\r t
+\a hiDynamicPanGrabbing()
+\i 13.8375:-3.5875
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 13.84375:-3.5875
+\a hiZoomIn(window(2) list(5.93125:-5.7875 23.39375:2.5625))
+\r t
+\r t
+\r t
+\a hiDynamicPanGrabbing()
+\i 13.6:-1.925
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 13.6:-1.925
+\a hiZoomIn(window(2) list(3.8625:-5.7375 21.325:2.6125))
+\r t
+\r t
+\r t
+\a schSingleSelectPt()
+\i 15.75:0.1875
+\r t
+\a schSingleSelectPt()
+\i 15.5625:-0.1875
+\r t
+\a schSingleSelectPt()
+\i 15.8125:0.1875
+\r t
+\a schSingleSelectPt()
+\i 15.4375:0.125
+\r nil
+\a schDirectEdit(1)
+\i 15.5:0.4375
+\# Direct Edit. Area selection.
+\i 15.5:0.4375
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 15.9375:-1.5
+\r t
+\r nil
+\a schHiDelete()
+\r t
+\a hiDynamicPanGrabbing()
+\i 7.80625:-1.1375
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 7.8125:-1.1375
+\a hiZoomIn(window(2) list(1.34375:-5.7375 18.80625:2.6125))
+\r t
+\r t
+\r t
+\a hiDynamicPanGrabbing()
+\i 13.50625:-1.29375
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 13.50625:-1.29375
+\a hiZoomIn(window(2) list(5.65625:-6.54375 23.11875:1.80625))
+\r t
+\r t
+\r t
+\a hiDynamicPanGrabbing()
+\i 19.13125:-1.46875
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 19.13125:-1.46875
+\a hiZoomIn(window(2) list(9.51875:-6.2 26.98125:2.15))
+\r t
+\r t
+\r t
+\a hiDynamicPanGrabbing()
+\i 18.1625:-1.75625
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 18.1625:-1.75625
+\a hiZoomIn(window(2) list(5.90625:-5.63125 23.36875:2.71875))
+\r t
+\r t
+\r t
+\a schSingleSelectPt()
+\i 14.5625:-0.8125
+\r nil
+\a schHiCreateWire(0.0)
+\p > 
+\a mouseAddPt(t)
+\i 15.79375:0.18125
+\r t
+\a mouseAddPt(t)
+\i 8.68125:0.81875
+\r t
+\a _treeNavSelectionClear(dwindow('treeAssistant1))
+\r t
+\a _treeNavSelect(dwindow('treeAssistant1) "/a1 Net")
+\r t
+\a _treeNavSelectionClear(dwindow('treeAssistant1))
+\r t
+\a _treeNavSelectionClear(dwindow('treeAssistant1))
+\r t
+\a _treeNavSelect(dwindow('treeAssistant1) "/a0 Net")
+\r t
+\a _treeNavSelectionClear(dwindow('treeAssistant1))
+\r t
+\a _treeNavSelectionClear(dwindow('treeAssistant1))
+\r t
+\a _treeNavSelect(dwindow('treeAssistant1) "/a1 Net")
+\r t
+\a hiDynamicPanGrabbing()
+\i 8.525:-2.0875
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 8.525:-2.0875
+\a hiZoomIn(window(2) list(3.5375:-5.98125 21:2.36875))
+\r t
+\r t
+\r t
+\a schHiCreateWire(0.0)
+\p > 
+\a mouseAddPt(t)
+\i 15.8:-0.2375
+\r t
+\a mouseAddPt(t)
+\i 8.69375:-1.0125
+\r t
+\a _treeNavSelectionClear(dwindow('treeAssistant1))
+\r t
+\a _treeNavSelectionClear(dwindow('treeAssistant1))
+\r t
+\a _treeNavSelect(dwindow('treeAssistant1) "/a2 Net")
+\r t
+\a hiDynamicPanGrabbing()
+\i 8.63125:-3.04375
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 8.63125:-3.04375
+\a hiZoomIn(window(2) list(3.1625:-6.9375 20.625:1.4125))
+\r t
+\r t
+\r t
+\a hiZoomOutAtMouse()
+\i 11.625:-2.6875
+\r t
+\a mouseAddPt(t)
+\i 15.80625:-0.73125
+\r t
+\a hiZoomInAtMouse()
+\i 8.3125:-2.8125
+\r t
+\a mouseAddPt(t)
+\i 8.34375:-2.73125
+\r t
+\a mouseAddPt(t)
+\i 15.81875:-0.6625
+\r t
+\a mouseAddPt(t)
+\i 15.825:-0.75625
+\r t
+\a hiZoomInAtMouse()
+\i 9.8125:-3
+\r t
+\a hiZoomInAtMouse()
+\i 8.6875:-3
+\r t
+\a hiZoomOutAtMouse()
+\i 8.5:-2.9375
+\r t
+\a hiZoomOutAtMouse()
+\i 8.5625:-2.875
+\r t
+\a mouseAddPt(t)
+\i 15.81875:-1.10625
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a _treeNavSelectionClear(dwindow('treeAssistant1))
+\r t
+\a _treeNavSelectionClear(dwindow('treeAssistant1))
+\r t
+\a _treeNavSelect(dwindow('treeAssistant1) "/a3 Net")
+\r t
+\a hiDynamicPanGrabbing()
+\i 6.4875:-3.44375
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 6.48125:-3.44375
+\a hiZoomIn(window(2) list(1.21875:-7.33125 18.69375:1.01875))
+\r t
+\r t
+\r t
+\a mouseAddPt(t)
+\i 15.8:-1.09375
+\r t
+\a mouseAddPt(t)
+\i 8.35:-4.64375
+\r t
+\a hiDynamicPanGrabbing()
+\i 8.35:-4.64375
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 8.34375:-4.65
+\a hiZoomIn(window(2) list(0.34375:-7.5 17.81875:0.85))
+\r t
+\r t
+\r t
+\a hiZoomInAtMouse()
+\i 8.5625:-4.75
+\r t
+\a hiZoomInAtMouse()
+\i 8.5625:-4.75
+\r t
+\a hiZoomInAtMouse()
+\i 8.5625:-4.75
+\r t
+\a schHiCreateWire(0.0)
+\p > 
+\a cancelEnterFun()
+\r t
+\r nil
+\a mouseAddPt(t)
+\i 8.60625:-4.6
+\r t
+\a schHiCreateWire(0.0)
+\p > 
+\a cancelEnterFun()
+\r t
+\r nil
+\a hiUndo()
+\r t
+\a hiZoomOutAtMouse()
+\i 8.5625:-4.625
+\r t
+\a hiZoomOutAtMouse()
+\i 9.0625:-4.5625
+\r t
+\a hiZoomOutAtMouse()
+\i 9.0625:-4.5625
+\r t
+\a mouseAddPt(t)
+\i 15.83125:-1.10625
+\r t
+\a hiZoomInAtMouse()
+\i 9.9375:-4.8125
+\r t
+\a hiZoomInAtMouse()
+\i 9.8125:-4.8125
+\r t
+\a mouseAddPt(t)
+\i 8.35625:-4.63125
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a hiZoomOutAtMouse()
+\i 9.875:-5.25
+\r t
+\a hiZoomOutAtMouse()
+\i 10.9375:-4.25
+\r t
+\a hiDynamicPanGrabbing()
+\i 12.225:-3.91875
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 12.225:-3.91875
+\a hiZoomIn(window(2) list(0.99375:-7.7625 18.51875:0.6125))
+\r t
+\r t
+\r t
+\a hiDynamicPanGrabbing()
+\i 15.41875:-3.25
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 15.41875:-3.25
+\a hiZoomIn(window(2) list(4.75625:-6.4125 22.28125:1.9625))
+\r t
+\r t
+\r t
+\a hiDynamicPanGrabbing()
+\i 18.33125:-3.41875
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 18.33125:-3.4125
+\a hiZoomIn(window(2) list(8.83125:-7.00625 26.35625:1.36875))
+\r t
+\r t
+\r t
+\a hiDynamicPanGrabbing()
+\i 22.46875:-3.98125
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 22.46875:-3.98125
+\a hiZoomIn(window(2) list(13.325:-7.1 30.85:1.275))
+\r t
+\r t
+\r t
+\a hiDynamicPanGrabbing()
+\i 15.93125:-3.69375
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 15.93125:-3.7
+\r t
+\r t
+\a hiZoomIn(window(2) list(1.78125:-6.88125 19.30625:1.49375))
+\r t
+\a hiDynamicPanGrabbing()
+\i 4.3875:-3.90625
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 4.3875:-3.90625
+\a hiZoomIn(window(2) list(-5.3125:-7.5625 12.2125:0.8125))
+\r t
+\r t
+\r t
+\a hiDynamicPanGrabbing()
+\i 6.36875:-4.09375
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 6.36875:-4.09375
+\r t
+\r t
+\a hiZoomIn(window(2) list(2.5375:-8.61875 20.0625:-0.24375))
+\r t
+\a hiZoomOutAtMouse()
+\i 6.375:-4.125
+\r t
+\a hiZoomInAtMouse()
+\i 22.25:-6.5625
+\r t
+\a hiDynamicPanGrabbing()
+\i 22.2625:-6.575
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 22.2625:-6.575
+\a hiZoomIn(window(2) list(11.15625:-10.75625 28.68125:-2.375))
+\r t
+\r t
+\r t
+\a hiDynamicPanGrabbing()
+\i 22.8875:-8.23125
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 22.89375:-8.23125
+\a hiZoomIn(window(2) list(11.325:-11.58125 28.85:-3.2))
+\r t
+\r t
+\r t
+\a hiZoomInAtMouse()
+\i 13.6875:-8.6875
+\r t
+\a hiZoomOutAtMouse()
+\i 13.75:-8.6875
+\r t
+\a hiDynamicPanGrabbing()
+\i 20.575:-9.5625
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 20.575:-9.5625
+\a hiZoomIn(window(2) list(8.09375:-10.98125 25.64375:-2.59375))
+\r t
+\r t
+\r t
+\a hiDynamicPanGrabbing()
+\i 16.81875:-6.7625
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 16.825:-6.7625
+\a hiZoomIn(window(2) list(8.325:-11.69375 25.875:-3.30625))
+\r t
+\r t
+\r t
+\a hiRepeat()
+\r t
+\a hiUndo()
+\r t
+\a hiDynamicPanGrabbing()
+\i 16.825:-6.7625
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 16.81875:-6.7625
+\a hiZoomIn(window(2) list(10.18125:-12.19375 27.73125:-3.80625))
+\r t
+\r t
+\r t
+\a hiZoomInAtMouse()
+\i 15.125:-8.875
+\r t
+\a hiZoomOutAtMouse()
+\i 16.9375:-9.375
+\r t
+\a hiDynamicPanGrabbing()
+\i 19.23125:-9.39375
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 19.2375:-9.39375
+\a hiZoomIn(window(2) list(16.025:-13.30625 33.575:-4.91875))
+\r t
+\r t
+\r t
+\a hiDynamicPanGrabbing()
+\i 19.1375:-9.83125
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 19.1375:-9.83125
+\a hiZoomIn(window(2) list(10.2125:-13.25 27.7625:-4.8625))
+\r t
+\r t
+\r t
+\a hiRepeat()
+\r t
+\a hiUndo()
+\r t
+\a hiDynamicPanGrabbing()
+\i 23.56875:-10.48125
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 23.56875:-10.48125
+\a hiZoomIn(window(2) list(15.175:-13.74375 32.725:-5.35625))
+\r t
+\r t
+\r t
+\a hiDynamicPanGrabbing()
+\i 20.6375:-9.9125
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 20.6375:-9.91875
+\a hiZoomIn(window(2) list(12.11875:-13.05625 29.66875:-4.66875))
+\r t
+\r t
+\r t
+\a _treeNavSelectionClear(dwindow('treeAssistant1))
+\r t
+\a _treeNavSelectionClear(dwindow('treeAssistant1))
+\r t
+\a _treeNavSelect(dwindow('treeAssistant1) "/a4 Net")
+\r t
+\a _treeNavSelectionClear(dwindow('treeAssistant1))
+\r t
+\a _treeNavSelectionClear(dwindow('treeAssistant1))
+\r t
+\a _treeNavSelect(dwindow('treeAssistant1) "/b4 Net")
+\r t
+\a hiDynamicPanGrabbing()
+\i 17.46875:-9.2375
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 17.46875:-9.23125
+\r t
+\r t
+\a hiZoomIn(window(2) list(3.85625:-12.875 21.40625:-4.4875))
+\r t
+\a hiDynamicPanGrabbing()
+\i 7.75:-8.74375
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 7.75:-8.74375
+\a hiZoomIn(window(2) list(-5.54375:-12.96875 12.00625:-4.58125))
+\r t
+\r t
+\r t
+\a hiDynamicPanGrabbing()
+\i 5.7:-9.3
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 5.7:-9.3
+\r t
+\r t
+\a hiZoomIn(window(2) list(-1.96875:-13.38125 15.58125:-4.99375))
+\r t
+\a hiDynamicPanGrabbing()
+\i 3.3625:-9.175
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 3.3625:-9.1625
+\a hiZoomIn(window(2) list(-2.15625:-14.41875 15.39375:-6.03125))
+\r t
+\r t
+\r t
+\a schDirectEdit(1)
+\i 0.5:-10.25
+\# Direct Edit. Area selection.
+\i 0.5:-10.25
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 1.375:-13.1875
+\r t
+\r nil
+\a schHiDelete()
+\r t
+\a _treeNavSelectionClear(dwindow('treeAssistant1))
+\r t
+\a _treeNavSelect(dwindow('treeAssistant1) "/b0 Net")
+\r t
+\a hiZoomOutAtMouse()
+\i 2.125:-2.0625
+\r t
+\a hiZoomInAtMouse()
+\i 2.0625:-3.9375
+\r t
+\a hiDynamicPanGrabbing()
+\i 1.90625:-4.575
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 1.90625:-4.575
+\a hiZoomIn(window(2) list(-4.91875:-10.2 12.64375:-1.80625))
+\r t
+\r t
+\r t
+\a schSingleSelectPt()
+\i -0.0625:-4.1875
+\r nil
+\a _treeNavSelectionClear(dwindow('treeAssistant1))
+\r t
+\a _treeNavSelect(dwindow('treeAssistant1) "/b4 Net")
+\r t
+\a hiZoomOutAtMouse()
+\i 13.875:-6.0625
+\r t
+\a hiDynamicPanGrabbing()
+\i 13.9:-6.0375
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 13.9:-6.0375
+\a hiZoomIn(window(2) list(-7.05625:-17 28.08125:-0.2))
+\r t
+\r t
+\r t
+\a hiZoomInAtMouse()
+\i 3.375:-7.5
+\r t
+\a hiDynamicPanGrabbing()
+\i 1.76875:-6.09375
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 1.76875:-6.09375
+\a hiZoomIn(window(2) list(-2.30625:-9.39375 15.26875:-0.99375))
+\r t
+\r t
+\r t
+\a hiDynamicPanGrabbing()
+\i 1.78125:-5.70625
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 1.78125:-5.70625
+\a hiZoomIn(window(2) list(-2.50625:-11.25 15.06875:-2.85))
+\r t
+\r t
+\r t
+\a _treeNavSelectionClear(dwindow('treeAssistant1))
+\r t
+\a _treeNavSelectionClear(dwindow('treeAssistant1))
+\r t
+\a _treeNavSelect(dwindow('treeAssistant1) "/b0 Net")
+\r t
+\a schHiCreateWire(0.0)
+\p > 
+\a mouseAddPt(t)
+\i 3.975:-5.9375
+\r t
+\a mouseAddPt(t)
+\i 1.1375:-10.41875
+\r t
+\a _treeNavSelectionClear(dwindow('treeAssistant1))
+\r t
+\a _treeNavSelectionClear(dwindow('treeAssistant1))
+\r t
+\a _treeNavSelect(dwindow('treeAssistant1) "/b1 Net")
+\r t
+\a schHiCreateWire(0.0)
+\p > 
+\a mouseAddPt(t)
+\i 1.65625:-2.5375
+\r t
+\a hiDynamicPanGrabbing()
+\i 1.91875:-4.85
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 1.925:-4.85
+\a hiZoomIn(window(2) list(-2.95:-11.1125 14.625:-2.7125))
+\r t
+\r t
+\r t
+\a hiDynamicPanGrabbing()
+\i 2.4375:-8.19375
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 2.4375:-8.19375
+\a hiZoomIn(window(2) list(-2.6375:-13.875 14.9375:-5.475))
+\r t
+\r t
+\r t
+\a mouseAddPt(t)
+\i 1.1625:-10.8625
+\r t
+\a hiDynamicPanGrabbing()
+\i 2.78125:-8.15
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 2.78125:-8.15
+\a hiZoomIn(window(2) list(-2.975:-9.7875 14.6:-1.3875))
+\r t
+\r t
+\r t
+\a hiDynamicPanGrabbing()
+\i 2.19375:-2.78125
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 2.19375:-2.78125
+\a hiZoomIn(window(2) list(-2.9125:-7.5 14.6625:0.9))
+\r t
+\r t
+\r t
+\a mouseAddPt(t)
+\i 1.33125:-2.7625
+\r t
+\a hiDynamicPanGrabbing()
+\i 2.18125:-5.76875
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 2.18125:-5.7625
+\a hiZoomIn(window(2) list(-2.81875:-13.11875 14.75625:-4.71875))
+\r t
+\r t
+\r t
+\a mouseAddPt(t)
+\i 1.19375:-11.05
+\r t
+\a hiDynamicPanGrabbing()
+\i 2.3375:-7.40625
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 2.34375:-7.40625
+\a hiZoomIn(window(2) list(-2.79375:-10.03125 14.78125:-1.63125))
+\r t
+\r t
+\r t
+\a mouseAddPt(t)
+\i 1.8625:-4.35
+\r t
+\a hiDynamicPanGrabbing()
+\i 1.5125:-7.11875
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 1.5125:-7.11875
+\a hiZoomIn(window(2) list(-2.4375:-14.16875 15.1375:-5.76875))
+\r t
+\r t
+\r t
+\a mouseAddPt(t)
+\i 1.2:-12.65625
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a mouseAddPt(t)
+\i 3.50625:-12.15
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a hiDynamicPanGrabbing()
+\i 10.94375:-8.30625
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 10.94375:-8.30625
+\a hiZoomIn(window(2) list(4.55625:-12.95 22.13125:-4.55))
+\r t
+\r t
+\r t
+\a hiDynamicPanGrabbing()
+\i 15.86875:-7.9375
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 15.86875:-7.9375
+\a hiZoomIn(window(2) list(8.075:-12.8 25.65:-4.4))
+\r t
+\r t
+\r t
+\a hiDynamicPanGrabbing()
+\i 16.45625:-6.7375
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 16.45625:-6.74375
+\a hiZoomIn(window(2) list(8.63125:-9.50625 26.20625:-1.10625))
+\r t
+\r t
+\r t
+\a _treeNavSelectionClear(dwindow('treeAssistant1))
+\r t
+\a _treeNavSelectionClear(dwindow('treeAssistant1))
+\r t
+\a _treeNavSelect(dwindow('treeAssistant1) "/b4 Net")
+\r t
+\a hiZoomOutAtMouse()
+\i 16.25:-4.75
+\r t
+\a hiDynamicPanGrabbing()
+\i 14.33125:-9.60625
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 14.33125:-9.60625
+\a hiZoomIn(window(2) list(1.99375:-22.6125 37.15625:-5.8))
+\r t
+\r t
+\r t
+\a schDirectEdit(1)
+\i 13.4375:-13.3125
+\# Direct Edit. Area selection.
+\i 13.4375:-13.3125
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 17.1875:-15.0625
+\r t
+\r nil
+\a hiZoomInAtMouse()
+\i 15.5625:-14.25
+\r t
+\a hiZoomInAtMouse()
+\i 15.5625:-14.25
+\r t
+\a schDirectEdit(1)
+\i 15.75:-13.6875
+\# Direct Edit wire segment. schHiStretch action.
+\i 15.75:-13.6875
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 16.0625:-15.75
+\r t
+\r nil
+\a hiZoomOutAtMouse()
+\i 14.4375:-15
+\r t
+\a hiZoomOutAtMouse()
+\i 18.3125:-14.9375
+\r t
+\a schSingleSelectPt()
+\i 15.625:-10
+\r nil
+\a schHiCreateWire(0.0)
+\p > 
+\a hiZoomInAtMouse()
+\i 13.875:-15.5
+\r t
+\a mouseAddPt(t)
+\i 13.8875:-15.7625
+\r t
+\a mouseAddPt(t)
+\i 9.23125:-15.175
+\r t
+\a mouseAddPt(t)
+\i 12.3:-15.20625
+\r t
+\a mouseAddPt(t)
+\i 19.88125:-14.8625
+\r t
+\a mouseAddPt(t)
+\i 14.825:-15.1625
+\r t
+\a hiZoomOutAtMouse()
+\i 14.9375:-13.625
+\r t
+\a hiZoomInAtMouse()
+\i 8.5625:-7.125
+\r t
+\a mouseAddPt(t)
+\i 8.96875:-6.8625
+\r t
+\a mouseAddPt(t)
+\i 14.80625:-6.8625
+\r t
+\a hiZoomOutAtMouse()
+\i 17.75:-7.375
+\r t
+\a hiDynamicPanGrabbing()
+\i 19.54375:-7.00625
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 19.54375:-7.00625
+\a hiZoomIn(window(2) list(-6.06875:-17.4875 29.14375:-0.65))
+\r t
+\r t
+\r t
+\a hiZoomInAtMouse()
+\i 19.5:-7
+\r t
+\a hiZoomInAtMouse()
+\i 19.375:-6.75
+\r t
+\a mouseAddPt(t)
+\i 19.09375:-6.85625
+\r t
+\a mouseAddPt(t)
+\i 19.13125:-6.675
+\r t
+\a hiZoomOutAtMouse()
+\i 17.9375:-6.4375
+\r t
+\a hiZoomOutAtMouse()
+\i 15.9375:-6.0625
+\r t
+\a hiDynamicPanGrabbing()
+\i 14.48125:-6.04375
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 14.475:-6.04375
+\a hiZoomIn(window(2) list(-0.1875:-9.39375 35.0625:7.45625))
+\r t
+\r t
+\r t
+\a hiZoomInAtMouse()
+\i 9:-1.3125
+\r t
+\a hiDynamicPanGrabbing()
+\i 8.0875:-0.7625
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 8.09375:-0.7625
+\a hiZoomIn(window(2) list(0.00625:-4.325 17.64375:4.10625))
+\r t
+\r t
+\r t
+\a hiZoomInAtMouse()
+\i 3.9375:1.0625
+\r t
+\a mouseAddPt(t)
+\i 3.95:1.6875
+\r t
+\a mouseAddPt(t)
+\i 4.63125:0.69375
+\r t
+\a mouseAddPt(t)
+\i 4.59375:1.675
+\r t
+\a hiZoomOutAtMouse()
+\i 7.0625:1.5625
+\r t
+\a hiZoomOutAtMouse()
+\i 7.0625:1.625
+\r t
+\a hiDynamicPanGrabbing()
+\i 12.95:0.79375
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 12.95:0.79375
+\a hiZoomIn(window(2) list(-0.6625:-9.375 34.6375:7.5))
+\r t
+\r t
+\r t
+\a hiZoomInAtMouse()
+\i 20.6875:1
+\r t
+\a hiZoomInAtMouse()
+\i 20.75:1.0625
+\r t
+\a hiZoomInAtMouse()
+\i 20.6875:1
+\r t
+\a mouseAddPt(t)
+\i 19.5125:0.89375
+\r t
+\a hiZoomOutAtMouse()
+\i 19.5:0.875
+\r t
+\a hiZoomOutAtMouse()
+\i 19.5:0.875
+\r t
+\a hiDynamicPanGrabbing()
+\i 17.20625:0.39375
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 17.2125:0.3875
+\a hiZoomIn(window(2) list(8.1875:-5.98125 25.8625:2.46875))
+\r t
+\r t
+\r t
+\a hiZoomInAtMouse()
+\i 16.0625:-0.6875
+\r t
+\a hiZoomInAtMouse()
+\i 16.0625:-0.6875
+\r t
+\a mouseAddPt(t)
+\i 15.8125:-0.6875
+\r t
+\a mouseAddPt(t)
+\i 15.8125:-0.74375
+\r t
+\a hiZoomOutAtMouse()
+\i 16.125:-0.6875
+\r t
+\a hiZoomOutAtMouse()
+\i 16.125:-0.75
+\r t
+\a mouseAddPt(t)
+\i 14.19375:1.69375
+\r t
+\a hiZoomOutAtMouse()
+\i 13.875:-0.25
+\r t
+\a hiDynamicPanGrabbing()
+\i 13.20625:-7.15
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 13.2:-7.15
+\a hiZoomIn(window(2) list(-0.38125:-18.38125 35.06875:-1.43125))
+\r t
+\r t
+\r t
+\a hiZoomInAtMouse()
+\i 8.4375:-10.1875
+\r t
+\a hiZoomInAtMouse()
+\i 9.1875:-7.625
+\r t
+\a mouseAddPt(t)
+\i 9.25:-7.64375
+\r t
+\a hiZoomOutAtMouse()
+\i 11.0625:-7.6875
+\r t
+\a hiDynamicPanGrabbing()
+\i 16.35:-7.8875
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 16.34375:-7.8875
+\a hiZoomIn(window(2) list(7.88125:-13.1125 25.60625:-4.6375))
+\r t
+\r t
+\r t
+\a mouseAddPt(t)
+\i 14.175:-7.625
+\r t
+\a hiZoomInAtMouse()
+\i 19.6875:-7.25
+\r t
+\a mouseAddPt(t)
+\i 19.1625:-7.3125
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schSingleSelectPt()
+\i 15.125:-8.0625
+\r nil
+\a schHiCheckAndSave()
+\o INFO (SCH-1170): Extracting "WallaceMultiplier schematic"
+\o Warning: Pin "Vout" on instance "I65": floating output.
+\o Warning: Pin "Vout" on instance "I65": shorted output.
+\o Warning: Pin "Vout" on instance "I64": floating output.
+\o Warning: Pin "Vout" on instance "I64": shorted output.
+\o Warning: Pin "Vout" on instance "I63": floating output.
+\o Warning: Pin "Vout" on instance "I63": shorted output.
+\o Warning: Pin "Vout" on instance "I62": floating output.
+\o Warning: Pin "Vout" on instance "I62": shorted output.
+\o Warning: Pin "Vout" on instance "I61": floating output.
+\o Warning: Pin "Vout" on instance "I61": shorted output.
+\o Warning: Pin "Vout" on instance "I60": floating output.
+\o Warning: Pin "Vout" on instance "I60": shorted output.
+\o Warning: Pin "Vout" on instance "I59": floating output.
+\o Warning: Pin "Vout" on instance "I59": shorted output.
+\o Warning: Pin "Vout" on instance "I58": floating output.
+\o Warning: Pin "Vout" on instance "I58": shorted output.
+\o Warning: Pin "Vout" on instance "I57": floating output.
+\o Warning: Pin "Vout" on instance "I57": shorted output.
+\o Warning: Pin "Vout" on instance "I56": floating output.
+\o Warning: Pin "Vout" on instance "I56": shorted output.
+\o Warning: Pin "Vout" on instance "I55": floating output.
+\o Warning: Pin "Vout" on instance "I55": shorted output.
+\o Warning: Pin "Vout" on instance "I54": floating output.
+\o Warning: Pin "Vout" on instance "I54": shorted output.
+\o Warning: Pin "Vout" on instance "I53": floating output.
+\o Warning: Pin "Vout" on instance "I53": shorted output.
+\o Warning: Pin "Vout" on instance "I52": floating output.
+\o Warning: Pin "Vout" on instance "I52": shorted output.
+\o Warning: Pin "Vout" on instance "I51": floating output.
+\o Warning: Pin "Vout" on instance "I51": shorted output.
+\o Warning: Pin "Vout" on instance "I50": floating output.
+\o Warning: Pin "Vout" on instance "I50": shorted output.
+\o Warning: Pin "Vout" on instance "I49": floating output.
+\o Warning: Pin "Vout" on instance "I49": shorted output.
+\o Warning: Pin "Vout" on instance "I48": floating output.
+\o Warning: Pin "Vout" on instance "I48": shorted output.
+\o Warning: Pin "a" on instance "I48": floating input.
+\o Warning: Pin "Vout" on instance "I47": floating output.
+\o Warning: Pin "Vout" on instance "I47": shorted output.
+\o Warning: Pin "Vout" on instance "I46": floating output.
+\o Warning: Pin "Vout" on instance "I46": shorted output.
+\o Warning: Pin "Vout" on instance "I45": floating output.
+\o Warning: Pin "Vout" on instance "I45": shorted output.
+\o Warning: Pin "Vout" on instance "I44": floating output.
+\o Warning: Pin "Vout" on instance "I44": shorted output.
+\o Warning: Pin "a" on instance "I44": floating input.
+\o Warning: Pin "Vout" on instance "I43": floating output.
+\o Warning: Pin "Vout" on instance "I43": shorted output.
+\o Warning: Pin "Vout" on instance "I42": floating output.
+\o Warning: Pin "Vout" on instance "I42": shorted output.
+\o Warning: Pin "Vout" on instance "I41": floating output.
+\o Warning: Pin "a" on instance "I41": floating input.
+\o Warning: Pin "Vout" on instance "I40": floating output.
+\o Warning: Pin "Vout" on instance "I40": shorted output.
+\o Warning: Pin "Vout" on instance "I39": floating output.
+\o Warning: Pin "Vout" on instance "I39": shorted output.
+\o Warning: Pin "Vout" on instance "I38": floating output.
+\o Warning: Pin "Vout" on instance "I38": shorted output.
+\o Warning: Pin "Vout" on instance "I37": floating output.
+\o Warning: Pin "Vout" on instance "I37": shorted output.
+\o Warning: Pin "a" on instance "I37": floating input.
+\o Warning: Pin "Vout" on instance "I36": floating output.
+\o Warning: Pin "Vout" on instance "I36": shorted output.
+\o Warning: Pin "Vout" on instance "I35": floating output.
+\o Warning: Pin "Vout" on instance "I35": shorted output.
+\o Warning: Pin "Vout" on instance "I34": floating output.
+\o Warning: Pin "Vout" on instance "I34": shorted output.
+\o Warning: Pin "Vout" on instance "I33": floating output.
+\o Warning: Pin "Vout" on instance "I32": floating output.
+\o Warning: Pin "Vout" on instance "I32": shorted output.
+\o Warning: Pin "Vout" on instance "I31": floating output.
+\o Warning: Pin "Vout" on instance "I31": shorted output.
+\o Warning: Pin "Vout" on instance "I30": floating output.
+\o Warning: Pin "Vout" on instance "I30": shorted output.
+\o Warning: Pin "Vout" on instance "I29": floating output.
+\o Warning: Pin "Vout" on instance "I29": shorted output.
+\o Warning: Pin "Vout" on instance "I28": floating output.
+\o Warning: Pin "Vout" on instance "I28": shorted output.
+\o Warning: Pin "Vout" on instance "I27": floating output.
+\o Warning: Pin "Vout" on instance "I27": shorted output.
+\o Warning: Pin "Vout" on instance "I26": floating output.
+\o Warning: Pin "Vout" on instance "I26": shorted output.
+\o Warning: Pin "Vout" on instance "I25": floating output.
+\o Warning: Pin "Vout" on instance "I25": shorted output.
+\o Warning: Pin "Vout" on instance "I24": floating output.
+\o Warning: Pin "Vout" on instance "I24": shorted output.
+\o Warning: Pin "Vout" on instance "I23": floating output.
+\o Warning: Pin "Vout" on instance "I23": shorted output.
+\o Warning: Pin "Vout" on instance "I22": floating output.
+\o Warning: Pin "Vout" on instance "I22": shorted output.
+\o Warning: Pin "Vout" on instance "I21": floating output.
+\o Warning: Pin "Vout" on instance "I21": shorted output.
+\o Warning: Pin "Vout" on instance "I20": floating output.
+\o Warning: Pin "Vout" on instance "I20": shorted output.
+\o Warning: Pin "Vout" on instance "I19": floating output.
+\o Warning: Pin "Vout" on instance "I19": shorted output.
+\o Warning: Pin "Vout" on instance "I18": floating output.
+\o Warning: Pin "Vout" on instance "I18": shorted output.
+\o Warning: Pin "Vout" on instance "A23": floating output.
+\o Warning: Pin "Vout" on instance "A23": shorted output.
+\o INFO (SCH-3071): No further warning messages will now be logged for Floating/Shorted Instance Pin as the limit setting has been reached.
+\o You can increase, or decrease, message limit settings using the srcLogWarnLimit environment variable.
+\o A setting of 0 will log all messages.
+\o Warning: Pin "p12": floating output.
+\o Warning: Pin "p12": shorted output.
+\o Warning: Pin "p00": floating output.
+\o Warning: Pin "p00": shorted output.
+\o Warning: Pin "p01": floating output.
+\o Warning: Pin "p01": shorted output.
+\o Warning: Pin "p02": floating output.
+\o Warning: Pin "p02": shorted output.
+\o Warning: Pin "p03": floating output.
+\o Warning: Pin "p03": shorted output.
+\o Warning: Pin "p04": floating output.
+\o Warning: Pin "p04": shorted output.
+\o Warning: Pin "p05": floating output.
+\o Warning: Pin "p05": shorted output.
+\o Warning: Pin "p06": floating output.
+\o Warning: Pin "p06": shorted output.
+\o Warning: Pin "p07": floating output.
+\o Warning: Pin "p07": shorted output.
+\o Warning: Pin "p10": floating output.
+\o Warning: Pin "p10": shorted output.
+\o Warning: Pin "p11": floating output.
+\o Warning: Pin "p11": shorted output.
+\o Warning: Pin "p17": floating output.
+\o Warning: Pin "p17": shorted output.
+\o Warning: Pin "p13": floating output.
+\o Warning: Pin "p13": shorted output.
+\o Warning: Pin "p14": floating output.
+\o Warning: Pin "p14": shorted output.
+\o Warning: Pin "p15": floating output.
+\o Warning: Pin "p15": shorted output.
+\o Warning: Pin "p16": floating output.
+\o Warning: Pin "p16": shorted output.
+\o Warning: Pin "p20": floating output.
+\o Warning: Pin "p20": shorted output.
+\o Warning: Pin "p21": floating output.
+\o Warning: Pin "p21": shorted output.
+\o Warning: Pin "p22": floating output.
+\o Warning: Pin "p22": shorted output.
+\o Warning: Pin "p23": floating output.
+\o Warning: Pin "p23": shorted output.
+\o Warning: Pin "p24": floating output.
+\o Warning: Pin "p24": shorted output.
+\o Warning: Pin "p25": floating output.
+\o Warning: Pin "p25": shorted output.
+\o Warning: Pin "p26": floating output.
+\o Warning: Pin "p26": shorted output.
+\o Warning: Pin "p27": floating output.
+\o Warning: Pin "p27": shorted output.
+\o Warning: Pin "p30": floating output.
+\o Warning: Pin "p30": shorted output.
+\o Warning: Pin "p31": floating output.
+\o Warning: Pin "p31": shorted output.
+\o Warning: Pin "p32": floating output.
+\o Warning: Pin "p32": shorted output.
+\o Warning: Pin "p33": floating output.
+\o Warning: Pin "p33": shorted output.
+\o Warning: Pin "p34": floating output.
+\o Warning: Pin "p34": shorted output.
+\o Warning: Pin "p35": floating output.
+\o Warning: Pin "p36": floating output.
+\o Warning: Pin "p36": shorted output.
+\o Warning: Pin "p37": floating output.
+\o Warning: Pin "p37": shorted output.
+\o Warning: Pin "p40": floating output.
+\o Warning: Pin "p40": shorted output.
+\o Warning: Pin "p41": floating output.
+\o Warning: Pin "p41": shorted output.
+\o Warning: Pin "p42": floating output.
+\o Warning: Pin "p42": shorted output.
+\o Warning: Pin "p43": floating output.
+\o Warning: Pin "p43": shorted output.
+\o Warning: Pin "p44": floating output.
+\o Warning: Pin "p44": shorted output.
+\o Warning: Pin "p45": floating output.
+\o Warning: Pin "p45": shorted output.
+\o Warning: Pin "p46": floating output.
+\o Warning: Pin "p46": shorted output.
+\o Warning: Pin "p47": floating output.
+\o Warning: Pin "p47": shorted output.
+\o Warning: Pin "p50": floating output.
+\o Warning: Pin "p50": shorted output.
+\o Warning: Pin "p51": floating output.
+\o Warning: Pin "p51": shorted output.
+\o Warning: Pin "p52": floating output.
+\o Warning: Pin "p52": shorted output.
+\o Warning: Pin "p53": floating output.
+\o Warning: Pin "p53": shorted output.
+\o Warning: Pin "p54": floating output.
+\o Warning: Pin "p54": shorted output.
+\o Warning: Pin "p55": floating output.
+\o Warning: Pin "p55": shorted output.
+\o Warning: Pin "p56": floating output.
+\o Warning: Pin "p56": shorted output.
+\o Warning: Pin "p57": floating output.
+\o Warning: Pin "p57": shorted output.
+\o Warning: Pin "p60": floating output.
+\o Warning: Pin "p60": shorted output.
+\o Warning: Pin "p61": floating output.
+\o Warning: Pin "p61": shorted output.
+\o Warning: Pin "p62": floating output.
+\o INFO (SCH-3071): No further warning messages will now be logged for Floating/Shorted Pin as the limit setting has been reached.
+\o You can increase, or decrease, message limit settings using the srcLogWarnLimit environment variable.
+\o A setting of 0 will log all messages.
+\o Warning: Floating net "net66" at (12.6875, -13.3125).
+\o Warning: Floating net "net4" at (15.8125, -1.1250).
+\o Warning: Floating net "net5" at (27.3125, -5.6875).
+\o Warning: Solder dot on cross over at ( 4.6250, 0.6875 ).
+\o Warning: Solder dot on cross over at ( 19.5000, 0.8750 ).
+\o Warning: Solder dot on cross over at ( 19.8750, -14.8750 ).
+\o Warning: Terminal "p50" in view schematic not found in "WallaceMultiplier symbol".
+\o Warning: Terminal "p02" in view schematic is (input) but is (output) in "WallaceMultiplier symbol".
+\o Warning: Terminal "p23" in view schematic is (input) but is (output) in "WallaceMultiplier symbol".
+\o Warning: Terminal "p60" in view schematic not found in "WallaceMultiplier symbol".
+\o Warning: Terminal "b7" in view schematic not found in "WallaceMultiplier symbol".
+\o Warning: Terminal "b7" in view schematic not found in "WallaceMultiplier symbol".
+\o Warning: Terminal "p71" in view schematic not found in "WallaceMultiplier symbol".
+\o Warning: Terminal "p66" in view schematic not found in "WallaceMultiplier symbol".
+\o Warning: Terminal "p35" in view schematic not found in "WallaceMultiplier symbol".
+\o Warning: Terminal "p31" in view schematic is (input) but is (output) in "WallaceMultiplier symbol".
+\o Warning: Terminal "p26" in view schematic not found in "WallaceMultiplier symbol".
+\o Warning: Terminal "p00" in view schematic is (input) but is (output) in "WallaceMultiplier symbol".
+\o Warning: Terminal "p07" in view schematic not found in "WallaceMultiplier symbol".
+\o Warning: Terminal "p52" in view schematic not found in "WallaceMultiplier symbol".
+\o Warning: Terminal "p43" in view schematic not found in "WallaceMultiplier symbol".
+\o Warning: Terminal "p70" in view schematic not found in "WallaceMultiplier symbol".
+\o Warning: Terminal "p56" in view schematic not found in "WallaceMultiplier symbol".
+\o Warning: Terminal "p53" in view schematic not found in "WallaceMultiplier symbol".
+\o Warning: Terminal "b4" in view schematic not found in "WallaceMultiplier symbol".
+\o Warning: Terminal "b4" in view schematic not found in "WallaceMultiplier symbol".
+\o Warning: Terminal "p75" in view schematic not found in "WallaceMultiplier symbol".
+\o Warning: Terminal "p61" in view schematic not found in "WallaceMultiplier symbol".
+\o Warning: Terminal "p57" in view schematic not found in "WallaceMultiplier symbol".
+\o Warning: Terminal "p46" in view schematic not found in "WallaceMultiplier symbol".
+\o Warning: Terminal "a7" in view schematic not found in "WallaceMultiplier symbol".
+\o Warning: Terminal "a7" in view schematic not found in "WallaceMultiplier symbol".
+\o Warning: Terminal "p24" in view schematic not found in "WallaceMultiplier symbol".
+\o Warning: Terminal "a4" in view schematic not found in "WallaceMultiplier symbol".
+\o Warning: Terminal "a4" in view schematic not found in "WallaceMultiplier symbol".
+\o Warning: Terminal "p62" in view schematic not found in "WallaceMultiplier symbol".
+\o Warning: Terminal "p16" in view schematic not found in "WallaceMultiplier symbol".
+\o Warning: Terminal "p17" in view schematic not found in "WallaceMultiplier symbol".
+\o Warning: Terminal "p73" in view schematic not found in "WallaceMultiplier symbol".
+\o Warning: Terminal "p47" in view schematic not found in "WallaceMultiplier symbol".
+\o Warning: Terminal "p20" in view schematic is (input) but is (output) in "WallaceMultiplier symbol".
+\o Warning: Terminal "p06" in view schematic not found in "WallaceMultiplier symbol".
+\o Warning: Terminal "p10" in view schematic is (input) but is (output) in "WallaceMultiplier symbol".
+\o Warning: Terminal "p40" in view schematic not found in "WallaceMultiplier symbol".
+\o Warning: Terminal "p33" in view schematic is (input) but is (output) in "WallaceMultiplier symbol".
+\o Warning: Terminal "p67" in view schematic not found in "WallaceMultiplier symbol".
+\o Warning: Terminal "p11" in view schematic is (input) but is (output) in "WallaceMultiplier symbol".
+\o Warning: Terminal "p05" in view schematic not found in "WallaceMultiplier symbol".
+\o Warning: Terminal "p77" in view schematic not found in "WallaceMultiplier symbol".
+\o Warning: Terminal "p64" in view schematic not found in "WallaceMultiplier symbol".
+\o Warning: Terminal "p63" in view schematic not found in "WallaceMultiplier symbol".
+\o Warning: Terminal "p34" in view schematic not found in "WallaceMultiplier symbol".
+\o Warning: Terminal "p01" in view schematic is (input) but is (output) in "WallaceMultiplier symbol".
+\o Warning: Terminal "p51" in view schematic not found in "WallaceMultiplier symbol".
+\o Warning: Terminal "p74" in view schematic not found in "WallaceMultiplier symbol".
+\o Warning: Terminal "p21" in view schematic is (input) but is (output) in "WallaceMultiplier symbol".
+\o Warning: Terminal "p55" in view schematic not found in "WallaceMultiplier symbol".
+\o Warning: Terminal "p41" in view schematic not found in "WallaceMultiplier symbol".
+\o Warning: Terminal "p37" in view schematic not found in "WallaceMultiplier symbol".
+\o Warning: Terminal "p27" in view schematic not found in "WallaceMultiplier symbol".
+\o Warning: Terminal "p22" in view schematic is (input) but is (output) in "WallaceMultiplier symbol".
+\o Warning: Terminal "p32" in view schematic is (input) but is (output) in "WallaceMultiplier symbol".
+\o Warning: Terminal "p76" in view schematic not found in "WallaceMultiplier symbol".
+\o Warning: Terminal "p04" in view schematic not found in "WallaceMultiplier symbol".
+\o Warning: Terminal "p72" in view schematic not found in "WallaceMultiplier symbol".
+\o Warning: Terminal "p36" in view schematic not found in "WallaceMultiplier symbol".
+\o Warning: Terminal "p45" in view schematic not found in "WallaceMultiplier symbol".
+\o Warning: Terminal "p44" in view schematic not found in "WallaceMultiplier symbol".
+\o Warning: Terminal "p25" in view schematic not found in "WallaceMultiplier symbol".
+\o Warning: Terminal "p14" in view schematic not found in "WallaceMultiplier symbol".
+\o Warning: Terminal "p65" in view schematic not found in "WallaceMultiplier symbol".
+\o Warning: Terminal "a5" in view schematic not found in "WallaceMultiplier symbol".
+\o Warning: Terminal "a5" in view schematic not found in "WallaceMultiplier symbol".
+\o Warning: Terminal "p54" in view schematic not found in "WallaceMultiplier symbol".
+\o Warning: Terminal "b5" in view schematic not found in "WallaceMultiplier symbol".
+\o Warning: Terminal "b5" in view schematic not found in "WallaceMultiplier symbol".
+\o Warning: Terminal "p15" in view schematic not found in "WallaceMultiplier symbol".
+\o Warning: Terminal "p42" in view schematic not found in "WallaceMultiplier symbol".
+\o Warning: Terminal "p13" in view schematic is (input) but is (output) in "WallaceMultiplier symbol".
+\o Warning: Terminal "a6" in view schematic not found in "WallaceMultiplier symbol".
+\o Warning: Terminal "a6" in view schematic not found in "WallaceMultiplier symbol".
+\o Warning: Terminal "p03" in view schematic is (input) but is (output) in "WallaceMultiplier symbol".
+\o Warning: Terminal "p12" in view schematic is (input) but is (output) in "WallaceMultiplier symbol".
+\o Warning: Terminal "b6" in view schematic not found in "WallaceMultiplier symbol".
+\o Warning: Terminal "b6" in view schematic not found in "WallaceMultiplier symbol".
+\o Warning: Terminal "p30" in view schematic is (input) but is (output) in "WallaceMultiplier symbol".
+\o INFO (SCH-1172): There were 0 errors and 286 warnings found in "tutorial WallaceMultiplier schematic".
+\# Displaying modal dbox "_schCheckDBox", title "Schematic Check"
+\p > 
+\a hiDBoxOK(_schCheckDBox)
+\r t
+\# Current Window: window(2) Window cellview: tutorial:WallaceMultiplier:schematic  Application: Schematics
+\o INFO (SCH-1181): "tutorial WallaceMultiplier schematic" saved.
+\r t
+\a hiZoomOutAtMouse()
+\i 17.6875:-7.875
+\r t
+\a hiZoomOutAtMouse()
+\i 17.75:-7.875
+\r t
+\a hiZoomOutAtMouse()
+\i 17.6875:-7.875
+\r t
+\a hiZoomOutAtMouse()
+\i 17.6875:-7.875
+\r t
+\a hiZoomInAtMouse()
+\i 17.6875:-7.9375
+\r t
+\a hiZoomInAtMouse()
+\i 17.6875:-7.8125
+\r t
+\a hiZoomInAtMouse()
+\i 17.4375:-7.625
+\r t
+\a hiDynamicPanGrabbing()
+\i 14.31875:-5.9875
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 14.325:-5.9875
+\a hiZoomIn(window(2) list(9.7125:-10.5875 27.44375:-2.1125))
+\r t
+\r t
+\r t
+\a hiQuit()
+\# Displaying modal dbox "hiQuitDBox", title "Quit"
+\p > 
+\a hiDBoxCancel(hiQuitDBox) 
+\r t
+\r nil
+\a schHiViewToView()
+\p > 
+\a schViewToViewForm->fromViewName->value="schematic"
+\r "schematic"
+\a hiiSetCurrentForm('schViewToViewForm)
+\r t
+\a hiFormDone(schViewToViewForm)
+\# Displaying modal dbox "schReplaceOrModifyDialog", title "Create Cellview"
+\p > 
+\a hiDBoxUser(schReplaceOrModifyDialog nil 2)
+\r t
+\o 
+\o Modifying cellview: "tutorial" "WallaceMultiplier" "symbol"  on  Oct 25 11:17:20 2025. 
+\o Added input pins:
+\o       p77 p76 p75 p74 p73 p72 p71 p70 p67 p66 p65 p64 p63 p62 
+\o       p61 p60 p57 p56 p55 p54 p53 p52 p51 p50 p47 p46 p45 p44 
+\o       p43 p42 p41 p40 p37 p36 p35 p34 p27 p26 p25 p24 p17 p16 
+\o       p15 p14 p07 p06 p05 p04 b7 b7 b6 b6 b5 b5 b4 b4 a7 a7 
+\o       a6 a6 a5 a5 a4 a4 
+\o Changed direction:
+\o       p00 p01 p02 p03 p10 p11 p12 p13 p20 p21 p22 p23 p30 p31 
+\o       p32 p33 
+\# Current Window: window(2) Window cellview: tutorial:WallaceMultiplier:schematic  Application: Schematics
+\o Symbol (WallaceMultiplier symbol) modified and saved in library:tutorial.
+\# Current Window: window(2) Window cellview: tutorial:WallaceMultiplier:schematic  Application: Schematics
+\o INFO (SCH-1061): Completed generating design in library "tutorial" as "WallaceMultiplier" "symbol".
+\o Adding CDF information ...
+\# Displaying modal dbox "cvToCvCreateCDF", title "Overwrite Base Cell CDF"
+\p > 
+\a hiDBoxOK(cvToCvCreateCDF)
+\r t
+\o     Adding base cell CDF parameter information ...
+\o     Adding base cell CDF simulation information ...
+\# Current Window: window(3)
+\r t
+\r t
+\a when(dwindow('oiAssistant2) hiMapWindow(dwindow('oiAssistant2)))
+\r t
+\a when(dwindow('treeAssistant2) hiMapWindow(dwindow('treeAssistant2)))
+\r t
+\a hiCloseWindow(swindow(2))
+\# Current Window: window(2) Window cellview: tutorial:WallaceMultiplier:schematic  Application: Schematics
+\r t
+\a _hiSetCurrentWinNum(2)
+\r t
+\a schHiViewToView()
+\p > 
+\a hiFormDone(schViewToViewForm)
+\# Displaying modal dbox "schReplaceOrModifyDialog", title "Create Cellview"
+\p > 
+\a hiDBoxUser(schReplaceOrModifyDialog nil 1)
+\r t
+\p > 
+\a hiiSetCurrentForm('schSgForm)
+\r t
+\a schSgForm->leftPins->value=" a0 a1 a2 a3 a4 a4 a5 a5 a6 a6 a7 a7 b0 b1 b2 b3 b4 b4 b5 b5 b6 b6 b7 b7 gnd p00 p01 p02 p03 p04 p05 p06 p07 p10 p11 p12 p13 p14 p15 p16 p17 p20 p21 p22 p23 p24 p25 p26 p27 p30 p31 p32 p33 p34 p35 p36 p37 p40 p41 p42 p43 p44 p45 p46 p47 p50 p51 p52 p53 p54 p55 p56 p57 p60 p61 p62 p63 p64 p65 p66 p67 p70 p71 p72 p73 p74 p75 p76 p77 "
+\r " a0 a1 a2 a3 a4 a4 a5 a5 a6 a6 a7 a7 b0 b1 b2 b3 b4 b4 b5 b5 b6 b6 b7 b7 gnd p00 p01 p02 p03 p04 p05 p06 p07 p10 p11 p12 p13 p14 p15 p16 p17 p20 p21 p22 p23 p24 p25 p26 p27 p30 p31 p32 p33 p34 p35 p36 p37 p40 p41 p42 p43 p44 p45 p46 p47 p50 p51 p52 p53 p54 p55 p56 p57 p60 p61 p62 p63 p64 p65 p66 p67 p70 p71 p72 p73 p74 p75 p76 p77 "
+\a schSgForm->topPins->value="Vdd"
+\r "Vdd"
+\a schSgForm->leftPins->value="a0 a1 a2 a3 a4 a4 a5 a5 a6 a6 a7 a7 b0 b1 b2 b3 b4 b4 b5 b5 b6 b6 b7 b7 gnd p00 p01 p02 p03 p04 p05 p06 p07 p10 p11 p12 p13 p14 p15 p16 p17 p20 p21 p22 p23 p24 p25 p26 p27 p30 p31 p32 p33 p34 p35 p36 p37 p40 p41 p42 p43 p44 p45 p46 p47 p50 p51 p52 p53 p54 p55 p56 p57 p60 p61 p62 p63 p64 p65 p66 p67 p70 p71 p72 p73 p74 p75 p76 p77 "
+\r "a0 a1 a2 a3 a4 a4 a5 a5 a6 a6 a7 a7 b0 b1 b2 b3 b4 b4 b5 b5 b6 b6 b7 b7 gnd p00 p01 p02 p03 p04 p05 p06 p07 p10 p11 p12 p13 p14 p15 p16 p17 p20 p21 p22 p23 p24 p25 p26 p27 p30 p31 p32 p33 p34 p35 p36 p37 p40 p41 p42 p43 p44 p45 p46 p47 p50 p51 p52 p53 p54 p55 p56 p57 p60 p61 p62 p63 p64 p65 p66 p67 p70 p71 p72 p73 p74 p75 p76 p77 "
+\a hiFormCancel(schSgForm) 
+\r t
+\w *WARNING* (SCH-1060): Failed to generate cellview "WallaceMultiplier symbol" from pin list.
+\r t
+\r t
+\a schSingleSelectPt()
+\i 16:-5.8125
+\r nil
+\a schHiEscape()
+\r nil
+\a hiZoomOutAtMouse()
+\i 16:-5.8125
+\r t
+\a hiZoomInAtMouse()
+\i 16:-5.75
+\r t
+\a _treeNavSelectionClear(dwindow('treeAssistant1))
+\r t
+\a _treeNavSelect(dwindow('treeAssistant1) "/b1 Net")
+\r t
+\a hiZoomOutAtMouse()
+\i 4.5:-11.875
+\r t
+\a hiZoomOutAtMouse()
+\i 4.4375:-11.8125
+\r t
+\a hiDynamicPanGrabbing()
+\i 9.4875:-8.7625
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 9.4875:-8.7625
+\a hiZoomIn(window(2) list(-22.0625:-31.6625 48.8875:2.2625))
+\r t
+\r t
+\r t
+\a hiZoomInAtMouse()
+\i 9.75:-5.25
+\r t
+\a hiDynamicPanGrabbing()
+\i 10.04375:-5.75625
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 10.04375:-5.75625
+\a hiZoomIn(window(2) list(-2.6375:-16.4 32.8375:0.5625))
+\r t
+\r t
+\r t
+\a _treeNavSelectionClear(dwindow('treeAssistant1))
+\r t
+\a _treeNavSelectionClear(dwindow('treeAssistant1))
+\r t
+\a _treeNavSelect(dwindow('treeAssistant1) "/b2 Net")
+\r t
+\a _treeNavSelectionClear(dwindow('treeAssistant1))
+\r t
+\a _treeNavSelectionClear(dwindow('treeAssistant1))
+\r t
+\a _treeNavSelect(dwindow('treeAssistant1) "/b3 Net")
+\r t
+\a _treeNavSelectionClear(dwindow('treeAssistant1))
+\r t
+\a _treeNavSelectionClear(dwindow('treeAssistant1))
+\r t
+\a _treeNavSelect(dwindow('treeAssistant1) "/b4 Net")
+\r t
+\a hiDynamicPanGrabbing()
+\i 15.15:-6.8375
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 15.15625:-6.8375
+\a hiZoomIn(window(2) list(0.25:-18.54375 35.725:-1.58125))
+\r t
+\r t
+\r t
+\a hiZoomInAtMouse()
+\i 15.5625:-9.125
+\r t
+\a schSingleSelectPt()
+\i 15.6875:-9.4375
+\r nil
+\a schHiEscape()
+\r nil
+\a hiZoomOutAtMouse()
+\i 16:-9.8125
+\r t
+\a hiZoomInAtMouse()
+\i 16:-9.8125
+\r t
+\a _treeNavSelectionClear(dwindow('treeAssistant1))
+\r t
+\a _treeNavSelect(dwindow('treeAssistant1) "/b3 Net")
+\r t
+\a _treeNavSelectionClear(dwindow('treeAssistant1))
+\r t
+\a _treeNavSelectionClear(dwindow('treeAssistant1))
+\r t
+\a _treeNavSelect(dwindow('treeAssistant1) "/b5 Net")
+\r t
+\a hiZoomOutAtMouse()
+\i 16.8125:-9.5625
+\r t
+\a hiZoomOutAtMouse()
+\i 16.875:-9.5625
+\r t
+\a hiZoomInAtMouse()
+\i 16.8125:-10.5625
+\r t
+\a hiZoomInAtMouse()
+\i 15.5625:-10.5
+\r t
+\a schSingleSelectPt()
+\i 15.75:-11.25
+\r nil
+\a schHiEscape()
+\r nil
+\a schDirectEdit(1)
+\i 15.75:-10
+\# Direct Edit. Area selection.
+\i 15.75:-10
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 16.1875:-13.125
+\r t
+\r nil
+\a schHiDelete()
+\r t
+\a hiDynamicPanGrabbing()
+\i 16.75625:-8.95
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 16.75625:-8.95
+\a hiZoomIn(window(2) list(9.7875:-13.03125 27.525:-4.55))
+\r t
+\r t
+\r t
+\a schHiCreateWire(0.0)
+\p > 
+\a hiDynamicPanGrabbing()
+\i 17.3875:-7.0625
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 17.39375:-7.0625
+\a hiZoomIn(window(2) list(10.61875:-10.60625 28.35625:-2.125))
+\r t
+\r t
+\r t
+\a hiZoomOutAtMouse()
+\i 16.4375:-5.75
+\r t
+\a hiZoomInAtMouse()
+\i 16.4375:-5.75
+\r t
+\a hiDynamicPanGrabbing()
+\i 16.81875:-3.49375
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 16.825:-3.49375
+\a hiZoomIn(window(2) list(10.6625:-9.61875 28.4:-1.1375))
+\r t
+\r t
+\r t
+\a hiDynamicPanGrabbing()
+\i 16.375:-2.2625
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 16.375:-2.2625
+\a hiZoomIn(window(2) list(10.69375:-8.30625 28.43125:0.175))
+\r t
+\r t
+\r t
+\a hiDynamicPanGrabbing()
+\i 16.43125:-1.33125
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 16.425:-1.33125
+\a hiZoomIn(window(2) list(10.95625:-6.2375 28.69375:2.24375))
+\r t
+\r t
+\r t
+\a hiDynamicPanGrabbing()
+\i 15.44375:-2.6875
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 15.4375:-2.6875
+\a hiZoomIn(window(2) list(8.50625:-6.875 26.24375:1.60625))
+\r t
+\r t
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiCreateWire(0.0)
+\p > 
+\a hiZoomInAtMouse()
+\i 17.5625:-2.4375
+\r t
+\a hiDynamicPanGrabbing()
+\i 17.10625:-3.5125
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 17.1125:-3.5125
+\a hiZoomIn(window(2) list(13.1375:-6.44375 22.00625:-2.20625))
+\r t
+\r t
+\r t
+\a hiZoomOutAtMouse()
+\i 18.875:-4.75
+\r t
+\a hiDynamicPanGrabbing()
+\i 18.0375:-2.9375
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 18.0375:-2.93125
+\a hiZoomIn(window(2) list(7.75625:-6.51875 25.50625:1.96875))
+\r t
+\r t
+\r t
+\a hiDynamicPanGrabbing()
+\i 15.35:-1.925
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 15.35:-1.925
+\a hiZoomIn(window(2) list(4.30625:-7.9 22.05625:0.5875))
+\r t
+\r t
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a _treeNavSelectionClear(dwindow('treeAssistant1))
+\r t
+\a _treeNavSelect(dwindow('treeAssistant1) "/a0 Net")
+\r t
+\a hiZoomOutAtMouse()
+\i 8.9375:1.875
+\r t
+\a _treeNavSelectionClear(dwindow('treeAssistant1))
+\r t
+\a _treeNavSelectionClear(dwindow('treeAssistant1))
+\r t
+\a _treeNavSelect(dwindow('treeAssistant1) "/a1 Net")
+\r t
+\a _treeNavSelectionClear(dwindow('treeAssistant1))
+\r t
+\a _treeNavSelectionClear(dwindow('treeAssistant1))
+\r t
+\a _treeNavSelect(dwindow('treeAssistant1) "/a2 Net")
+\r t
+\a _treeNavSelectionClear(dwindow('treeAssistant1))
+\r t
+\a _treeNavSelectionClear(dwindow('treeAssistant1))
+\r t
+\a _treeNavSelect(dwindow('treeAssistant1) "/a3 Net")
+\r t
+\a hiDynamicPanGrabbing()
+\i 9.225:-0.01875
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 9.225:-0.01875
+\a hiZoomIn(window(2) list(-2.80625:-10.9875 32.69375:5.9875))
+\r t
+\r t
+\r t
+\a hiZoomInAtMouse()
+\i 13.375:-3.25
+\r t
+\a schHiCreateWire(0.0)
+\p > 
+\a mouseAddPt(t)
+\i 15.8:-1.1375
+\r t
+\a mouseAddPt(t)
+\i 8.375:-4.6375
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a hiZoomInAtMouse()
+\i 15.875:-1.875
+\r t
+\a hiZoomInAtMouse()
+\i 15.875:-1.5
+\r t
+\a hiZoomInAtMouse()
+\i 15.875:-1.5
+\r t
+\a hiZoomOutAtMouse()
+\i 15.875:-1.4375
+\r t
+\a hiDynamicPanGrabbing()
+\i 15.88125:-1.4125
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 15.875:-1.425
+\a hiZoomIn(window(2) list(13.275:-2.9125 17.725:-0.7875))
+\r t
+\r t
+\r t
+\a hiZoomOutAtMouse()
+\i 15.875:-1.5625
+\r t
+\a hiDynamicPanGrabbing()
+\i 15.96875:-2.175
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 15.96875:-2.18125
+\a hiZoomIn(window(2) list(11.60625:-5.425 20.50625:-1.175))
+\r t
+\r t
+\r t
+\a hiZoomOutAtMouse()
+\i 15.9375:-2.25
+\r t
+\a hiDynamicPanGrabbing()
+\i 16.31875:-4.40625
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 16.31875:-4.4
+\a hiZoomIn(window(2) list(8.23125:-9.7 26.03125:-1.1875))
+\r t
+\r t
+\r t
+\a hiDynamicPanGrabbing()
+\i 16.11875:-4.825
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 16.11875:-4.83125
+\a hiZoomIn(window(2) list(9.2:-11.9375 27:-3.425))
+\r t
+\r t
+\r t
+\a hiDynamicPanGrabbing()
+\i 16.19375:-4.66875
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 16.19375:-4.66875
+\a hiZoomIn(window(2) list(9.15:-9.575 26.95:-1.0625))
+\r t
+\r t
+\r t
+\a schHiCreateWire(0.0)
+\p > 
+\a mouseAddPt(t)
+\i 16.13125:-1.925
+\r t
+\a hiDynamicPanGrabbing()
+\i 16.3625:-7.0625
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 16.3625:-7.0625
+\r t
+\r t
+\a hiZoomIn(window(2) list(9.9375:-11.9125 27.7375:-3.4))
+\r t
+\a mouseAddPt(t)
+\i 15.525:-10.09375
+\r t
+\a mouseAddPt(t)
+\i 16.10625:-10.14375
+\r t
+\a hiDynamicPanGrabbing()
+\i 16.3625:-5.50625
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 16.3625:-5.5125
+\a hiZoomIn(window(2) list(9.65:-9.40625 27.45:-0.89375))
+\r t
+\r t
+\r t
+\a mouseAddPt(t)
+\i 16.25625:-2.3625
+\r t
+\a hiDynamicPanGrabbing()
+\i 16.55625:-6.61875
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 16.55:-6.6125
+\a hiZoomIn(window(2) list(10.30625:-13.5625 28.10625:-5.05))
+\r t
+\r t
+\r t
+\a mouseAddPt(t)
+\i 16.54375:-10.575
+\r t
+\a hiDynamicPanGrabbing()
+\i 17.0625:-7.94375
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 17.06875:-7.95
+\a hiZoomIn(window(2) list(10.75625:-10.45 28.55625:-1.9375))
+\r t
+\r t
+\r t
+\a mouseAddPt(t)
+\i 16.41875:-2.5625
+\r t
+\a hiDynamicPanGrabbing()
+\i 16.9375:-7.7375
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 16.9375:-7.73125
+\a hiZoomIn(window(2) list(11.33125:-14.075 29.13125:-5.5625))
+\r t
+\r t
+\r t
+\a mouseAddPt(t)
+\i 16.63125:-10.775
+\r t
+\a hiDynamicPanGrabbing()
+\i 17.14375:-7.95625
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 17.14375:-7.95625
+\a hiZoomIn(window(2) list(11.225:-10.5875 29.025:-2.075))
+\r t
+\r t
+\r t
+\a mouseAddPt(t)
+\i 16.675:-4.18125
+\r t
+\a hiDynamicPanGrabbing()
+\i 17.225:-8.40625
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 17.225:-8.40625
+\a hiZoomIn(window(2) list(11.46875:-15.49375 29.26875:-6.98125))
+\r t
+\r t
+\r t
+\a mouseAddPt(t)
+\i 16.81875:-12.3625
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a hiZoomInAtMouse()
+\i 16:-11.1875
+\r t
+\a schSingleSelectPt()
+\i 16.375:-10.5625
+\r t
+\a schHiDelete()
+\r t
+\a schSingleSelectPt()
+\i 16.5:-10.75
+\r t
+\a schHiDelete()
+\r t
+\a schSingleSelectPt()
+\i 16.5625:-12.375
+\r t
+\a schHiDelete()
+\r t
+\a hiDynamicPanGrabbing()
+\i 16.5125:-12.7875
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 16.51875:-12.7875
+\r t
+\r t
+\a hiZoomIn(window(2) list(14.0375:-14.55625 22.9375:-10.3))
+\r t
+\a hiZoomOutAtMouse()
+\i 16.625:-13
+\r t
+\a hiDynamicPanGrabbing()
+\i 16.5125:-12.0375
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 16.5125:-12.03125
+\a hiZoomIn(window(2) list(11.4375:-15.95 29.2375:-7.4375))
+\r t
+\r t
+\r t
+\a schHiCheckAndSave()
+\o INFO (SCH-1170): Extracting "WallaceMultiplier schematic"
+\o Warning: Pin "Vout" on instance "I65": floating output.
+\o Warning: Pin "Vout" on instance "I65": shorted output.
+\o Warning: Pin "Vout" on instance "I64": floating output.
+\o Warning: Pin "Vout" on instance "I64": shorted output.
+\o Warning: Pin "Vout" on instance "I63": floating output.
+\o Warning: Pin "Vout" on instance "I63": shorted output.
+\o Warning: Pin "Vout" on instance "I62": floating output.
+\o Warning: Pin "Vout" on instance "I62": shorted output.
+\o Warning: Pin "Vout" on instance "I61": floating output.
+\o Warning: Pin "Vout" on instance "I61": shorted output.
+\o Warning: Pin "Vout" on instance "I60": floating output.
+\o Warning: Pin "Vout" on instance "I60": shorted output.
+\o Warning: Pin "Vout" on instance "I59": floating output.
+\o Warning: Pin "Vout" on instance "I59": shorted output.
+\o Warning: Pin "Vout" on instance "I58": floating output.
+\o Warning: Pin "Vout" on instance "I58": shorted output.
+\o Warning: Pin "Vout" on instance "I57": floating output.
+\o Warning: Pin "Vout" on instance "I57": shorted output.
+\o Warning: Pin "Vout" on instance "I56": floating output.
+\o Warning: Pin "Vout" on instance "I56": shorted output.
+\o Warning: Pin "Vout" on instance "I55": floating output.
+\o Warning: Pin "Vout" on instance "I55": shorted output.
+\o Warning: Pin "Vout" on instance "I54": floating output.
+\o Warning: Pin "Vout" on instance "I54": shorted output.
+\o Warning: Pin "Vout" on instance "I53": floating output.
+\o Warning: Pin "Vout" on instance "I53": shorted output.
+\o Warning: Pin "Vout" on instance "I52": floating output.
+\o Warning: Pin "Vout" on instance "I52": shorted output.
+\o Warning: Pin "Vout" on instance "I51": floating output.
+\o Warning: Pin "Vout" on instance "I51": shorted output.
+\o Warning: Pin "Vout" on instance "I50": floating output.
+\o Warning: Pin "Vout" on instance "I50": shorted output.
+\o Warning: Pin "Vout" on instance "I49": floating output.
+\o Warning: Pin "Vout" on instance "I49": shorted output.
+\o Warning: Pin "Vout" on instance "I48": floating output.
+\o Warning: Pin "Vout" on instance "I48": shorted output.
+\o Warning: Pin "Vout" on instance "I47": floating output.
+\o Warning: Pin "Vout" on instance "I47": shorted output.
+\o Warning: Pin "Vout" on instance "I46": floating output.
+\o Warning: Pin "Vout" on instance "I46": shorted output.
+\o Warning: Pin "Vout" on instance "I45": floating output.
+\o Warning: Pin "Vout" on instance "I45": shorted output.
+\o Warning: Pin "Vout" on instance "I44": floating output.
+\o Warning: Pin "Vout" on instance "I44": shorted output.
+\o Warning: Pin "Vout" on instance "I43": floating output.
+\o Warning: Pin "Vout" on instance "I43": shorted output.
+\o Warning: Pin "Vout" on instance "I42": floating output.
+\o Warning: Pin "Vout" on instance "I42": shorted output.
+\o Warning: Pin "Vout" on instance "I41": floating output.
+\o Warning: Pin "Vout" on instance "I40": floating output.
+\o Warning: Pin "Vout" on instance "I40": shorted output.
+\o Warning: Pin "Vout" on instance "I39": floating output.
+\o Warning: Pin "Vout" on instance "I39": shorted output.
+\o Warning: Pin "Vout" on instance "I38": floating output.
+\o Warning: Pin "Vout" on instance "I38": shorted output.
+\o Warning: Pin "Vout" on instance "I37": floating output.
+\o Warning: Pin "Vout" on instance "I37": shorted output.
+\o Warning: Pin "Vout" on instance "I36": floating output.
+\o Warning: Pin "Vout" on instance "I36": shorted output.
+\o Warning: Pin "Vout" on instance "I35": floating output.
+\o Warning: Pin "Vout" on instance "I35": shorted output.
+\o Warning: Pin "Vout" on instance "I34": floating output.
+\o Warning: Pin "Vout" on instance "I34": shorted output.
+\o Warning: Pin "Vout" on instance "I33": floating output.
+\o Warning: Pin "Vout" on instance "I32": floating output.
+\o Warning: Pin "Vout" on instance "I32": shorted output.
+\o Warning: Pin "Vout" on instance "I31": floating output.
+\o Warning: Pin "Vout" on instance "I31": shorted output.
+\o Warning: Pin "Vout" on instance "I30": floating output.
+\o Warning: Pin "Vout" on instance "I30": shorted output.
+\o Warning: Pin "Vout" on instance "I29": floating output.
+\o Warning: Pin "Vout" on instance "I29": shorted output.
+\o Warning: Pin "Vout" on instance "I28": floating output.
+\o Warning: Pin "Vout" on instance "I28": shorted output.
+\o Warning: Pin "Vout" on instance "I27": floating output.
+\o Warning: Pin "Vout" on instance "I27": shorted output.
+\o Warning: Pin "Vout" on instance "I26": floating output.
+\o Warning: Pin "Vout" on instance "I26": shorted output.
+\o Warning: Pin "Vout" on instance "I25": floating output.
+\o Warning: Pin "Vout" on instance "I25": shorted output.
+\o Warning: Pin "Vout" on instance "I24": floating output.
+\o Warning: Pin "Vout" on instance "I24": shorted output.
+\o Warning: Pin "Vout" on instance "I23": floating output.
+\o Warning: Pin "Vout" on instance "I23": shorted output.
+\o Warning: Pin "Vout" on instance "I22": floating output.
+\o Warning: Pin "Vout" on instance "I22": shorted output.
+\o Warning: Pin "Vout" on instance "I21": floating output.
+\o Warning: Pin "Vout" on instance "I21": shorted output.
+\o Warning: Pin "Vout" on instance "I20": floating output.
+\o Warning: Pin "Vout" on instance "I20": shorted output.
+\o Warning: Pin "Vout" on instance "I19": floating output.
+\o Warning: Pin "Vout" on instance "I19": shorted output.
+\o Warning: Pin "Vout" on instance "I18": floating output.
+\o Warning: Pin "Vout" on instance "I18": shorted output.
+\o Warning: Pin "Vout" on instance "A23": floating output.
+\o Warning: Pin "Vout" on instance "A23": shorted output.
+\o Warning: Pin "Vout" on instance "A33": floating output.
+\o Warning: Pin "Vout" on instance "A33": shorted output.
+\o Warning: Pin "Vout" on instance "A03": floating output.
+\o Warning: Pin "Vout" on instance "A03": shorted output.
+\o INFO (SCH-3071): No further warning messages will now be logged for Floating/Shorted Instance Pin as the limit setting has been reached.
+\o You can increase, or decrease, message limit settings using the srcLogWarnLimit environment variable.
+\o A setting of 0 will log all messages.
+\o Warning: Pin "p12": floating output.
+\o Warning: Pin "p12": shorted output.
+\o Warning: Pin "p00": floating output.
+\o Warning: Pin "p00": shorted output.
+\o Warning: Pin "p01": floating output.
+\o Warning: Pin "p01": shorted output.
+\o Warning: Pin "p02": floating output.
+\o Warning: Pin "p02": shorted output.
+\o Warning: Pin "p03": floating output.
+\o Warning: Pin "p03": shorted output.
+\o Warning: Pin "p04": floating output.
+\o Warning: Pin "p04": shorted output.
+\o Warning: Pin "p05": floating output.
+\o Warning: Pin "p05": shorted output.
+\o Warning: Pin "p06": floating output.
+\o Warning: Pin "p06": shorted output.
+\o Warning: Pin "p07": floating output.
+\o Warning: Pin "p07": shorted output.
+\o Warning: Pin "p10": floating output.
+\o Warning: Pin "p10": shorted output.
+\o Warning: Pin "p11": floating output.
+\o Warning: Pin "p11": shorted output.
+\o Warning: Pin "p17": floating output.
+\o Warning: Pin "p17": shorted output.
+\o Warning: Pin "p13": floating output.
+\o Warning: Pin "p13": shorted output.
+\o Warning: Pin "p14": floating output.
+\o Warning: Pin "p14": shorted output.
+\o Warning: Pin "p15": floating output.
+\o Warning: Pin "p15": shorted output.
+\o Warning: Pin "p16": floating output.
+\o Warning: Pin "p16": shorted output.
+\o Warning: Pin "p20": floating output.
+\o Warning: Pin "p20": shorted output.
+\o Warning: Pin "p21": floating output.
+\o Warning: Pin "p21": shorted output.
+\o Warning: Pin "p22": floating output.
+\o Warning: Pin "p22": shorted output.
+\o Warning: Pin "p23": floating output.
+\o Warning: Pin "p23": shorted output.
+\o Warning: Pin "p24": floating output.
+\o Warning: Pin "p24": shorted output.
+\o Warning: Pin "p25": floating output.
+\o Warning: Pin "p25": shorted output.
+\o Warning: Pin "p26": floating output.
+\o Warning: Pin "p26": shorted output.
+\o Warning: Pin "p27": floating output.
+\o Warning: Pin "p27": shorted output.
+\o Warning: Pin "p30": floating output.
+\o Warning: Pin "p30": shorted output.
+\o Warning: Pin "p31": floating output.
+\o Warning: Pin "p31": shorted output.
+\o Warning: Pin "p32": floating output.
+\o Warning: Pin "p32": shorted output.
+\o Warning: Pin "p33": floating output.
+\o Warning: Pin "p33": shorted output.
+\o Warning: Pin "p34": floating output.
+\o Warning: Pin "p34": shorted output.
+\o Warning: Pin "p35": floating output.
+\o Warning: Pin "p36": floating output.
+\o Warning: Pin "p36": shorted output.
+\o Warning: Pin "p37": floating output.
+\o Warning: Pin "p37": shorted output.
+\o Warning: Pin "p40": floating output.
+\o Warning: Pin "p40": shorted output.
+\o Warning: Pin "p41": floating output.
+\o Warning: Pin "p41": shorted output.
+\o Warning: Pin "p42": floating output.
+\o Warning: Pin "p42": shorted output.
+\o Warning: Pin "p43": floating output.
+\o Warning: Pin "p43": shorted output.
+\o Warning: Pin "p44": floating output.
+\o Warning: Pin "p44": shorted output.
+\o Warning: Pin "p45": floating output.
+\o Warning: Pin "p45": shorted output.
+\o Warning: Pin "p46": floating output.
+\o Warning: Pin "p46": shorted output.
+\o Warning: Pin "p47": floating output.
+\o Warning: Pin "p47": shorted output.
+\o Warning: Pin "p50": floating output.
+\o Warning: Pin "p50": shorted output.
+\o Warning: Pin "p51": floating output.
+\o Warning: Pin "p51": shorted output.
+\o Warning: Pin "p52": floating output.
+\o Warning: Pin "p52": shorted output.
+\o Warning: Pin "p53": floating output.
+\o Warning: Pin "p53": shorted output.
+\o Warning: Pin "p54": floating output.
+\o Warning: Pin "p54": shorted output.
+\o Warning: Pin "p55": floating output.
+\o Warning: Pin "p55": shorted output.
+\o Warning: Pin "p56": floating output.
+\o Warning: Pin "p56": shorted output.
+\o Warning: Pin "p57": floating output.
+\o Warning: Pin "p57": shorted output.
+\o Warning: Pin "p60": floating output.
+\o Warning: Pin "p60": shorted output.
+\o Warning: Pin "p61": floating output.
+\o Warning: Pin "p61": shorted output.
+\o Warning: Pin "p62": floating output.
+\o INFO (SCH-3071): No further warning messages will now be logged for Floating/Shorted Pin as the limit setting has been reached.
+\o You can increase, or decrease, message limit settings using the srcLogWarnLimit environment variable.
+\o A setting of 0 will log all messages.
+\o Warning: Floating net "net66" at (12.6875, -13.3125).
+\o Warning: Floating net "net5" at (27.3125, -5.6875).
+\o Warning: Solder dot on cross over at ( 4.6250, 0.6875 ).
+\o Warning: Solder dot on cross over at ( 19.5000, 0.8750 ).
+\o Warning: Solder dot on cross over at ( 19.8750, -14.8750 ).
+\o INFO (SCH-1172): There were 0 errors and 205 warnings found in "tutorial WallaceMultiplier schematic".
+\# Displaying modal dbox "_schCheckDBox", title "Schematic Check"
+\p > 
+\a hiDBoxOK(_schCheckDBox) 
+\r t
+\# Current Window: window(2) Window cellview: tutorial:WallaceMultiplier:schematic  Application: Schematics
+\o INFO (SCH-1181): "tutorial WallaceMultiplier schematic" saved.
+\r t
+\a schHiViewToView()
+\p > 
+\a hiiSetCurrentForm('schViewToViewForm)
+\r t
+\a hiFormDone(schViewToViewForm)
+\# Displaying modal dbox "schReplaceOrModifyDialog", title "Create Cellview"
+\p > 
+\a hiDBoxUser(schReplaceOrModifyDialog nil 1)
+\r t
+\p > 
+\a hiiSetCurrentForm('schSgForm)
+\r t
+\a schSgForm->leftPins->value=" a0 a1 a2 a3 a4 a4 a5 a5 a6 a6 a7 a7 b0 b1 b2 b3 b4 b5 b6 b7 gnd p00 p01 p02 p03 p04 p05 p06 p07 p10 p11 p12 p13 p14 p15 p16 p17 p20 p21 p22 p23 p24 p25 p26 p27 p30 p31 p32 p33 p34 p35 p36 p37 p40 p41 p42 p43 p44 p45 p46 p47 p50 p51 p52 p53 p54 p55 p56 p57 p60 p61 p62 p63 p64 p65 p66 p67 p70 p71 p72 p73 p74 p75 p76 p77 "
+\r " a0 a1 a2 a3 a4 a4 a5 a5 a6 a6 a7 a7 b0 b1 b2 b3 b4 b5 b6 b7 gnd p00 p01 p02 p03 p04 p05 p06 p07 p10 p11 p12 p13 p14 p15 p16 p17 p20 p21 p22 p23 p24 p25 p26 p27 p30 p31 p32 p33 p34 p35 p36 p37 p40 p41 p42 p43 p44 p45 p46 p47 p50 p51 p52 p53 p54 p55 p56 p57 p60 p61 p62 p63 p64 p65 p66 p67 p70 p71 p72 p73 p74 p75 p76 p77 "
+\a schSgForm->topPins->value="Vdd"
+\r "Vdd"
+\a schSgForm->leftPins->value="a0 a1 a2 a3 a4 a4 a5 a5 a6 a6 a7 a7 b0 b1 b2 b3 b4 b5 b6 b7  p00 p01 p02 p03 p04 p05 p06 p07 p10 p11 p12 p13 p14 p15 p16 p17 p20 p21 p22 p23 p24 p25 p26 p27 p30 p31 p32 p33 p34 p35 p36 p37 p40 p41 p42 p43 p44 p45 p46 p47 p50 p51 p52 p53 p54 p55 p56 p57 p60 p61 p62 p63 p64 p65 p66 p67 p70 p71 p72 p73 p74 p75 p76 p77 "
+\r "a0 a1 a2 a3 a4 a4 a5 a5 a6 a6 a7 a7 b0 b1 b2 b3 b4 b5 b6 b7  p00 p01 p02 p03 p04 p05 p06 p07 p10 p11 p12 p13 p14 p15 p16 p17 p20 p21 p22 p23 p24 p25 p26 p27 p30 p31 p32 p33 p34 p35 p36 p37 p40 p41 p42 p43 p44 p45 p46 p47 p50 p51 p52 p53 p54 p55 p56 p57 p60 p61 p62 p63 p64 p65 p66 p67 p70 p71 p72 p73 p74 p75 p76 p77 "
+\a schSgForm->bottomPins->value="gnd"
+\r "gnd"
+\a schSgForm->leftPins->value="a0 a1 a2 a3 a4 a4 a5 a5 a6 a6 a7 a7 b0 b1 b2 b3 b4 b5 b6 b7 "
+\r "a0 a1 a2 a3 a4 a4 a5 a5 a6 a6 a7 a7 b0 b1 b2 b3 b4 b5 b6 b7 "
+\a schSgForm->rightPins->value="p00 p01 p02 p03 p04 p05 p06 p07 p10 p11 p12 p13 p14 p15 p16 p17 p20 p21 p22 p23 p24 p25 p26 p27 p30 p31 p32 p33 p34 p35 p36 p37 p40 p41 p42 p43 p44 p45 p46 p47 p50 p51 p52 p53 p54 p55 p56 p57 p60 p61 p62 p63 p64 p65 p66 p67 p70 p71 p72 p73 p74 p75 p76 p77"
+\r "p00 p01 p02 p03 p04 p05 p06 p07 p10 p11 p12 p13 p14 p15 p16 p17 p20 p21 p22 p23 p24 p25 p26 p27 p30 p31 p32 p33 p34 p35 p36 p37 p40 p41 p42 p43 p44 p45 p46 p47 p50 p51 p52 p53 p54 p55 p56 p57 p60 p61 p62 p63 p64 p65 p66 p67 p70 p71 p72 p73 p74 p75 p76 p77"
+\a hiFormDone(schSgForm)
+\o Symbol (WallaceMultiplier symbol) generated and saved in library:tutorial.
+\# Current Window: window(2) Window cellview: tutorial:WallaceMultiplier:schematic  Application: Schematics
+\# Current Window: window(4)
+\r t
+\# Current Window: window(4) Window cellview: tutorial:WallaceMultiplier:symbol  Application: Symbol
+\o INFO (SCH-1061): Completed generating design in library "tutorial" as "WallaceMultiplier" "symbol".
+\o Adding CDF information ...
+\# Displaying modal dbox "cvToCvCreateCDF", title "Overwrite Base Cell CDF"
+\p > 
+\a when(dwindow('oiAssistant3) hiMapWindow(dwindow('oiAssistant3)))
+\r t
+\a when(dwindow('treeAssistant3) hiMapWindow(dwindow('treeAssistant3)))
+\r t
+\a hiDBoxOK(cvToCvCreateCDF)
+\r t
+\o     Adding base cell CDF parameter information ...
+\o     Adding base cell CDF simulation information ...
+\r t
+\r t
+\a hiZoomInAtMouse()
+\i 1.8125:-4.625
+\r t
+\a schSymSingleSelectPt()
+\i 0.8125:-3.9375
+\r t
+\a schHiDelete()
+\r t
+\a hiZoomOutAtMouse()
+\i 2.5:-4.25
+\r t
+\a hiZoomInAtMouse()
+\i 2.0625:-3.5625
+\r t
+\a hiDynamicPanGrabbing()
+\i 2.1875:-3.025
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 2.1875:-3.03125
+\a hiZoomIn(window(4) list(-1.9375:-4.03125 4.5375:1.03125))
+\r t
+\r t
+\r t
+\a schDirectEdit(1)
+\i 1.8125:0.3125
+\# Direct Edit symbol label. schHiSymStretch action.
+\i 1.8125:0.3125
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 0.75:-3.25
+\r t
+\r nil
+\a schHiDefaultAction()
+\i 0.75:-3.25
+\i 0.75:-3.25
+\r t
+\p > 
+\a _hiCanvasTextEditorBeginEdit()
+\r t
+\a _hiAddPointUnadj()
+\i 0.70625:-3.25
+\r t
+\a _hiAddPointUnadj()
+\i 1.0375:-2.78125
+\r t
+\a _hiCanvasTextEditorSetText("Partial Product")
+\r t
+\a finishEnterFun()
+\r t
+\a if( hiInEnterFun() then _hiAddPointUnadj() else schSymSingleSelectPt() )
+\i 1.0625:-2.8125
+\r t
+\a schDirectEdit(1)
+\i 0.8125:-3.25
+\# Direct Edit symbol label. schHiSymStretch action.
+\i 0.8125:-3.25
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 0.875:-3.25
+\r t
+\r nil
+\a schSymSingleSelectPt()
+\i 0.75:-2.6875
+\r t
+\a schSymSingleSelectPt()
+\i 0.5:-2.625
+\r t
+\a schDirectEdit(1)
+\i 0.6875:-2.6875
+\# Direct Edit symbol shape. schHiSymStretch action.
+\i 0.6875:-2.6875
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 0.625:-2
+\r t
+\r nil
+\a schSymSingleSelectPt()
+\i -0.625:-2.875
+\r nil
+\a schDirectEdit(1)
+\i -0.4375:-2.875
+\# Direct Edit. Area selection.
+\i -0.4375:-2.875
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 0.5625:-1.4375
+\r t
+\r nil
+\a schDirectEdit(1)
+\i 0.375:-1.5
+\# Direct Edit pin name. schHiSymStretch action.
+\i 0.375:-1.5
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 0.375:-3.875
+\r t
+\r nil
+\a hiDynamicPanGrabbing()
+\i -0.725:-2.85
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i -0.725:-2.85625
+\a hiZoomIn(window(4) list(-1.90625:-5.96875 4.56875:-0.90625))
+\r t
+\r t
+\r t
+\a hiDynamicPanGrabbing()
+\i -0.23125:-4.41875
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i -0.225:-4.41875
+\a hiZoomIn(window(4) list(-1.975:-7.425 4.5:-2.3625))
+\r t
+\r t
+\r t
+\a hiZoomOutAtMouse()
+\i -0.25:-4.4375
+\r t
+\a schSymSingleSelectPt()
+\i -0.4375:-6.0625
+\r nil
+\a schHiCheckAndSave()
+\o INFO (SCH-1171): Cross View Check completed with no errors.
+\# Current Window: window(4) Window cellview: tutorial:WallaceMultiplier:symbol  Application: Symbol
+\o INFO (SCH-1181): "tutorial WallaceMultiplier symbol" saved.
+\r t
+\a hiCloseWindow(swindow(3))
+\# Current Window: window(2) Window cellview: tutorial:WallaceMultiplier:schematic  Application: Schematics
+\r t
+\a _hiSetCurrentWinNum(2)
+\r t
+\a schHiCheckAndSave()
+\o INFO (SCH-1170): Extracting "WallaceMultiplier schematic"
+\o Warning: Pin "Vout" on instance "I65": floating output.
+\o Warning: Pin "Vout" on instance "I65": shorted output.
+\o Warning: Pin "Vout" on instance "I64": floating output.
+\o Warning: Pin "Vout" on instance "I64": shorted output.
+\o Warning: Pin "Vout" on instance "I63": floating output.
+\o Warning: Pin "Vout" on instance "I63": shorted output.
+\o Warning: Pin "Vout" on instance "I62": floating output.
+\o Warning: Pin "Vout" on instance "I62": shorted output.
+\o Warning: Pin "Vout" on instance "I61": floating output.
+\o Warning: Pin "Vout" on instance "I61": shorted output.
+\o Warning: Pin "Vout" on instance "I60": floating output.
+\o Warning: Pin "Vout" on instance "I60": shorted output.
+\o Warning: Pin "Vout" on instance "I59": floating output.
+\o Warning: Pin "Vout" on instance "I59": shorted output.
+\o Warning: Pin "Vout" on instance "I58": floating output.
+\o Warning: Pin "Vout" on instance "I58": shorted output.
+\o Warning: Pin "Vout" on instance "I57": floating output.
+\o Warning: Pin "Vout" on instance "I57": shorted output.
+\o Warning: Pin "Vout" on instance "I56": floating output.
+\o Warning: Pin "Vout" on instance "I56": shorted output.
+\o Warning: Pin "Vout" on instance "I55": floating output.
+\o Warning: Pin "Vout" on instance "I55": shorted output.
+\o Warning: Pin "Vout" on instance "I54": floating output.
+\o Warning: Pin "Vout" on instance "I54": shorted output.
+\o Warning: Pin "Vout" on instance "I53": floating output.
+\o Warning: Pin "Vout" on instance "I53": shorted output.
+\o Warning: Pin "Vout" on instance "I52": floating output.
+\o Warning: Pin "Vout" on instance "I52": shorted output.
+\o Warning: Pin "Vout" on instance "I51": floating output.
+\o Warning: Pin "Vout" on instance "I51": shorted output.
+\o Warning: Pin "Vout" on instance "I50": floating output.
+\o Warning: Pin "Vout" on instance "I50": shorted output.
+\o Warning: Pin "Vout" on instance "I49": floating output.
+\o Warning: Pin "Vout" on instance "I49": shorted output.
+\o Warning: Pin "Vout" on instance "I48": floating output.
+\o Warning: Pin "Vout" on instance "I48": shorted output.
+\o Warning: Pin "Vout" on instance "I47": floating output.
+\o Warning: Pin "Vout" on instance "I47": shorted output.
+\o Warning: Pin "Vout" on instance "I46": floating output.
+\o Warning: Pin "Vout" on instance "I46": shorted output.
+\o Warning: Pin "Vout" on instance "I45": floating output.
+\o Warning: Pin "Vout" on instance "I45": shorted output.
+\o Warning: Pin "Vout" on instance "I44": floating output.
+\o Warning: Pin "Vout" on instance "I44": shorted output.
+\o Warning: Pin "Vout" on instance "I43": floating output.
+\o Warning: Pin "Vout" on instance "I43": shorted output.
+\o Warning: Pin "Vout" on instance "I42": floating output.
+\o Warning: Pin "Vout" on instance "I42": shorted output.
+\o Warning: Pin "Vout" on instance "I41": floating output.
+\o Warning: Pin "Vout" on instance "I40": floating output.
+\o Warning: Pin "Vout" on instance "I40": shorted output.
+\o Warning: Pin "Vout" on instance "I39": floating output.
+\o Warning: Pin "Vout" on instance "I39": shorted output.
+\o Warning: Pin "Vout" on instance "I38": floating output.
+\o Warning: Pin "Vout" on instance "I38": shorted output.
+\o Warning: Pin "Vout" on instance "I37": floating output.
+\o Warning: Pin "Vout" on instance "I37": shorted output.
+\o Warning: Pin "Vout" on instance "I36": floating output.
+\o Warning: Pin "Vout" on instance "I36": shorted output.
+\o Warning: Pin "Vout" on instance "I35": floating output.
+\o Warning: Pin "Vout" on instance "I35": shorted output.
+\o Warning: Pin "Vout" on instance "I34": floating output.
+\o Warning: Pin "Vout" on instance "I34": shorted output.
+\o Warning: Pin "Vout" on instance "I33": floating output.
+\o Warning: Pin "Vout" on instance "I32": floating output.
+\o Warning: Pin "Vout" on instance "I32": shorted output.
+\o Warning: Pin "Vout" on instance "I31": floating output.
+\o Warning: Pin "Vout" on instance "I31": shorted output.
+\o Warning: Pin "Vout" on instance "I30": floating output.
+\o Warning: Pin "Vout" on instance "I30": shorted output.
+\o Warning: Pin "Vout" on instance "I29": floating output.
+\o Warning: Pin "Vout" on instance "I29": shorted output.
+\o Warning: Pin "Vout" on instance "I28": floating output.
+\o Warning: Pin "Vout" on instance "I28": shorted output.
+\o Warning: Pin "Vout" on instance "I27": floating output.
+\o Warning: Pin "Vout" on instance "I27": shorted output.
+\o Warning: Pin "Vout" on instance "I26": floating output.
+\o Warning: Pin "Vout" on instance "I26": shorted output.
+\o Warning: Pin "Vout" on instance "I25": floating output.
+\o Warning: Pin "Vout" on instance "I25": shorted output.
+\o Warning: Pin "Vout" on instance "I24": floating output.
+\o Warning: Pin "Vout" on instance "I24": shorted output.
+\o Warning: Pin "Vout" on instance "I23": floating output.
+\o Warning: Pin "Vout" on instance "I23": shorted output.
+\o Warning: Pin "Vout" on instance "I22": floating output.
+\o Warning: Pin "Vout" on instance "I22": shorted output.
+\o Warning: Pin "Vout" on instance "I21": floating output.
+\o Warning: Pin "Vout" on instance "I21": shorted output.
+\o Warning: Pin "Vout" on instance "I20": floating output.
+\o Warning: Pin "Vout" on instance "I20": shorted output.
+\o Warning: Pin "Vout" on instance "I19": floating output.
+\o Warning: Pin "Vout" on instance "I19": shorted output.
+\o Warning: Pin "Vout" on instance "I18": floating output.
+\o Warning: Pin "Vout" on instance "I18": shorted output.
+\o Warning: Pin "Vout" on instance "A23": floating output.
+\o Warning: Pin "Vout" on instance "A23": shorted output.
+\o Warning: Pin "Vout" on instance "A33": floating output.
+\o Warning: Pin "Vout" on instance "A33": shorted output.
+\o Warning: Pin "Vout" on instance "A03": floating output.
+\o Warning: Pin "Vout" on instance "A03": shorted output.
+\o INFO (SCH-3071): No further warning messages will now be logged for Floating/Shorted Instance Pin as the limit setting has been reached.
+\o You can increase, or decrease, message limit settings using the srcLogWarnLimit environment variable.
+\o A setting of 0 will log all messages.
+\o Warning: Pin "p12": floating output.
+\o Warning: Pin "p12": shorted output.
+\o Warning: Pin "p00": floating output.
+\o Warning: Pin "p00": shorted output.
+\o Warning: Pin "p01": floating output.
+\o Warning: Pin "p01": shorted output.
+\o Warning: Pin "p02": floating output.
+\o Warning: Pin "p02": shorted output.
+\o Warning: Pin "p03": floating output.
+\o Warning: Pin "p03": shorted output.
+\o Warning: Pin "p04": floating output.
+\o Warning: Pin "p04": shorted output.
+\o Warning: Pin "p05": floating output.
+\o Warning: Pin "p05": shorted output.
+\o Warning: Pin "p06": floating output.
+\o Warning: Pin "p06": shorted output.
+\o Warning: Pin "p07": floating output.
+\o Warning: Pin "p07": shorted output.
+\o Warning: Pin "p10": floating output.
+\o Warning: Pin "p10": shorted output.
+\o Warning: Pin "p11": floating output.
+\o Warning: Pin "p11": shorted output.
+\o Warning: Pin "p17": floating output.
+\o Warning: Pin "p17": shorted output.
+\o Warning: Pin "p13": floating output.
+\o Warning: Pin "p13": shorted output.
+\o Warning: Pin "p14": floating output.
+\o Warning: Pin "p14": shorted output.
+\o Warning: Pin "p15": floating output.
+\o Warning: Pin "p15": shorted output.
+\o Warning: Pin "p16": floating output.
+\o Warning: Pin "p16": shorted output.
+\o Warning: Pin "p20": floating output.
+\o Warning: Pin "p20": shorted output.
+\o Warning: Pin "p21": floating output.
+\o Warning: Pin "p21": shorted output.
+\o Warning: Pin "p22": floating output.
+\o Warning: Pin "p22": shorted output.
+\o Warning: Pin "p23": floating output.
+\o Warning: Pin "p23": shorted output.
+\o Warning: Pin "p24": floating output.
+\o Warning: Pin "p24": shorted output.
+\o Warning: Pin "p25": floating output.
+\o Warning: Pin "p25": shorted output.
+\o Warning: Pin "p26": floating output.
+\o Warning: Pin "p26": shorted output.
+\o Warning: Pin "p27": floating output.
+\o Warning: Pin "p27": shorted output.
+\o Warning: Pin "p30": floating output.
+\o Warning: Pin "p30": shorted output.
+\o Warning: Pin "p31": floating output.
+\o Warning: Pin "p31": shorted output.
+\o Warning: Pin "p32": floating output.
+\o Warning: Pin "p32": shorted output.
+\o Warning: Pin "p33": floating output.
+\o Warning: Pin "p33": shorted output.
+\o Warning: Pin "p34": floating output.
+\o Warning: Pin "p34": shorted output.
+\o Warning: Pin "p35": floating output.
+\o Warning: Pin "p36": floating output.
+\o Warning: Pin "p36": shorted output.
+\o Warning: Pin "p37": floating output.
+\o Warning: Pin "p37": shorted output.
+\o Warning: Pin "p40": floating output.
+\o Warning: Pin "p40": shorted output.
+\o Warning: Pin "p41": floating output.
+\o Warning: Pin "p41": shorted output.
+\o Warning: Pin "p42": floating output.
+\o Warning: Pin "p42": shorted output.
+\o Warning: Pin "p43": floating output.
+\o Warning: Pin "p43": shorted output.
+\o Warning: Pin "p44": floating output.
+\o Warning: Pin "p44": shorted output.
+\o Warning: Pin "p45": floating output.
+\o Warning: Pin "p45": shorted output.
+\o Warning: Pin "p46": floating output.
+\o Warning: Pin "p46": shorted output.
+\o Warning: Pin "p47": floating output.
+\o Warning: Pin "p47": shorted output.
+\o Warning: Pin "p50": floating output.
+\o Warning: Pin "p50": shorted output.
+\o Warning: Pin "p51": floating output.
+\o Warning: Pin "p51": shorted output.
+\o Warning: Pin "p52": floating output.
+\o Warning: Pin "p52": shorted output.
+\o Warning: Pin "p53": floating output.
+\o Warning: Pin "p53": shorted output.
+\o Warning: Pin "p54": floating output.
+\o Warning: Pin "p54": shorted output.
+\o Warning: Pin "p55": floating output.
+\o Warning: Pin "p55": shorted output.
+\o Warning: Pin "p56": floating output.
+\o Warning: Pin "p56": shorted output.
+\o Warning: Pin "p57": floating output.
+\o Warning: Pin "p57": shorted output.
+\o Warning: Pin "p60": floating output.
+\o Warning: Pin "p60": shorted output.
+\o Warning: Pin "p61": floating output.
+\o Warning: Pin "p61": shorted output.
+\o Warning: Pin "p62": floating output.
+\o INFO (SCH-3071): No further warning messages will now be logged for Floating/Shorted Pin as the limit setting has been reached.
+\o You can increase, or decrease, message limit settings using the srcLogWarnLimit environment variable.
+\o A setting of 0 will log all messages.
+\o Warning: Floating net "net66" at (12.6875, -13.3125).
+\o Warning: Floating net "net5" at (27.3125, -5.6875).
+\o Warning: Solder dot on cross over at ( 4.6250, 0.6875 ).
+\o Warning: Solder dot on cross over at ( 19.5000, 0.8750 ).
+\o Warning: Solder dot on cross over at ( 19.8750, -14.8750 ).
+\o INFO (SCH-1172): There were 0 errors and 205 warnings found in "tutorial WallaceMultiplier schematic".
+\# Displaying modal dbox "_schCheckDBox", title "Schematic Check"
+\p > 
+\a hiDBoxOK(_schCheckDBox)
+\r t
+\# Current Window: window(2) Window cellview: tutorial:WallaceMultiplier:schematic  Application: Schematics
+\o INFO (SCH-1181): "tutorial WallaceMultiplier schematic" saved.
+\r t
+\a hiZoomOutAtMouse()
+\i 19.25:-11.3125
+\r t
+\a schHiCheckAndSave()
+\o INFO (SCH-1170): Extracting "WallaceMultiplier schematic"
+\o Warning: Pin "Vout" on instance "I65": floating output.
+\o Warning: Pin "Vout" on instance "I65": shorted output.
+\o Warning: Pin "Vout" on instance "I64": floating output.
+\o Warning: Pin "Vout" on instance "I64": shorted output.
+\o Warning: Pin "Vout" on instance "I63": floating output.
+\o Warning: Pin "Vout" on instance "I63": shorted output.
+\o Warning: Pin "Vout" on instance "I62": floating output.
+\o Warning: Pin "Vout" on instance "I62": shorted output.
+\o Warning: Pin "Vout" on instance "I61": floating output.
+\o Warning: Pin "Vout" on instance "I61": shorted output.
+\o Warning: Pin "Vout" on instance "I60": floating output.
+\o Warning: Pin "Vout" on instance "I60": shorted output.
+\o Warning: Pin "Vout" on instance "I59": floating output.
+\o Warning: Pin "Vout" on instance "I59": shorted output.
+\o Warning: Pin "Vout" on instance "I58": floating output.
+\o Warning: Pin "Vout" on instance "I58": shorted output.
+\o Warning: Pin "Vout" on instance "I57": floating output.
+\o Warning: Pin "Vout" on instance "I57": shorted output.
+\o Warning: Pin "Vout" on instance "I56": floating output.
+\o Warning: Pin "Vout" on instance "I56": shorted output.
+\o Warning: Pin "Vout" on instance "I55": floating output.
+\o Warning: Pin "Vout" on instance "I55": shorted output.
+\o Warning: Pin "Vout" on instance "I54": floating output.
+\o Warning: Pin "Vout" on instance "I54": shorted output.
+\o Warning: Pin "Vout" on instance "I53": floating output.
+\o Warning: Pin "Vout" on instance "I53": shorted output.
+\o Warning: Pin "Vout" on instance "I52": floating output.
+\o Warning: Pin "Vout" on instance "I52": shorted output.
+\o Warning: Pin "Vout" on instance "I51": floating output.
+\o Warning: Pin "Vout" on instance "I51": shorted output.
+\o Warning: Pin "Vout" on instance "I50": floating output.
+\o Warning: Pin "Vout" on instance "I50": shorted output.
+\o Warning: Pin "Vout" on instance "I49": floating output.
+\o Warning: Pin "Vout" on instance "I49": shorted output.
+\o Warning: Pin "Vout" on instance "I48": floating output.
+\o Warning: Pin "Vout" on instance "I48": shorted output.
+\o Warning: Pin "Vout" on instance "I47": floating output.
+\o Warning: Pin "Vout" on instance "I47": shorted output.
+\o Warning: Pin "Vout" on instance "I46": floating output.
+\o Warning: Pin "Vout" on instance "I46": shorted output.
+\o Warning: Pin "Vout" on instance "I45": floating output.
+\o Warning: Pin "Vout" on instance "I45": shorted output.
+\o Warning: Pin "Vout" on instance "I44": floating output.
+\o Warning: Pin "Vout" on instance "I44": shorted output.
+\o Warning: Pin "Vout" on instance "I43": floating output.
+\o Warning: Pin "Vout" on instance "I43": shorted output.
+\o Warning: Pin "Vout" on instance "I42": floating output.
+\o Warning: Pin "Vout" on instance "I42": shorted output.
+\o Warning: Pin "Vout" on instance "I41": floating output.
+\o Warning: Pin "Vout" on instance "I40": floating output.
+\o Warning: Pin "Vout" on instance "I40": shorted output.
+\o Warning: Pin "Vout" on instance "I39": floating output.
+\o Warning: Pin "Vout" on instance "I39": shorted output.
+\o Warning: Pin "Vout" on instance "I38": floating output.
+\o Warning: Pin "Vout" on instance "I38": shorted output.
+\o Warning: Pin "Vout" on instance "I37": floating output.
+\o Warning: Pin "Vout" on instance "I37": shorted output.
+\o Warning: Pin "Vout" on instance "I36": floating output.
+\o Warning: Pin "Vout" on instance "I36": shorted output.
+\o Warning: Pin "Vout" on instance "I35": floating output.
+\o Warning: Pin "Vout" on instance "I35": shorted output.
+\o Warning: Pin "Vout" on instance "I34": floating output.
+\o Warning: Pin "Vout" on instance "I34": shorted output.
+\o Warning: Pin "Vout" on instance "I33": floating output.
+\o Warning: Pin "Vout" on instance "I32": floating output.
+\o Warning: Pin "Vout" on instance "I32": shorted output.
+\o Warning: Pin "Vout" on instance "I31": floating output.
+\o Warning: Pin "Vout" on instance "I31": shorted output.
+\o Warning: Pin "Vout" on instance "I30": floating output.
+\o Warning: Pin "Vout" on instance "I30": shorted output.
+\o Warning: Pin "Vout" on instance "I29": floating output.
+\o Warning: Pin "Vout" on instance "I29": shorted output.
+\o Warning: Pin "Vout" on instance "I28": floating output.
+\o Warning: Pin "Vout" on instance "I28": shorted output.
+\o Warning: Pin "Vout" on instance "I27": floating output.
+\o Warning: Pin "Vout" on instance "I27": shorted output.
+\o Warning: Pin "Vout" on instance "I26": floating output.
+\o Warning: Pin "Vout" on instance "I26": shorted output.
+\o Warning: Pin "Vout" on instance "I25": floating output.
+\o Warning: Pin "Vout" on instance "I25": shorted output.
+\o Warning: Pin "Vout" on instance "I24": floating output.
+\o Warning: Pin "Vout" on instance "I24": shorted output.
+\o Warning: Pin "Vout" on instance "I23": floating output.
+\o Warning: Pin "Vout" on instance "I23": shorted output.
+\o Warning: Pin "Vout" on instance "I22": floating output.
+\o Warning: Pin "Vout" on instance "I22": shorted output.
+\o Warning: Pin "Vout" on instance "I21": floating output.
+\o Warning: Pin "Vout" on instance "I21": shorted output.
+\o Warning: Pin "Vout" on instance "I20": floating output.
+\o Warning: Pin "Vout" on instance "I20": shorted output.
+\o Warning: Pin "Vout" on instance "I19": floating output.
+\o Warning: Pin "Vout" on instance "I19": shorted output.
+\o Warning: Pin "Vout" on instance "I18": floating output.
+\o Warning: Pin "Vout" on instance "I18": shorted output.
+\o Warning: Pin "Vout" on instance "A23": floating output.
+\o Warning: Pin "Vout" on instance "A23": shorted output.
+\o Warning: Pin "Vout" on instance "A33": floating output.
+\o Warning: Pin "Vout" on instance "A33": shorted output.
+\o Warning: Pin "Vout" on instance "A03": floating output.
+\o Warning: Pin "Vout" on instance "A03": shorted output.
+\o INFO (SCH-3071): No further warning messages will now be logged for Floating/Shorted Instance Pin as the limit setting has been reached.
+\o You can increase, or decrease, message limit settings using the srcLogWarnLimit environment variable.
+\o A setting of 0 will log all messages.
+\o Warning: Pin "p12": floating output.
+\o Warning: Pin "p12": shorted output.
+\o Warning: Pin "p00": floating output.
+\o Warning: Pin "p00": shorted output.
+\o Warning: Pin "p01": floating output.
+\o Warning: Pin "p01": shorted output.
+\o Warning: Pin "p02": floating output.
+\o Warning: Pin "p02": shorted output.
+\o Warning: Pin "p03": floating output.
+\o Warning: Pin "p03": shorted output.
+\o Warning: Pin "p04": floating output.
+\o Warning: Pin "p04": shorted output.
+\o Warning: Pin "p05": floating output.
+\o Warning: Pin "p05": shorted output.
+\o Warning: Pin "p06": floating output.
+\o Warning: Pin "p06": shorted output.
+\o Warning: Pin "p07": floating output.
+\o Warning: Pin "p07": shorted output.
+\o Warning: Pin "p10": floating output.
+\o Warning: Pin "p10": shorted output.
+\o Warning: Pin "p11": floating output.
+\o Warning: Pin "p11": shorted output.
+\o Warning: Pin "p17": floating output.
+\o Warning: Pin "p17": shorted output.
+\o Warning: Pin "p13": floating output.
+\o Warning: Pin "p13": shorted output.
+\o Warning: Pin "p14": floating output.
+\o Warning: Pin "p14": shorted output.
+\o Warning: Pin "p15": floating output.
+\o Warning: Pin "p15": shorted output.
+\o Warning: Pin "p16": floating output.
+\o Warning: Pin "p16": shorted output.
+\o Warning: Pin "p20": floating output.
+\o Warning: Pin "p20": shorted output.
+\o Warning: Pin "p21": floating output.
+\o Warning: Pin "p21": shorted output.
+\o Warning: Pin "p22": floating output.
+\o Warning: Pin "p22": shorted output.
+\o Warning: Pin "p23": floating output.
+\o Warning: Pin "p23": shorted output.
+\o Warning: Pin "p24": floating output.
+\o Warning: Pin "p24": shorted output.
+\o Warning: Pin "p25": floating output.
+\o Warning: Pin "p25": shorted output.
+\o Warning: Pin "p26": floating output.
+\o Warning: Pin "p26": shorted output.
+\o Warning: Pin "p27": floating output.
+\o Warning: Pin "p27": shorted output.
+\o Warning: Pin "p30": floating output.
+\o Warning: Pin "p30": shorted output.
+\o Warning: Pin "p31": floating output.
+\o Warning: Pin "p31": shorted output.
+\o Warning: Pin "p32": floating output.
+\o Warning: Pin "p32": shorted output.
+\o Warning: Pin "p33": floating output.
+\o Warning: Pin "p33": shorted output.
+\o Warning: Pin "p34": floating output.
+\o Warning: Pin "p34": shorted output.
+\o Warning: Pin "p35": floating output.
+\o Warning: Pin "p36": floating output.
+\o Warning: Pin "p36": shorted output.
+\o Warning: Pin "p37": floating output.
+\o Warning: Pin "p37": shorted output.
+\o Warning: Pin "p40": floating output.
+\o Warning: Pin "p40": shorted output.
+\o Warning: Pin "p41": floating output.
+\o Warning: Pin "p41": shorted output.
+\o Warning: Pin "p42": floating output.
+\o Warning: Pin "p42": shorted output.
+\o Warning: Pin "p43": floating output.
+\o Warning: Pin "p43": shorted output.
+\o Warning: Pin "p44": floating output.
+\o Warning: Pin "p44": shorted output.
+\o Warning: Pin "p45": floating output.
+\o Warning: Pin "p45": shorted output.
+\o Warning: Pin "p46": floating output.
+\o Warning: Pin "p46": shorted output.
+\o Warning: Pin "p47": floating output.
+\o Warning: Pin "p47": shorted output.
+\o Warning: Pin "p50": floating output.
+\o Warning: Pin "p50": shorted output.
+\o Warning: Pin "p51": floating output.
+\o Warning: Pin "p51": shorted output.
+\o Warning: Pin "p52": floating output.
+\o Warning: Pin "p52": shorted output.
+\o Warning: Pin "p53": floating output.
+\o Warning: Pin "p53": shorted output.
+\o Warning: Pin "p54": floating output.
+\o Warning: Pin "p54": shorted output.
+\o Warning: Pin "p55": floating output.
+\o Warning: Pin "p55": shorted output.
+\o Warning: Pin "p56": floating output.
+\o Warning: Pin "p56": shorted output.
+\o Warning: Pin "p57": floating output.
+\o Warning: Pin "p57": shorted output.
+\o Warning: Pin "p60": floating output.
+\o Warning: Pin "p60": shorted output.
+\o Warning: Pin "p61": floating output.
+\o Warning: Pin "p61": shorted output.
+\o Warning: Pin "p62": floating output.
+\o INFO (SCH-3071): No further warning messages will now be logged for Floating/Shorted Pin as the limit setting has been reached.
+\o You can increase, or decrease, message limit settings using the srcLogWarnLimit environment variable.
+\o A setting of 0 will log all messages.
+\o Warning: Floating net "net66" at (12.6875, -13.3125).
+\o Warning: Floating net "net5" at (27.3125, -5.6875).
+\o Warning: Solder dot on cross over at ( 4.6250, 0.6875 ).
+\o Warning: Solder dot on cross over at ( 19.5000, 0.8750 ).
+\o Warning: Solder dot on cross over at ( 19.8750, -14.8750 ).
+\o INFO (SCH-1172): There were 0 errors and 205 warnings found in "tutorial WallaceMultiplier schematic".
+\# Displaying modal dbox "_schCheckDBox", title "Schematic Check"
+\p > 
+\a hiDBoxOK(_schCheckDBox)
+\r t
+\# Current Window: window(2) Window cellview: tutorial:WallaceMultiplier:schematic  Application: Schematics
+\o INFO (SCH-1181): "tutorial WallaceMultiplier schematic" saved.
+\r t
+\a hiZoomInAtMouse()
+\i 14.375:-15.875
+\r t
+\a schHiCheckAndSave()
+\o INFO (SCH-1170): Extracting "WallaceMultiplier schematic"
+\o Warning: Pin "Vout" on instance "I65": floating output.
+\o Warning: Pin "Vout" on instance "I65": shorted output.
+\o Warning: Pin "Vout" on instance "I64": floating output.
+\o Warning: Pin "Vout" on instance "I64": shorted output.
+\o Warning: Pin "Vout" on instance "I63": floating output.
+\o Warning: Pin "Vout" on instance "I63": shorted output.
+\o Warning: Pin "Vout" on instance "I62": floating output.
+\o Warning: Pin "Vout" on instance "I62": shorted output.
+\o Warning: Pin "Vout" on instance "I61": floating output.
+\o Warning: Pin "Vout" on instance "I61": shorted output.
+\o Warning: Pin "Vout" on instance "I60": floating output.
+\o Warning: Pin "Vout" on instance "I60": shorted output.
+\o Warning: Pin "Vout" on instance "I59": floating output.
+\o Warning: Pin "Vout" on instance "I59": shorted output.
+\o Warning: Pin "Vout" on instance "I58": floating output.
+\o Warning: Pin "Vout" on instance "I58": shorted output.
+\o Warning: Pin "Vout" on instance "I57": floating output.
+\o Warning: Pin "Vout" on instance "I57": shorted output.
+\o Warning: Pin "Vout" on instance "I56": floating output.
+\o Warning: Pin "Vout" on instance "I56": shorted output.
+\o Warning: Pin "Vout" on instance "I55": floating output.
+\o Warning: Pin "Vout" on instance "I55": shorted output.
+\o Warning: Pin "Vout" on instance "I54": floating output.
+\o Warning: Pin "Vout" on instance "I54": shorted output.
+\o Warning: Pin "Vout" on instance "I53": floating output.
+\o Warning: Pin "Vout" on instance "I53": shorted output.
+\o Warning: Pin "Vout" on instance "I52": floating output.
+\o Warning: Pin "Vout" on instance "I52": shorted output.
+\o Warning: Pin "Vout" on instance "I51": floating output.
+\o Warning: Pin "Vout" on instance "I51": shorted output.
+\o Warning: Pin "Vout" on instance "I50": floating output.
+\o Warning: Pin "Vout" on instance "I50": shorted output.
+\o Warning: Pin "Vout" on instance "I49": floating output.
+\o Warning: Pin "Vout" on instance "I49": shorted output.
+\o Warning: Pin "Vout" on instance "I48": floating output.
+\o Warning: Pin "Vout" on instance "I48": shorted output.
+\o Warning: Pin "Vout" on instance "I47": floating output.
+\o Warning: Pin "Vout" on instance "I47": shorted output.
+\o Warning: Pin "Vout" on instance "I46": floating output.
+\o Warning: Pin "Vout" on instance "I46": shorted output.
+\o Warning: Pin "Vout" on instance "I45": floating output.
+\o Warning: Pin "Vout" on instance "I45": shorted output.
+\o Warning: Pin "Vout" on instance "I44": floating output.
+\o Warning: Pin "Vout" on instance "I44": shorted output.
+\o Warning: Pin "Vout" on instance "I43": floating output.
+\o Warning: Pin "Vout" on instance "I43": shorted output.
+\o Warning: Pin "Vout" on instance "I42": floating output.
+\o Warning: Pin "Vout" on instance "I42": shorted output.
+\o Warning: Pin "Vout" on instance "I41": floating output.
+\o Warning: Pin "Vout" on instance "I40": floating output.
+\o Warning: Pin "Vout" on instance "I40": shorted output.
+\o Warning: Pin "Vout" on instance "I39": floating output.
+\o Warning: Pin "Vout" on instance "I39": shorted output.
+\o Warning: Pin "Vout" on instance "I38": floating output.
+\o Warning: Pin "Vout" on instance "I38": shorted output.
+\o Warning: Pin "Vout" on instance "I37": floating output.
+\o Warning: Pin "Vout" on instance "I37": shorted output.
+\o Warning: Pin "Vout" on instance "I36": floating output.
+\o Warning: Pin "Vout" on instance "I36": shorted output.
+\o Warning: Pin "Vout" on instance "I35": floating output.
+\o Warning: Pin "Vout" on instance "I35": shorted output.
+\o Warning: Pin "Vout" on instance "I34": floating output.
+\o Warning: Pin "Vout" on instance "I34": shorted output.
+\o Warning: Pin "Vout" on instance "I33": floating output.
+\o Warning: Pin "Vout" on instance "I32": floating output.
+\o Warning: Pin "Vout" on instance "I32": shorted output.
+\o Warning: Pin "Vout" on instance "I31": floating output.
+\o Warning: Pin "Vout" on instance "I31": shorted output.
+\o Warning: Pin "Vout" on instance "I30": floating output.
+\o Warning: Pin "Vout" on instance "I30": shorted output.
+\o Warning: Pin "Vout" on instance "I29": floating output.
+\o Warning: Pin "Vout" on instance "I29": shorted output.
+\o Warning: Pin "Vout" on instance "I28": floating output.
+\o Warning: Pin "Vout" on instance "I28": shorted output.
+\o Warning: Pin "Vout" on instance "I27": floating output.
+\o Warning: Pin "Vout" on instance "I27": shorted output.
+\o Warning: Pin "Vout" on instance "I26": floating output.
+\o Warning: Pin "Vout" on instance "I26": shorted output.
+\o Warning: Pin "Vout" on instance "I25": floating output.
+\o Warning: Pin "Vout" on instance "I25": shorted output.
+\o Warning: Pin "Vout" on instance "I24": floating output.
+\o Warning: Pin "Vout" on instance "I24": shorted output.
+\o Warning: Pin "Vout" on instance "I23": floating output.
+\o Warning: Pin "Vout" on instance "I23": shorted output.
+\o Warning: Pin "Vout" on instance "I22": floating output.
+\o Warning: Pin "Vout" on instance "I22": shorted output.
+\o Warning: Pin "Vout" on instance "I21": floating output.
+\o Warning: Pin "Vout" on instance "I21": shorted output.
+\o Warning: Pin "Vout" on instance "I20": floating output.
+\o Warning: Pin "Vout" on instance "I20": shorted output.
+\o Warning: Pin "Vout" on instance "I19": floating output.
+\o Warning: Pin "Vout" on instance "I19": shorted output.
+\o Warning: Pin "Vout" on instance "I18": floating output.
+\o Warning: Pin "Vout" on instance "I18": shorted output.
+\o Warning: Pin "Vout" on instance "A23": floating output.
+\o Warning: Pin "Vout" on instance "A23": shorted output.
+\o Warning: Pin "Vout" on instance "A33": floating output.
+\o Warning: Pin "Vout" on instance "A33": shorted output.
+\o Warning: Pin "Vout" on instance "A03": floating output.
+\o Warning: Pin "Vout" on instance "A03": shorted output.
+\o INFO (SCH-3071): No further warning messages will now be logged for Floating/Shorted Instance Pin as the limit setting has been reached.
+\o You can increase, or decrease, message limit settings using the srcLogWarnLimit environment variable.
+\o A setting of 0 will log all messages.
+\o Warning: Pin "p12": floating output.
+\o Warning: Pin "p12": shorted output.
+\o Warning: Pin "p00": floating output.
+\o Warning: Pin "p00": shorted output.
+\o Warning: Pin "p01": floating output.
+\o Warning: Pin "p01": shorted output.
+\o Warning: Pin "p02": floating output.
+\o Warning: Pin "p02": shorted output.
+\o Warning: Pin "p03": floating output.
+\o Warning: Pin "p03": shorted output.
+\o Warning: Pin "p04": floating output.
+\o Warning: Pin "p04": shorted output.
+\o Warning: Pin "p05": floating output.
+\o Warning: Pin "p05": shorted output.
+\o Warning: Pin "p06": floating output.
+\o Warning: Pin "p06": shorted output.
+\o Warning: Pin "p07": floating output.
+\o Warning: Pin "p07": shorted output.
+\o Warning: Pin "p10": floating output.
+\o Warning: Pin "p10": shorted output.
+\o Warning: Pin "p11": floating output.
+\o Warning: Pin "p11": shorted output.
+\o Warning: Pin "p17": floating output.
+\o Warning: Pin "p17": shorted output.
+\o Warning: Pin "p13": floating output.
+\o Warning: Pin "p13": shorted output.
+\o Warning: Pin "p14": floating output.
+\o Warning: Pin "p14": shorted output.
+\o Warning: Pin "p15": floating output.
+\o Warning: Pin "p15": shorted output.
+\o Warning: Pin "p16": floating output.
+\o Warning: Pin "p16": shorted output.
+\o Warning: Pin "p20": floating output.
+\o Warning: Pin "p20": shorted output.
+\o Warning: Pin "p21": floating output.
+\o Warning: Pin "p21": shorted output.
+\o Warning: Pin "p22": floating output.
+\o Warning: Pin "p22": shorted output.
+\o Warning: Pin "p23": floating output.
+\o Warning: Pin "p23": shorted output.
+\o Warning: Pin "p24": floating output.
+\o Warning: Pin "p24": shorted output.
+\o Warning: Pin "p25": floating output.
+\o Warning: Pin "p25": shorted output.
+\o Warning: Pin "p26": floating output.
+\o Warning: Pin "p26": shorted output.
+\o Warning: Pin "p27": floating output.
+\o Warning: Pin "p27": shorted output.
+\o Warning: Pin "p30": floating output.
+\o Warning: Pin "p30": shorted output.
+\o Warning: Pin "p31": floating output.
+\o Warning: Pin "p31": shorted output.
+\o Warning: Pin "p32": floating output.
+\o Warning: Pin "p32": shorted output.
+\o Warning: Pin "p33": floating output.
+\o Warning: Pin "p33": shorted output.
+\o Warning: Pin "p34": floating output.
+\o Warning: Pin "p34": shorted output.
+\o Warning: Pin "p35": floating output.
+\o Warning: Pin "p36": floating output.
+\o Warning: Pin "p36": shorted output.
+\o Warning: Pin "p37": floating output.
+\o Warning: Pin "p37": shorted output.
+\o Warning: Pin "p40": floating output.
+\o Warning: Pin "p40": shorted output.
+\o Warning: Pin "p41": floating output.
+\o Warning: Pin "p41": shorted output.
+\o Warning: Pin "p42": floating output.
+\o Warning: Pin "p42": shorted output.
+\o Warning: Pin "p43": floating output.
+\o Warning: Pin "p43": shorted output.
+\o Warning: Pin "p44": floating output.
+\o Warning: Pin "p44": shorted output.
+\o Warning: Pin "p45": floating output.
+\o Warning: Pin "p45": shorted output.
+\o Warning: Pin "p46": floating output.
+\o Warning: Pin "p46": shorted output.
+\o Warning: Pin "p47": floating output.
+\o Warning: Pin "p47": shorted output.
+\o Warning: Pin "p50": floating output.
+\o Warning: Pin "p50": shorted output.
+\o Warning: Pin "p51": floating output.
+\o Warning: Pin "p51": shorted output.
+\o Warning: Pin "p52": floating output.
+\o Warning: Pin "p52": shorted output.
+\o Warning: Pin "p53": floating output.
+\o Warning: Pin "p53": shorted output.
+\o Warning: Pin "p54": floating output.
+\o Warning: Pin "p54": shorted output.
+\o Warning: Pin "p55": floating output.
+\o Warning: Pin "p55": shorted output.
+\o Warning: Pin "p56": floating output.
+\o Warning: Pin "p56": shorted output.
+\o Warning: Pin "p57": floating output.
+\o Warning: Pin "p57": shorted output.
+\o Warning: Pin "p60": floating output.
+\o Warning: Pin "p60": shorted output.
+\o Warning: Pin "p61": floating output.
+\o Warning: Pin "p61": shorted output.
+\o Warning: Pin "p62": floating output.
+\o INFO (SCH-3071): No further warning messages will now be logged for Floating/Shorted Pin as the limit setting has been reached.
+\o You can increase, or decrease, message limit settings using the srcLogWarnLimit environment variable.
+\o A setting of 0 will log all messages.
+\o Warning: Floating net "net66" at (12.6875, -13.3125).
+\o Warning: Floating net "net5" at (27.3125, -5.6875).
+\o Warning: Solder dot on cross over at ( 4.6250, 0.6875 ).
+\o Warning: Solder dot on cross over at ( 19.5000, 0.8750 ).
+\o Warning: Solder dot on cross over at ( 19.8750, -14.8750 ).
+\o INFO (SCH-1172): There were 0 errors and 205 warnings found in "tutorial WallaceMultiplier schematic".
+\# Displaying modal dbox "_schCheckDBox", title "Schematic Check"
+\p > 
+\a hiDBoxOK(_schCheckDBox)
+\r t
+\# Current Window: window(2) Window cellview: tutorial:WallaceMultiplier:schematic  Application: Schematics
+\o INFO (SCH-1181): "tutorial WallaceMultiplier schematic" saved.
+\r t
+\a schHiCheckAndSave()
+\o INFO (SCH-1170): Extracting "WallaceMultiplier schematic"
+\o Warning: Pin "Vout" on instance "I65": floating output.
+\o Warning: Pin "Vout" on instance "I65": shorted output.
+\o Warning: Pin "Vout" on instance "I64": floating output.
+\o Warning: Pin "Vout" on instance "I64": shorted output.
+\o Warning: Pin "Vout" on instance "I63": floating output.
+\o Warning: Pin "Vout" on instance "I63": shorted output.
+\o Warning: Pin "Vout" on instance "I62": floating output.
+\o Warning: Pin "Vout" on instance "I62": shorted output.
+\o Warning: Pin "Vout" on instance "I61": floating output.
+\o Warning: Pin "Vout" on instance "I61": shorted output.
+\o Warning: Pin "Vout" on instance "I60": floating output.
+\o Warning: Pin "Vout" on instance "I60": shorted output.
+\o Warning: Pin "Vout" on instance "I59": floating output.
+\o Warning: Pin "Vout" on instance "I59": shorted output.
+\o Warning: Pin "Vout" on instance "I58": floating output.
+\o Warning: Pin "Vout" on instance "I58": shorted output.
+\o Warning: Pin "Vout" on instance "I57": floating output.
+\o Warning: Pin "Vout" on instance "I57": shorted output.
+\o Warning: Pin "Vout" on instance "I56": floating output.
+\o Warning: Pin "Vout" on instance "I56": shorted output.
+\o Warning: Pin "Vout" on instance "I55": floating output.
+\o Warning: Pin "Vout" on instance "I55": shorted output.
+\o Warning: Pin "Vout" on instance "I54": floating output.
+\o Warning: Pin "Vout" on instance "I54": shorted output.
+\o Warning: Pin "Vout" on instance "I53": floating output.
+\o Warning: Pin "Vout" on instance "I53": shorted output.
+\o Warning: Pin "Vout" on instance "I52": floating output.
+\o Warning: Pin "Vout" on instance "I52": shorted output.
+\o Warning: Pin "Vout" on instance "I51": floating output.
+\o Warning: Pin "Vout" on instance "I51": shorted output.
+\o Warning: Pin "Vout" on instance "I50": floating output.
+\o Warning: Pin "Vout" on instance "I50": shorted output.
+\o Warning: Pin "Vout" on instance "I49": floating output.
+\o Warning: Pin "Vout" on instance "I49": shorted output.
+\o Warning: Pin "Vout" on instance "I48": floating output.
+\o Warning: Pin "Vout" on instance "I48": shorted output.
+\o Warning: Pin "Vout" on instance "I47": floating output.
+\o Warning: Pin "Vout" on instance "I47": shorted output.
+\o Warning: Pin "Vout" on instance "I46": floating output.
+\o Warning: Pin "Vout" on instance "I46": shorted output.
+\o Warning: Pin "Vout" on instance "I45": floating output.
+\o Warning: Pin "Vout" on instance "I45": shorted output.
+\o Warning: Pin "Vout" on instance "I44": floating output.
+\o Warning: Pin "Vout" on instance "I44": shorted output.
+\o Warning: Pin "Vout" on instance "I43": floating output.
+\o Warning: Pin "Vout" on instance "I43": shorted output.
+\o Warning: Pin "Vout" on instance "I42": floating output.
+\o Warning: Pin "Vout" on instance "I42": shorted output.
+\o Warning: Pin "Vout" on instance "I41": floating output.
+\o Warning: Pin "Vout" on instance "I40": floating output.
+\o Warning: Pin "Vout" on instance "I40": shorted output.
+\o Warning: Pin "Vout" on instance "I39": floating output.
+\o Warning: Pin "Vout" on instance "I39": shorted output.
+\o Warning: Pin "Vout" on instance "I38": floating output.
+\o Warning: Pin "Vout" on instance "I38": shorted output.
+\o Warning: Pin "Vout" on instance "I37": floating output.
+\o Warning: Pin "Vout" on instance "I37": shorted output.
+\o Warning: Pin "Vout" on instance "I36": floating output.
+\o Warning: Pin "Vout" on instance "I36": shorted output.
+\o Warning: Pin "Vout" on instance "I35": floating output.
+\o Warning: Pin "Vout" on instance "I35": shorted output.
+\o Warning: Pin "Vout" on instance "I34": floating output.
+\o Warning: Pin "Vout" on instance "I34": shorted output.
+\o Warning: Pin "Vout" on instance "I33": floating output.
+\o Warning: Pin "Vout" on instance "I32": floating output.
+\o Warning: Pin "Vout" on instance "I32": shorted output.
+\o Warning: Pin "Vout" on instance "I31": floating output.
+\o Warning: Pin "Vout" on instance "I31": shorted output.
+\o Warning: Pin "Vout" on instance "I30": floating output.
+\o Warning: Pin "Vout" on instance "I30": shorted output.
+\o Warning: Pin "Vout" on instance "I29": floating output.
+\o Warning: Pin "Vout" on instance "I29": shorted output.
+\o Warning: Pin "Vout" on instance "I28": floating output.
+\o Warning: Pin "Vout" on instance "I28": shorted output.
+\o Warning: Pin "Vout" on instance "I27": floating output.
+\o Warning: Pin "Vout" on instance "I27": shorted output.
+\o Warning: Pin "Vout" on instance "I26": floating output.
+\o Warning: Pin "Vout" on instance "I26": shorted output.
+\o Warning: Pin "Vout" on instance "I25": floating output.
+\o Warning: Pin "Vout" on instance "I25": shorted output.
+\o Warning: Pin "Vout" on instance "I24": floating output.
+\o Warning: Pin "Vout" on instance "I24": shorted output.
+\o Warning: Pin "Vout" on instance "I23": floating output.
+\o Warning: Pin "Vout" on instance "I23": shorted output.
+\o Warning: Pin "Vout" on instance "I22": floating output.
+\o Warning: Pin "Vout" on instance "I22": shorted output.
+\o Warning: Pin "Vout" on instance "I21": floating output.
+\o Warning: Pin "Vout" on instance "I21": shorted output.
+\o Warning: Pin "Vout" on instance "I20": floating output.
+\o Warning: Pin "Vout" on instance "I20": shorted output.
+\o Warning: Pin "Vout" on instance "I19": floating output.
+\o Warning: Pin "Vout" on instance "I19": shorted output.
+\o Warning: Pin "Vout" on instance "I18": floating output.
+\o Warning: Pin "Vout" on instance "I18": shorted output.
+\o Warning: Pin "Vout" on instance "A23": floating output.
+\o Warning: Pin "Vout" on instance "A23": shorted output.
+\o Warning: Pin "Vout" on instance "A33": floating output.
+\o Warning: Pin "Vout" on instance "A33": shorted output.
+\o Warning: Pin "Vout" on instance "A03": floating output.
+\o Warning: Pin "Vout" on instance "A03": shorted output.
+\o INFO (SCH-3071): No further warning messages will now be logged for Floating/Shorted Instance Pin as the limit setting has been reached.
+\o You can increase, or decrease, message limit settings using the srcLogWarnLimit environment variable.
+\o A setting of 0 will log all messages.
+\o Warning: Pin "p12": floating output.
+\o Warning: Pin "p12": shorted output.
+\o Warning: Pin "p00": floating output.
+\o Warning: Pin "p00": shorted output.
+\o Warning: Pin "p01": floating output.
+\o Warning: Pin "p01": shorted output.
+\o Warning: Pin "p02": floating output.
+\o Warning: Pin "p02": shorted output.
+\o Warning: Pin "p03": floating output.
+\o Warning: Pin "p03": shorted output.
+\o Warning: Pin "p04": floating output.
+\o Warning: Pin "p04": shorted output.
+\o Warning: Pin "p05": floating output.
+\o Warning: Pin "p05": shorted output.
+\o Warning: Pin "p06": floating output.
+\o Warning: Pin "p06": shorted output.
+\o Warning: Pin "p07": floating output.
+\o Warning: Pin "p07": shorted output.
+\o Warning: Pin "p10": floating output.
+\o Warning: Pin "p10": shorted output.
+\o Warning: Pin "p11": floating output.
+\o Warning: Pin "p11": shorted output.
+\o Warning: Pin "p17": floating output.
+\o Warning: Pin "p17": shorted output.
+\o Warning: Pin "p13": floating output.
+\o Warning: Pin "p13": shorted output.
+\o Warning: Pin "p14": floating output.
+\o Warning: Pin "p14": shorted output.
+\o Warning: Pin "p15": floating output.
+\o Warning: Pin "p15": shorted output.
+\o Warning: Pin "p16": floating output.
+\o Warning: Pin "p16": shorted output.
+\o Warning: Pin "p20": floating output.
+\o Warning: Pin "p20": shorted output.
+\o Warning: Pin "p21": floating output.
+\o Warning: Pin "p21": shorted output.
+\o Warning: Pin "p22": floating output.
+\o Warning: Pin "p22": shorted output.
+\o Warning: Pin "p23": floating output.
+\o Warning: Pin "p23": shorted output.
+\o Warning: Pin "p24": floating output.
+\o Warning: Pin "p24": shorted output.
+\o Warning: Pin "p25": floating output.
+\o Warning: Pin "p25": shorted output.
+\o Warning: Pin "p26": floating output.
+\o Warning: Pin "p26": shorted output.
+\o Warning: Pin "p27": floating output.
+\o Warning: Pin "p27": shorted output.
+\o Warning: Pin "p30": floating output.
+\o Warning: Pin "p30": shorted output.
+\o Warning: Pin "p31": floating output.
+\o Warning: Pin "p31": shorted output.
+\o Warning: Pin "p32": floating output.
+\o Warning: Pin "p32": shorted output.
+\o Warning: Pin "p33": floating output.
+\o Warning: Pin "p33": shorted output.
+\o Warning: Pin "p34": floating output.
+\o Warning: Pin "p34": shorted output.
+\o Warning: Pin "p35": floating output.
+\o Warning: Pin "p36": floating output.
+\o Warning: Pin "p36": shorted output.
+\o Warning: Pin "p37": floating output.
+\o Warning: Pin "p37": shorted output.
+\o Warning: Pin "p40": floating output.
+\o Warning: Pin "p40": shorted output.
+\o Warning: Pin "p41": floating output.
+\o Warning: Pin "p41": shorted output.
+\o Warning: Pin "p42": floating output.
+\o Warning: Pin "p42": shorted output.
+\o Warning: Pin "p43": floating output.
+\o Warning: Pin "p43": shorted output.
+\o Warning: Pin "p44": floating output.
+\o Warning: Pin "p44": shorted output.
+\o Warning: Pin "p45": floating output.
+\o Warning: Pin "p45": shorted output.
+\o Warning: Pin "p46": floating output.
+\o Warning: Pin "p46": shorted output.
+\o Warning: Pin "p47": floating output.
+\o Warning: Pin "p47": shorted output.
+\o Warning: Pin "p50": floating output.
+\o Warning: Pin "p50": shorted output.
+\o Warning: Pin "p51": floating output.
+\o Warning: Pin "p51": shorted output.
+\o Warning: Pin "p52": floating output.
+\o Warning: Pin "p52": shorted output.
+\o Warning: Pin "p53": floating output.
+\o Warning: Pin "p53": shorted output.
+\o Warning: Pin "p54": floating output.
+\o Warning: Pin "p54": shorted output.
+\o Warning: Pin "p55": floating output.
+\o Warning: Pin "p55": shorted output.
+\o Warning: Pin "p56": floating output.
+\o Warning: Pin "p56": shorted output.
+\o Warning: Pin "p57": floating output.
+\o Warning: Pin "p57": shorted output.
+\o Warning: Pin "p60": floating output.
+\o Warning: Pin "p60": shorted output.
+\o Warning: Pin "p61": floating output.
+\o Warning: Pin "p61": shorted output.
+\o Warning: Pin "p62": floating output.
+\o INFO (SCH-3071): No further warning messages will now be logged for Floating/Shorted Pin as the limit setting has been reached.
+\o You can increase, or decrease, message limit settings using the srcLogWarnLimit environment variable.
+\o A setting of 0 will log all messages.
+\o Warning: Floating net "net66" at (12.6875, -13.3125).
+\o Warning: Floating net "net5" at (27.3125, -5.6875).
+\o Warning: Solder dot on cross over at ( 4.6250, 0.6875 ).
+\o Warning: Solder dot on cross over at ( 19.5000, 0.8750 ).
+\o Warning: Solder dot on cross over at ( 19.8750, -14.8750 ).
+\o INFO (SCH-1172): There were 0 errors and 205 warnings found in "tutorial WallaceMultiplier schematic".
+\# Displaying modal dbox "_schCheckDBox", title "Schematic Check"
+\p > 
+\a hiDBoxOK(_schCheckDBox)
+\r t
+\# Current Window: window(2) Window cellview: tutorial:WallaceMultiplier:schematic  Application: Schematics
+\o INFO (SCH-1181): "tutorial WallaceMultiplier schematic" saved.
+\r t
+\a schHiCheckAndSave()
+\o INFO (SCH-1170): Extracting "WallaceMultiplier schematic"
+\o Warning: Pin "Vout" on instance "I65": floating output.
+\o Warning: Pin "Vout" on instance "I65": shorted output.
+\o Warning: Pin "Vout" on instance "I64": floating output.
+\o Warning: Pin "Vout" on instance "I64": shorted output.
+\o Warning: Pin "Vout" on instance "I63": floating output.
+\o Warning: Pin "Vout" on instance "I63": shorted output.
+\o Warning: Pin "Vout" on instance "I62": floating output.
+\o Warning: Pin "Vout" on instance "I62": shorted output.
+\o Warning: Pin "Vout" on instance "I61": floating output.
+\o Warning: Pin "Vout" on instance "I61": shorted output.
+\o Warning: Pin "Vout" on instance "I60": floating output.
+\o Warning: Pin "Vout" on instance "I60": shorted output.
+\o Warning: Pin "Vout" on instance "I59": floating output.
+\o Warning: Pin "Vout" on instance "I59": shorted output.
+\o Warning: Pin "Vout" on instance "I58": floating output.
+\o Warning: Pin "Vout" on instance "I58": shorted output.
+\o Warning: Pin "Vout" on instance "I57": floating output.
+\o Warning: Pin "Vout" on instance "I57": shorted output.
+\o Warning: Pin "Vout" on instance "I56": floating output.
+\o Warning: Pin "Vout" on instance "I56": shorted output.
+\o Warning: Pin "Vout" on instance "I55": floating output.
+\o Warning: Pin "Vout" on instance "I55": shorted output.
+\o Warning: Pin "Vout" on instance "I54": floating output.
+\o Warning: Pin "Vout" on instance "I54": shorted output.
+\o Warning: Pin "Vout" on instance "I53": floating output.
+\o Warning: Pin "Vout" on instance "I53": shorted output.
+\o Warning: Pin "Vout" on instance "I52": floating output.
+\o Warning: Pin "Vout" on instance "I52": shorted output.
+\o Warning: Pin "Vout" on instance "I51": floating output.
+\o Warning: Pin "Vout" on instance "I51": shorted output.
+\o Warning: Pin "Vout" on instance "I50": floating output.
+\o Warning: Pin "Vout" on instance "I50": shorted output.
+\o Warning: Pin "Vout" on instance "I49": floating output.
+\o Warning: Pin "Vout" on instance "I49": shorted output.
+\o Warning: Pin "Vout" on instance "I48": floating output.
+\o Warning: Pin "Vout" on instance "I48": shorted output.
+\o Warning: Pin "Vout" on instance "I47": floating output.
+\o Warning: Pin "Vout" on instance "I47": shorted output.
+\o Warning: Pin "Vout" on instance "I46": floating output.
+\o Warning: Pin "Vout" on instance "I46": shorted output.
+\o Warning: Pin "Vout" on instance "I45": floating output.
+\o Warning: Pin "Vout" on instance "I45": shorted output.
+\o Warning: Pin "Vout" on instance "I44": floating output.
+\o Warning: Pin "Vout" on instance "I44": shorted output.
+\o Warning: Pin "Vout" on instance "I43": floating output.
+\o Warning: Pin "Vout" on instance "I43": shorted output.
+\o Warning: Pin "Vout" on instance "I42": floating output.
+\o Warning: Pin "Vout" on instance "I42": shorted output.
+\o Warning: Pin "Vout" on instance "I41": floating output.
+\o Warning: Pin "Vout" on instance "I40": floating output.
+\o Warning: Pin "Vout" on instance "I40": shorted output.
+\o Warning: Pin "Vout" on instance "I39": floating output.
+\o Warning: Pin "Vout" on instance "I39": shorted output.
+\o Warning: Pin "Vout" on instance "I38": floating output.
+\o Warning: Pin "Vout" on instance "I38": shorted output.
+\o Warning: Pin "Vout" on instance "I37": floating output.
+\o Warning: Pin "Vout" on instance "I37": shorted output.
+\o Warning: Pin "Vout" on instance "I36": floating output.
+\o Warning: Pin "Vout" on instance "I36": shorted output.
+\o Warning: Pin "Vout" on instance "I35": floating output.
+\o Warning: Pin "Vout" on instance "I35": shorted output.
+\o Warning: Pin "Vout" on instance "I34": floating output.
+\o Warning: Pin "Vout" on instance "I34": shorted output.
+\o Warning: Pin "Vout" on instance "I33": floating output.
+\o Warning: Pin "Vout" on instance "I32": floating output.
+\o Warning: Pin "Vout" on instance "I32": shorted output.
+\o Warning: Pin "Vout" on instance "I31": floating output.
+\o Warning: Pin "Vout" on instance "I31": shorted output.
+\o Warning: Pin "Vout" on instance "I30": floating output.
+\o Warning: Pin "Vout" on instance "I30": shorted output.
+\o Warning: Pin "Vout" on instance "I29": floating output.
+\o Warning: Pin "Vout" on instance "I29": shorted output.
+\o Warning: Pin "Vout" on instance "I28": floating output.
+\o Warning: Pin "Vout" on instance "I28": shorted output.
+\o Warning: Pin "Vout" on instance "I27": floating output.
+\o Warning: Pin "Vout" on instance "I27": shorted output.
+\o Warning: Pin "Vout" on instance "I26": floating output.
+\o Warning: Pin "Vout" on instance "I26": shorted output.
+\o Warning: Pin "Vout" on instance "I25": floating output.
+\o Warning: Pin "Vout" on instance "I25": shorted output.
+\o Warning: Pin "Vout" on instance "I24": floating output.
+\o Warning: Pin "Vout" on instance "I24": shorted output.
+\o Warning: Pin "Vout" on instance "I23": floating output.
+\o Warning: Pin "Vout" on instance "I23": shorted output.
+\o Warning: Pin "Vout" on instance "I22": floating output.
+\o Warning: Pin "Vout" on instance "I22": shorted output.
+\o Warning: Pin "Vout" on instance "I21": floating output.
+\o Warning: Pin "Vout" on instance "I21": shorted output.
+\o Warning: Pin "Vout" on instance "I20": floating output.
+\o Warning: Pin "Vout" on instance "I20": shorted output.
+\o Warning: Pin "Vout" on instance "I19": floating output.
+\o Warning: Pin "Vout" on instance "I19": shorted output.
+\o Warning: Pin "Vout" on instance "I18": floating output.
+\o Warning: Pin "Vout" on instance "I18": shorted output.
+\o Warning: Pin "Vout" on instance "A23": floating output.
+\o Warning: Pin "Vout" on instance "A23": shorted output.
+\o Warning: Pin "Vout" on instance "A33": floating output.
+\o Warning: Pin "Vout" on instance "A33": shorted output.
+\o Warning: Pin "Vout" on instance "A03": floating output.
+\o Warning: Pin "Vout" on instance "A03": shorted output.
+\o INFO (SCH-3071): No further warning messages will now be logged for Floating/Shorted Instance Pin as the limit setting has been reached.
+\o You can increase, or decrease, message limit settings using the srcLogWarnLimit environment variable.
+\o A setting of 0 will log all messages.
+\o Warning: Pin "p12": floating output.
+\o Warning: Pin "p12": shorted output.
+\o Warning: Pin "p00": floating output.
+\o Warning: Pin "p00": shorted output.
+\o Warning: Pin "p01": floating output.
+\o Warning: Pin "p01": shorted output.
+\o Warning: Pin "p02": floating output.
+\o Warning: Pin "p02": shorted output.
+\o Warning: Pin "p03": floating output.
+\o Warning: Pin "p03": shorted output.
+\o Warning: Pin "p04": floating output.
+\o Warning: Pin "p04": shorted output.
+\o Warning: Pin "p05": floating output.
+\o Warning: Pin "p05": shorted output.
+\o Warning: Pin "p06": floating output.
+\o Warning: Pin "p06": shorted output.
+\o Warning: Pin "p07": floating output.
+\o Warning: Pin "p07": shorted output.
+\o Warning: Pin "p10": floating output.
+\o Warning: Pin "p10": shorted output.
+\o Warning: Pin "p11": floating output.
+\o Warning: Pin "p11": shorted output.
+\o Warning: Pin "p17": floating output.
+\o Warning: Pin "p17": shorted output.
+\o Warning: Pin "p13": floating output.
+\o Warning: Pin "p13": shorted output.
+\o Warning: Pin "p14": floating output.
+\o Warning: Pin "p14": shorted output.
+\o Warning: Pin "p15": floating output.
+\o Warning: Pin "p15": shorted output.
+\o Warning: Pin "p16": floating output.
+\o Warning: Pin "p16": shorted output.
+\o Warning: Pin "p20": floating output.
+\o Warning: Pin "p20": shorted output.
+\o Warning: Pin "p21": floating output.
+\o Warning: Pin "p21": shorted output.
+\o Warning: Pin "p22": floating output.
+\o Warning: Pin "p22": shorted output.
+\o Warning: Pin "p23": floating output.
+\o Warning: Pin "p23": shorted output.
+\o Warning: Pin "p24": floating output.
+\o Warning: Pin "p24": shorted output.
+\o Warning: Pin "p25": floating output.
+\o Warning: Pin "p25": shorted output.
+\o Warning: Pin "p26": floating output.
+\o Warning: Pin "p26": shorted output.
+\o Warning: Pin "p27": floating output.
+\o Warning: Pin "p27": shorted output.
+\o Warning: Pin "p30": floating output.
+\o Warning: Pin "p30": shorted output.
+\o Warning: Pin "p31": floating output.
+\o Warning: Pin "p31": shorted output.
+\o Warning: Pin "p32": floating output.
+\o Warning: Pin "p32": shorted output.
+\o Warning: Pin "p33": floating output.
+\o Warning: Pin "p33": shorted output.
+\o Warning: Pin "p34": floating output.
+\o Warning: Pin "p34": shorted output.
+\o Warning: Pin "p35": floating output.
+\o Warning: Pin "p36": floating output.
+\o Warning: Pin "p36": shorted output.
+\o Warning: Pin "p37": floating output.
+\o Warning: Pin "p37": shorted output.
+\o Warning: Pin "p40": floating output.
+\o Warning: Pin "p40": shorted output.
+\o Warning: Pin "p41": floating output.
+\o Warning: Pin "p41": shorted output.
+\o Warning: Pin "p42": floating output.
+\o Warning: Pin "p42": shorted output.
+\o Warning: Pin "p43": floating output.
+\o Warning: Pin "p43": shorted output.
+\o Warning: Pin "p44": floating output.
+\o Warning: Pin "p44": shorted output.
+\o Warning: Pin "p45": floating output.
+\o Warning: Pin "p45": shorted output.
+\o Warning: Pin "p46": floating output.
+\o Warning: Pin "p46": shorted output.
+\o Warning: Pin "p47": floating output.
+\o Warning: Pin "p47": shorted output.
+\o Warning: Pin "p50": floating output.
+\o Warning: Pin "p50": shorted output.
+\o Warning: Pin "p51": floating output.
+\o Warning: Pin "p51": shorted output.
+\o Warning: Pin "p52": floating output.
+\o Warning: Pin "p52": shorted output.
+\o Warning: Pin "p53": floating output.
+\o Warning: Pin "p53": shorted output.
+\o Warning: Pin "p54": floating output.
+\o Warning: Pin "p54": shorted output.
+\o Warning: Pin "p55": floating output.
+\o Warning: Pin "p55": shorted output.
+\o Warning: Pin "p56": floating output.
+\o Warning: Pin "p56": shorted output.
+\o Warning: Pin "p57": floating output.
+\o Warning: Pin "p57": shorted output.
+\o Warning: Pin "p60": floating output.
+\o Warning: Pin "p60": shorted output.
+\o Warning: Pin "p61": floating output.
+\o Warning: Pin "p61": shorted output.
+\o Warning: Pin "p62": floating output.
+\o INFO (SCH-3071): No further warning messages will now be logged for Floating/Shorted Pin as the limit setting has been reached.
+\o You can increase, or decrease, message limit settings using the srcLogWarnLimit environment variable.
+\o A setting of 0 will log all messages.
+\o Warning: Floating net "net66" at (12.6875, -13.3125).
+\o Warning: Floating net "net5" at (27.3125, -5.6875).
+\o Warning: Solder dot on cross over at ( 4.6250, 0.6875 ).
+\o Warning: Solder dot on cross over at ( 19.5000, 0.8750 ).
+\o Warning: Solder dot on cross over at ( 19.8750, -14.8750 ).
+\o INFO (SCH-1172): There were 0 errors and 205 warnings found in "tutorial WallaceMultiplier schematic".
+\# Displaying modal dbox "_schCheckDBox", title "Schematic Check"
+\p > 
+\a hiDBoxOK(_schCheckDBox) 
+\r t
+\# Current Window: window(2) Window cellview: tutorial:WallaceMultiplier:schematic  Application: Schematics
+\o INFO (SCH-1181): "tutorial WallaceMultiplier schematic" saved.
+\r t
+\a hiResizeWindow(swindow(1) list(-5:-5 1531:760))
+\r t
+\a hiResizeWindow(swindow(1) list(-5:-5 1513:719))
+\r t
+\a hiResizeWindow(swindow(1) list(-5:-5 3435:1313))
+\r t
+\a hiDynamicPanGrabbing()
+\i 27.28125:-12.9625
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 27.28125:-12.9625
+\a hiZoomIn(window(2) list(8.53125:-21.55 43.125:-8.975))
+\r t
+\r t
+\r t
+\a hiDynamicPanGrabbing()
+\i 27.28125:-12.975
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 27.275:-12.975
+\a hiZoomIn(window(2) list(1.50625:-16.66875 36.1:-4.09375))
+\r t
+\r t
+\r t
+\a hiZoomOutAtMouse()
+\i 23.375:-11.0625
+\r t
+\a hiZoomInAtMouse()
+\i 18.6875:-10.1875
+\r t
+\a hiDynamicPanGrabbing()
+\i 18.43125:-9.975
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 18.43125:-9.975
+\a hiZoomIn(window(2) list(-0.05:-13.2 34.54375:-0.625))
+\r t
+\r t
+\r t
+\a hiDynamicPanGrabbing()
+\i 18.1125:-7.7
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 18.1125:-7.7
+\a hiZoomIn(window(2) list(-0.00625:-11.5625 34.5875:1.0125))
+\r t
+\r t
+\r t
+\a hiDynamicPanGrabbing()
+\i 16.975:-5.5625
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 16.975:-5.55625
+\a hiZoomIn(window(2) list(-0.00625:-10.64375 34.5875:1.93125))
+\r t
+\r t
+\r t
+\a hiZoomInAtMouse()
+\i 11.875:-3.9375
+\r t
+\a hiZoomInAtMouse()
+\i 11.875:-3.9375
+\r t
+\a schSingleSelectPt()
+\i 12.5625:-3.1875
+\r t
+\a schDirectEdit(1)
+\i 12.5:-3.1875
+\# Direct Edit unknown. schHiStretch action.
+\i 12.5:-3.1875
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 12.5:-3.375
+\r t
+\r nil
+\a schDirectEdit(1)
+\i 12.5:-3.4375
+\# Direct Edit unknown. schHiStretch action.
+\i 12.5:-3.4375
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 12.4375:-3.25
+\r t
+\r nil
+\a schDirectEdit(1)
+\i 12.4375:-3.25
+\# Direct Edit unknown. schHiStretch action.
+\i 12.4375:-3.25
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 12.5:-3.25
+\r t
+\r nil
+\a schSingleSelectPt()
+\i 12.6875:-3.4375
+\r nil
+\a hiUndo()
+\r t
+\a hiUndo()
+\r t
+\a hiUndo()
+\r t
+\a hiZoomOutAtMouse()
+\i 13.5:-3.9375
+\r t
+\a hiZoomOutAtMouse()
+\i 13.5625:-4
+\r t
+\a hiZoomOutAtMouse()
+\i 16:-5.75
+\r t
+\a hiZoomInAtMouse()
+\i 13.0625:-3.8125
+\r t
+\a hiResizeWindow(swindow(1) list(-25:594 875:1284))
+\r t
+\a hiQuit()
+\# Displaying modal dbox "hiQuitDBox", title "Quit"
+\p > 
+\a hiDBoxOK(hiQuitDBox)
+\r t
+\o 
+\# Lic Summary:
+\# [19:33:25.033336] Cdslmd servers: marina
+\# [19:33:25.033361] Feature usage summary:
+\# [19:33:25.033361] 111
+\# [19:33:25.033362] Virtuoso_Schematic_Editor_XL
+\# [19:33:25.033362] Virtuoso_Adv_Node_Framework
+\# Memory report: on exit            544 MB, process size 2,172 MB at UTC 2025.10.25 23:33:25.033
+\# Memory report: peak usage         561 MB, process size 2,189 MB

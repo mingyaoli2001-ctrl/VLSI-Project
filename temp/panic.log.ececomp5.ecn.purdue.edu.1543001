@@ -1,0 +1,23 @@
+Panic files have been created for cellviews that were opened in edit mode.
+
+
+A panic file has been created for cellview 'tutorial/NAND_sim/schematic' at:
+    (/home/ecegridfs/a/559mg81/tutorial/NAND_sim/schematic/sch.oa-)
+To open the cellview with the recovered data:
+    cellview = dbOpenPanicCellView("tutorial" "NAND_sim" "schematic")
+
+A panic file has been created for cellview 'tutorial/NAND/layout' at:
+    (/home/ecegridfs/a/559mg81/tutorial/NAND/layout/layout.oa-)
+To open the cellview with the recovered data:
+    cellview = dbOpenPanicCellView("tutorial" "NAND" "layout")
+
+To restore a cellview using its panic file:
+1. Open the cellview with the recovered data using 'dbOpenPanicCellView'
+   (as noted above). The cellview opens in read-only mode.
+2. Reopen the cellview in append mode using 'dbReopen(cellview "a")'.
+3. Restore the recovered data to the cellview using 'dbSave(cellview)'.
+   To save the recovered data to a different cellview, use
+   'dbSave(cellview "lib" "cell" "view")' with the desired
+   library, cell, and view information.
+4. Remove the cellview from virtual memory using 'dbPurge(cellview)'.
+   You may now open the restored cellView.
