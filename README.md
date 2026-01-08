@@ -76,10 +76,9 @@ The design uses alternating standard-cell row orientation to maximize area effic
 
 <p align="center">
   <img
-    src="https://github.com/user-attachments/assets/7c5ec91a-68a5-42e2-91f0-dd74063ab498"
-    width="716"
-    height="518"
-    alt="Buffer Schematic and Layout"
+    src="https://github.com/user-attachments/assets/c8822fb0-0360-4764-9387-1ed48affcfbb"
+    width="800"
+    alt="image"
   />
 </p>
 
