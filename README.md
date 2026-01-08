@@ -60,6 +60,15 @@ The layout follows a structured, data-driven approach:
 The design uses alternating standard-cell row orientation to maximize area efficiency.
 
 ---
+<p align="center">
+  <img
+    src="https://github.com/user-attachments/assets/1c57f90d-eaa4-453b-9c9e-8e6b23772125"
+    width="716"
+    height="518"
+    alt="Buffer Schematic and Layout"
+  />
+</p>
+
 
 ## Verification and Results
 All verification is performed using **post-layout extracted parasitics**.
