@@ -1,29 +1,35 @@
-# Wallace Tree Multiplier Physical Design (45nm)
+# 🧮 Wallace Tree Multiplier Physical Design (45nm)
+
 <p align="center">
   <img
     src="https://github.com/user-attachments/assets/1d14312e-d308-445b-ac3c-abecb4e511af"
     width="392"
     height="334"
-    alt="image"
+    alt="Wallace Tree Multiplier Layout"
   />
 </p>
-## Overview
+
+---
+
+## 📌 Overview
 This repository presents the **physical design and post-layout verification of an 8-bit Wallace Tree Multiplier** implemented in **gpdk45 CMOS technology** using **Cadence Virtuoso**. The design uses **transmission-gate (TG) full and half adders** for partial-product reduction and a **carry-lookahead adder (CLA)** for the final accumulation stage.
 
 The project emphasizes **manufacturable layout**, **parasitic-aware sizing**, and **post-layout verification**. All reported performance metrics are based on **post-layout extracted simulations**.
 
 ---
 
-## Architecture
+## 🏗️ Architecture
 The Wallace Tree Multiplier consists of three main blocks:
+
 <p align="center">
   <img
     src="https://github.com/user-attachments/assets/12f77e4c-f47f-4985-b7c8-438a669c39c7"
     width="567"
     height="648"
-    alt="fig_block_diagram"
+    alt="Block Diagram"
   />
 </p>
+
 1. **Partial Product Generation**  
    An 8×8 AND array generating partial products.
 
@@ -37,7 +43,7 @@ The architecture was selected under the assumption that Wallace and Dadda trees 
 
 ---
 
-## Transistor-Level Design
+## ⚙️ Transistor-Level Design
 - **TG-PT Hybrid Full/Half Adders**  
   XOR/XNOR signals are generated in parallel to avoid sequential delay. Transmission gates provide rail-to-rail signal integrity and simplify layout abutment through shared diffusion and contiguous cell placement.
 
@@ -49,17 +55,16 @@ The architecture was selected under the assumption that Wallace and Dadda trees 
 
 ---
 
-## Physical Design Strategy
+## 🧱 Physical Design Strategy
 The layout follows a structured, data-driven approach:
-- Cell abutment for diffusion and well sharing
-- Vertical and horizontal alignment of adders
-- Shared VDD/GND rails
-- Contacted poly gates where density is required
-- Unidirectional signal flow to reduce routing complexity
+- Cell abutment for diffusion and well sharing  
+- Vertical and horizontal alignment of adders  
+- Shared VDD/GND rails  
+- Contacted poly gates where density is required  
+- Unidirectional signal flow to reduce routing complexity  
 
 The design uses alternating standard-cell row orientation to maximize area efficiency.
 
----
 <p align="center">
   <img
     src="https://github.com/user-attachments/assets/1c57f90d-eaa4-453b-9c9e-8e6b23772125"
@@ -69,36 +74,38 @@ The design uses alternating standard-cell row orientation to maximize area effic
   />
 </p>
 
+---
 
-## Verification and Results
+## 🔬 Verification & Results
 All verification is performed using **post-layout extracted parasitics**.
 
+### 📊 Post-Layout Performance Summary
+
+| Design Block | Delay (ns) | Energy (fJ) | Area (µm²) |
+|-------------|-----------|-------------|------------|
+| Wallace Tree Multiplier | **2.2** | **318** | **1332.67** |
+| MAC (Multiplier + CLA) | 2.76 | 780.49 | 2040.15 |
+
 - **DRC/LVS**: Clean (Cadence PVS)
-- **Worst-case propagation delay**: **2.2 ns**
-- **Energy per multiplication**: **318 fJ**
-- **Multiplier area**: **1332.67 µm²**
 
 Worst-case delay is dominated by the physical placement of the full adder generating bit 10, which exhibits the longest interconnect path. Nanotime analysis identifies the same critical path observed in schematic-level analysis.
 
 ---
 
-## Bonus: Multiply-Accumulate Unit (MAC)
+## ➕ Bonus: Multiply–Accumulate Unit (MAC)
 A bonus **fused multiply-accumulate (MAC)** unit is implemented by integrating an additional **16-bit CLA adder** to perform:
 
 s = a × b + c
 
 
-Post-layout MAC performance:
-- **Propagation delay**: 2.76 ns  
-- **Energy**: 780.49 fJ  
-- **Area**: 2040.15 µm²  
-
 Future work includes integrating an output feedback path to support full accumulation:
 
 c(i+1) = a × b + c(i)
 
+
 ---
-## Layout
+
+## 🧩 Layout Results
 
 ### Full Adder & Half Adder Cells
 <p align="center">
@@ -118,6 +125,7 @@ c(i+1) = a × b + c(i)
 </p>
 
 ---
+
 ### Partial Product Generator Cells
 <p align="center">
   <img
@@ -126,7 +134,9 @@ c(i+1) = a × b + c(i)
     alt="Partial Product Generator Layout"
   />
 </p>
+
 ---
+
 ### Final Adder
 <p align="center">
   <img
@@ -146,7 +156,6 @@ c(i+1) = a × b + c(i)
     alt="MAC Layout"
   />
 </p>
-
 
 
 
