@@ -112,7 +112,16 @@ Post-layout timing analysis revealed that the **critical path closely matched sc
 
 
 ## 🔬 Verification & Results
-All verification is performed using **post-layout extracted parasitics**.
+All verification is performed using DRC and LVS tool on Cadence Virtuoso
+<p align="center">
+  <img
+    src="https://github.com/user-attachments/assets/1d8c5f5f-4803-4149-ba47-088f131eca5d"
+    width="678"
+    height="207"
+    alt="lvs_and_drc"
+  />
+</p>
+
 
 ### 📊 Post-Layout Performance Summary
 
