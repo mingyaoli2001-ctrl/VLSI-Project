@@ -62,3 +62,23 @@ Worst-case delay is dominated by the physical placement of the full adder genera
 ## Bonus: Multiply-Accumulate Unit (MAC)
 A bonus **fused multiply-accumulate (MAC)** unit is implemented by integrating an additional **16-bit CLA adder** to perform:
 
+s = a × b + c
+
+
+Post-layout MAC performance:
+- **Propagation delay**: 2.76 ns  
+- **Energy**: 780.49 fJ  
+- **Area**: 2040.15 µm²  
+
+Future work includes integrating an output feedback path to support full accumulation:
+
+c(i+1) = a × b + c(i)
+
+---
+
+## Repository Structure
+
+
+
+
+
