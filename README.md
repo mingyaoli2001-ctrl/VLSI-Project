@@ -98,7 +98,54 @@ Future work includes integrating an output feedback path to support full accumul
 c(i+1) = a × b + c(i)
 
 ---
+## Layout
 
+### Full Adder & Half Adder Cells
+<p align="center">
+  <img
+    src="https://github.com/user-attachments/assets/e0700a4c-99f9-499d-a3ae-2a74975405d2"
+    width="520"
+    alt="Partial Product Generator Layout"
+  />
+</p>
+
+<p align="center">
+  <img
+    src="https://github.com/user-attachments/assets/d833f3db-2462-4bf4-8af7-65cdad05b181"
+    width="520"
+    alt="Full Adder Layout"
+  />
+</p>
+
+<p align="center">
+  <img
+    src="https://github.com/user-attachments/assets/01be3749-e51c-4f64-93de-d91a24f332b0"
+    width="520"
+    alt="Half Adder Layout"
+  />
+</p>
+
+---
+
+### Final Adder
+<p align="center">
+  <img
+    src="https://github.com/user-attachments/assets/5b664a48-66c9-437e-b8f7-cc867b65a0cc"
+    width="800"
+    alt="Final Adder Layout"
+  />
+</p>
+
+---
+
+### Multiply–Accumulate (MAC)
+<p align="center">
+  <img
+    src="https://github.com/user-attachments/assets/41cffddb-3f2c-49cb-ad84-352a784bdbc4"
+    width="800"
+    alt="MAC Layout"
+  />
+</p>
 
 
 
