@@ -1,6 +1,12 @@
 # Wallace Tree Multiplier Physical Design (45nm)
-<img width="392" height="334" alt="image" src="https://github.com/user-attachments/assets/1d14312e-d308-445b-ac3c-abecb4e511af" />
-
+<p align="center">
+  <img
+    src="https://github.com/user-attachments/assets/1d14312e-d308-445b-ac3c-abecb4e511af"
+    width="392"
+    height="334"
+    alt="image"
+  />
+</p>
 ## Overview
 This repository presents the **physical design and post-layout verification of an 8-bit Wallace Tree Multiplier** implemented in **gpdk45 CMOS technology** using **Cadence Virtuoso**. The design uses **transmission-gate (TG) full and half adders** for partial-product reduction and a **carry-lookahead adder (CLA)** for the final accumulation stage.
 
