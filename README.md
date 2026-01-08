@@ -103,14 +103,6 @@ c(i+1) = a × b + c(i)
 ### Full Adder & Half Adder Cells
 <p align="center">
   <img
-    src="https://github.com/user-attachments/assets/e0700a4c-99f9-499d-a3ae-2a74975405d2"
-    width="520"
-    alt="Partial Product Generator Layout"
-  />
-</p>
-
-<p align="center">
-  <img
     src="https://github.com/user-attachments/assets/d833f3db-2462-4bf4-8af7-65cdad05b181"
     width="520"
     alt="Full Adder Layout"
@@ -126,7 +118,15 @@ c(i+1) = a × b + c(i)
 </p>
 
 ---
-
+### Partial Product Generator Cells
+<p align="center">
+  <img
+    src="https://github.com/user-attachments/assets/e0700a4c-99f9-499d-a3ae-2a74975405d2"
+    width="520"
+    alt="Partial Product Generator Layout"
+  />
+</p>
+---
 ### Final Adder
 <p align="center">
   <img
