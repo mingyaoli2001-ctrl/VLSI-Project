@@ -60,3 +60,14 @@ jobs/
 **/PVS/.preset*
 **/PVS/.interactive_*
 **/PVS/.runFormDirLock*
+# PVS internal report database (DO NOT COMMIT)
+**/PVS/REPORTDB/
+# Cadence/EDA junk inside MAC
+wallace_tree_multiplier/MAC/.cadence/
+wallace_tree_multiplier/MAC/.pvs/
+wallace_tree_multiplier/MAC/.tmp_*/
+wallace_tree_multiplier/MAC/logs_*/
+wallace_tree_multiplier/MAC/*.log
+wallace_tree_multiplier/MAC/.preRcx.Last.State
+wallace_tree_multiplier/MAC/.qrc.Last.state
+wallace_tree_multiplier/MAC/.QRC.run
